@@ -47,15 +47,18 @@ export const A = styled.div `
 
   .nav {
     width: 100%;
-    height: 15%;
+    /* height: 15%; */
     background: red;
+    font-family: "Rubik";
     display: flex;
     justify-content: center;
     gap: 3em;
 
     a {
-      font-style: none;
+      font-size: 13px;
+      color: var(--tex);
+      text-decoration: none;
+      text-transform: uppercase;
     }
-
   }
 `
