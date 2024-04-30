@@ -13,6 +13,7 @@ export const A = styled.div `
     align-items: center;
 
     p {
+      font-family: "Sedgwick Ave Display";
       color: #fff;
       font-size: 35px;
       span {
