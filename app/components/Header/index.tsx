@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <A>
       <div className="section">
-        <p>Street Shop</p>
+        <p>Street <span>Shop</span></p>
         <a href="/">O que está procurando</a>
         <div className="user">
           
