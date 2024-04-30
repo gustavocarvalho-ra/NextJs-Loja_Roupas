@@ -3,6 +3,7 @@ import { A } from "./styles"
 export default function Header() {
   return (
     <A>
+      <hr className="hrA"/>
       <div className="section">
         <p>Street <span>Shop</span></p>
         <a href="/">O que está procurando</a>
@@ -10,6 +11,7 @@ export default function Header() {
           <a href="aaaaaaaaa"></a>
         </div>
       </div>
+      <hr className="hrB"/>
     </A>
   )
 }
