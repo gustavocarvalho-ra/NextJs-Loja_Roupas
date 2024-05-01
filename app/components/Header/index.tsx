@@ -1,5 +1,7 @@
 import { A } from "./styles"
 
+import { IoMdSearch } from "react-icons/io";
+
 export default function Header() {
   return (
     <A>
@@ -7,7 +9,11 @@ export default function Header() {
       <div className="section">
         <div className="fis">
           <p>Street <span>Shop</span></p>
-          <a href="/" className="lup">O que está procurando?</a>
+          <div>
+            <input className="lup" placeholder="O que está procurando?"></input>
+            <button><IoMdSearch style={{color: 'var(--tex)'}} /></button>
+            
+          </div>
           <div className="user">
             <a href="aaaaaaaaa"></a>
           </div>

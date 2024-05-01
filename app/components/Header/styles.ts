@@ -36,6 +36,7 @@ export const A = styled.div `
         border-radius: 14px;
         text-decoration: none;
         font-weight: 450;
+        font-size: 14px;
         padding-left: 12px;
         margin-left: 2em;
       }
