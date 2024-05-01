@@ -23,6 +23,18 @@ export const A = styled.div `
       span {
         color: var(--prim);
       }
+      .lup {
+        display: flex;
+        align-items: center;
+        text-align: start;
+        width: 27em;
+        height: 2.5em;
+        background: #fff;
+        border-radius: 14px;
+        text-decoration: none;
+        padding-left: 12px;
+        margin-left: 2em;
+      }
     }
 
 
@@ -38,6 +50,7 @@ export const A = styled.div `
     border: none;
     background: linear-gradient(90deg, rgba(142,0,167,1) 0%, rgba(0,206,235,1) 100%);
   }
+
   .hrB {
     width: 100%;
     border: none;
@@ -53,6 +66,7 @@ export const A = styled.div `
     display: flex;
     justify-content: center;
     gap: 3em;
+    margin-top: 16px;
 
     a {
       font-size: 13px;
