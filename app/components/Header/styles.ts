@@ -16,22 +16,26 @@ export const A = styled.div `
     .fis {
       display: flex;
       p {
-        font-family: "Sedgwick Ave Display";    
+        font-family: "Sedgwick Ave Display";
         color: #fff;
-        font-size: 40px;  
+        font-size: 40px;
+        text-shadow: 30px;
       }
       span {
         color: var(--prim);
+        font-family: "Sedgwick Ave Display";
       }
       .lup {
         display: flex;
         align-items: center;
         text-align: start;
-        width: 27em;
+        width: 40em;
         height: 2.5em;
-        background: #fff;
+        background: #E8FEFF;
+        color: #000;
         border-radius: 14px;
         text-decoration: none;
+        font-weight: 450;
         padding-left: 12px;
         margin-left: 2em;
       }

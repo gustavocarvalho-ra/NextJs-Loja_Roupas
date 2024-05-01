@@ -7,7 +7,7 @@ export default function Header() {
       <div className="section">
         <div className="fis">
           <p>Street <span>Shop</span></p>
-          <a href="/" className="lup">O que está procurando</a>
+          <a href="/" className="lup">O que está procurando?</a>
           <div className="user">
             <a href="aaaaaaaaa"></a>
           </div>
