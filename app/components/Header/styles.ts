@@ -33,12 +33,27 @@ export const A = styled.div `
         height: 2.5em;
         background: #E8FEFF;
         color: #000;
-        border-radius: 14px;
+        border-radius: 12px;
         text-decoration: none;
         font-weight: 450;
         font-size: 14px;
         padding-left: 12px;
         margin-left: 2em;
+      }
+      .btnLup {
+        position: absolute;
+        width: 5em;
+        height: 2.3em;
+        margin-right: 8px;
+        border-radius: 12px;
+        border: none;
+        background: linear-gradient(45deg, rgba(142,0,167,1) 20%, rgba(0,206,235,1) 100%);
+        text-align: center;
+        transition: 2s;
+
+        &:hover {
+          opacity: .7;
+        }
       }
     }
 

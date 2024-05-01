@@ -9,10 +9,9 @@ export default function Header() {
       <div className="section">
         <div className="fis">
           <p>Street <span>Shop</span></p>
-          <div>
+          <div style={{display: 'flex', alignItems: 'center', flexDirection: 'row-reverse'}}>
             <input className="lup" placeholder="O que está procurando?"></input>
-            <button><IoMdSearch style={{color: 'var(--tex)'}} /></button>
-            
+            <button className="btnLup"><IoMdSearch style={{color: 'var(--tex)', fontSize: '25px'}} /></button>
           </div>
           <div className="user">
             <a href="aaaaaaaaa"></a>
