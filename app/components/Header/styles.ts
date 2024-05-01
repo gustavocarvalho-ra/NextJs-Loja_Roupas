@@ -47,7 +47,7 @@ export const A = styled.div `
         margin-right: 8px;
         border-radius: 12px;
         border: none;
-        background: linear-gradient(45deg, rgba(142,0,167,1) 20%, rgba(0,206,235,1) 100%);
+        background: linear-gradient(29deg, rgba(142,0,167,1) 20%, rgba(0,206,235,1) 100%);
         text-align: center;
         transition: 2s;
 
@@ -57,8 +57,6 @@ export const A = styled.div `
       }
     }
 
-
-    
     .user {
       background: red;
     }
