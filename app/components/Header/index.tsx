@@ -19,6 +19,7 @@ export default function Header() {
               <p>Olá (user)</p>
               <button className="Us">Minha conta</button>
             </div>
+            
             <button className="Ras"><SlLocationPin /><a href="/">Rastrear pedido</a></button>
             <button className="Car">Carrinho</button>
           </div>

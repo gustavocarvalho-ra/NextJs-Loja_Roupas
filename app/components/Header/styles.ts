@@ -66,25 +66,33 @@ export const A = styled.div `
       width: 35%;
       height: 4em;
       display: flex;
+      align-items: center;
       justify-content: space-evenly;
       gap: 3em;
+      
+      button {
+
+      }
 
       p {
+        font-size: 12px;
         color: rgba(142,0,167,1);
       }
 
       .Us {
-        font-size: 18px;
+        font-size: 15px;
         border: none;
         background: transparent;
         color: var(--tex);
+        font-weight: 500;
       }
 
       .Ras {
-        font-size: 18px;
+        font-size: 15px;
         border: none;
         background: transparent;
         color: var(--tex);
+        font-weight: 500;
         
         a {
           text-decoration: none;
@@ -93,10 +101,11 @@ export const A = styled.div `
       }
 
       .Car {
-        font-size: 18px;
+        font-size: 15px;
         border: none;
         background: transparent;
         color: var(--tex);
+        font-weight: 500;
       }
     }
   }
