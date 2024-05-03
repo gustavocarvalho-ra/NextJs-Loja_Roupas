@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const A = styled.div `
   width: 100%;
   height: 18vh;
-  background: #0e0e10;
 
   .section {
     width: 100%;
@@ -12,6 +11,7 @@ export const A = styled.div `
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background: #0e0e10;
 
     .fis {
       display: flex;
@@ -65,7 +65,7 @@ export const A = styled.div `
 
   .hrA {
     width: 100%;
-    height: 7px;
+    height: 8px;
     border: none;
     background: linear-gradient(90deg, rgba(142,0,167,1) 0%, rgba(0,206,235,1) 100%);
   }
@@ -73,7 +73,7 @@ export const A = styled.div `
   .hrB {
     width: 100%;
     border: none;
-    height: 7px;
+    height: 8px;
     background: linear-gradient(90deg, rgba(0,206,235,1) 0%, rgba(142,0,167,1) 100%);
   }
 
