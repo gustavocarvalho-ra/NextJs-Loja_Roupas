@@ -9,13 +9,16 @@ export default function Header() {
       <hr className="hrA"/>
       <div className="section">
         <div className="fis">
-          <p>Street <span>Shop</span></p>
+          <p className="Log">Street <span className="Los">Shop</span></p>
           <div style={{display: 'flex', alignItems: 'center', flexDirection: 'row-reverse'}}>
             <input className="lup" placeholder="O que está procurando?"></input>
             <button className="btnLup"><IoMdSearch style={{color: 'var(--tex)', fontSize: '25px'}} /></button>
           </div>
           <div className="user">
-            <button className="Us">Minha conta</button>
+            <div>
+              <p>Olá (user)</p>
+              <button className="Us">Minha conta</button>
+            </div>
             <button className="Ras"><SlLocationPin /><a href="/">Rastrear pedido</a></button>
             <button className="Car">Carrinho</button>
           </div>

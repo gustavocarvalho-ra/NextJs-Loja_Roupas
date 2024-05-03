@@ -18,13 +18,13 @@ export const A = styled.div `
       display: flex;
       align-items: center;
       justify-content: center;
-      p {
+      .Log {
         font-family: "Sedgwick Ave Display";
         color: #fff;
         font-size: 40px;
         text-shadow: 30px;
       }
-      span {
+      .Los {
         color: var(--prim);
         font-family: "Sedgwick Ave Display";
       }
@@ -62,12 +62,16 @@ export const A = styled.div `
     }
 
     .user {
-      background: red;
+      /* background: red; */
       width: 35%;
       height: 4em;
       display: flex;
       justify-content: space-evenly;
-      
+      gap: 3em;
+
+      p {
+        color: rgba(142,0,167,1);
+      }
 
       .Us {
         font-size: 18px;
