@@ -43,6 +43,7 @@ export const A = styled.div `
         padding-left: 12px;
         margin-left: 2em;
       }
+
       .btnLup {
         position: absolute;
         width: 5em;
@@ -63,7 +64,7 @@ export const A = styled.div `
 
     .user {
       /* background: red; */
-      width: 35%;
+      width: 32%;
       height: 4em;
       display: flex;
       align-items: center;
@@ -135,10 +136,10 @@ export const A = styled.div `
     display: flex;
     justify-content: center;
     gap: 3em;
-    margin-top: 20px;
+    margin-top: 10px;
 
     a {
-      font-size: 13px;
+      font-size: 12px;
       color: var(--tex);
       text-decoration: none;
       text-transform: uppercase;

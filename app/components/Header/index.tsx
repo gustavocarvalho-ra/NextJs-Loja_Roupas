@@ -14,6 +14,8 @@ export default function Header() {
             <input className="lup" placeholder="O que está procurando?"></input>
             <button className="btnLup"><IoMdSearch style={{color: 'var(--tex)', fontSize: '25px'}} /></button>
           </div>
+
+
           <div className="user">
             <div>
               <p>Olá (user)</p>
@@ -33,6 +35,8 @@ export default function Header() {
             </div>
           </div>
         </div>
+
+
         <div className="nav">
           <a href="/">Todos os produtos</a>
           <a href="/">Roupas</a>
