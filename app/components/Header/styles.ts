@@ -64,18 +64,35 @@ export const A = styled.div `
     .user {
       background: red;
       width: 35%;
-      height: 5em;
+      height: 4em;
+      display: flex;
+      justify-content: space-evenly;
+      
 
       .Us {
-        
+        font-size: 18px;
+        border: none;
+        background: transparent;
+        color: var(--tex);
       }
 
       .Ras {
-
+        font-size: 18px;
+        border: none;
+        background: transparent;
+        color: var(--tex);
+        
+        a {
+          text-decoration: none;
+          color: var(--tex);
+        }
       }
 
       .Car {
-
+        font-size: 18px;
+        border: none;
+        background: transparent;
+        color: var(--tex);
       }
     }
   }

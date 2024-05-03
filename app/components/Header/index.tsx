@@ -1,6 +1,7 @@
 import { A } from "./styles"
 
 import { IoMdSearch } from "react-icons/io";
+import { SlLocationPin } from "react-icons/sl";
 
 export default function Header() {
   return (
@@ -15,7 +16,7 @@ export default function Header() {
           </div>
           <div className="user">
             <button className="Us">Minha conta</button>
-            <button className="Ras"><a href="/">Rastrear pedido</a></button>
+            <button className="Ras"><SlLocationPin /><a href="/">Rastrear pedido</a></button>
             <button className="Car">Carrinho</button>
           </div>
         </div>
