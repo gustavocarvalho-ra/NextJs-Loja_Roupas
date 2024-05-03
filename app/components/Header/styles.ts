@@ -14,7 +14,10 @@ export const A = styled.div `
     background: #0e0e10;
 
     .fis {
+      width: 100%;
       display: flex;
+      align-items: center;
+      justify-content: center;
       p {
         font-family: "Sedgwick Ave Display";
         color: #fff;
@@ -60,6 +63,8 @@ export const A = styled.div `
 
     .user {
       background: red;
+      width: 35%;
+      height: 5em;
     }
   }
 
@@ -80,12 +85,11 @@ export const A = styled.div `
   .nav {
     width: 100%;
     /* height: 15%; */
-    background: red;
     font-family: "Rubik";
     display: flex;
     justify-content: center;
     gap: 3em;
-    margin-top: 16px;
+    margin-top: 20px;
 
     a {
       font-size: 13px;
