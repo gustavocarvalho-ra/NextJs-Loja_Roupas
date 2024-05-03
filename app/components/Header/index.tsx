@@ -14,7 +14,9 @@ export default function Header() {
             <button className="btnLup"><IoMdSearch style={{color: 'var(--tex)', fontSize: '25px'}} /></button>
           </div>
           <div className="user">
-            <a href="aaaaaaaaa"></a>
+            <button className="Us">Minha conta</button>
+            <button className="Ras"><a href="/">Rastrear pedido</a></button>
+            <button className="Car">Carrinho</button>
           </div>
         </div>
         <div className="nav">

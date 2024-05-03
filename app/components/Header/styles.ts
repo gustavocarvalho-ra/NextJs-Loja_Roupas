@@ -65,6 +65,18 @@ export const A = styled.div `
       background: red;
       width: 35%;
       height: 5em;
+
+      .Us {
+        
+      }
+
+      .Ras {
+
+      }
+
+      .Car {
+
+      }
     }
   }
 
