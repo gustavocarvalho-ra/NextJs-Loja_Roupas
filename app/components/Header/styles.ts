@@ -44,8 +44,8 @@ export const A = styled.div `
         position: absolute;
         width: 5em;
         height: 2.3em;
-        margin-right: 8px;
-        border-radius: 12px;
+        margin-right: 6px;
+        border-radius: 8px;
         border: none;
         background: linear-gradient(29deg, rgba(142,0,167,1) 20%, rgba(0,206,235,1) 100%);
         text-align: center;
@@ -53,6 +53,7 @@ export const A = styled.div `
 
         &:hover {
           opacity: .7;
+          scale: 1.1;
         }
       }
     }
