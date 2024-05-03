@@ -71,12 +71,16 @@ export const A = styled.div `
       gap: 3em;
       
       button {
-
+        cursor: pointer;
       }
 
       p {
         font-size: 12px;
-        color: rgba(142,0,167,1);
+        color: #BA55D3;
+      }
+
+      .Uss {
+        display: flex;
       }
 
       .Us {

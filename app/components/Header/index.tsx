@@ -19,9 +19,18 @@ export default function Header() {
               <p>Olá (user)</p>
               <button className="Us">Minha conta</button>
             </div>
-            
-            <button className="Ras"><SlLocationPin /><a href="/">Rastrear pedido</a></button>
-            <button className="Car">Carrinho</button>
+            <div className="Uss">
+              <SlLocationPin style={{marginRight: '8px', marginTop: '5px', color: '#fff', fontSize: '1.5em'}}/>
+              <div>
+                <p>Onde está meu pedido?</p>
+                <button className="Ras">
+                  <a href="/">Rastrear pedido</a>
+                </button>
+              </div>
+            </div>
+            <div>
+              <button className="Car">Carrinho</button>
+            </div>
           </div>
         </div>
         <div className="nav">
