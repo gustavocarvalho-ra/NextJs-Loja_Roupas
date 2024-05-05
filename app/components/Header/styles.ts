@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const A = styled.div `
   width: 100%;
   height: 18vh;
-  z-index: 2;
 
   .section {
     width: 100%;

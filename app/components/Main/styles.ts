@@ -6,14 +6,26 @@ export const Man = styled.div `
     height: 100vh;
     background-color: red;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     gap: 20px;
-    z-index: 1;
 
-    a {
-      width: 180px;
-      height: 100px;
-      background-color: blue;
+    .cards {
+      margin-top: 20px;
+      width: 66%;
+      height: 90vh;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 45px;
+        a {
+          width: 350px;
+          height: 200px;
+          background-color: blue;
+        }
+
     }
+
+
   }
 `
