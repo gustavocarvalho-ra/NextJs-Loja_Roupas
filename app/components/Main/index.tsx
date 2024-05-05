@@ -5,6 +5,12 @@ export default function Main() {
     <Man>
       <div className="section">
         <a href="">Test</a>
+        <a href="">Test</a>
+        <a href="">Test</a>
+        <a href="">Test</a>
+        <a href="">Test</a>
+        <a href="">Test</a>
+        <a href="">Test</a>
 
       </div>
     </Man>
