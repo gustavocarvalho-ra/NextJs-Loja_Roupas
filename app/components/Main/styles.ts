@@ -8,6 +8,7 @@ export const Man = styled.div `
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    z-index: 1;
 
     a {
       width: 180px;
