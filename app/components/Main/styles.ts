@@ -11,14 +11,15 @@ export const Man = styled.div `
 
     h1 {
       margin-top: 25px;
-      font-size: 30px;
-      font-weight: 600;
+      font-size: 26px;
+      font-weight: 450;
+      text-transform: uppercase;
 
     }
 
     .cards {
       width: 75%;
-      height: 90vh;
+      height: 100vh;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -32,16 +33,17 @@ export const Man = styled.div `
           justify-content: center;
           font-size: 19px;
           font-weight: 500;
-          color: #000;
+          color: var(--tex);
           text-decoration: none;
           text-transform: uppercase;
           border: 1.5px solid var(--prim);
           transition: 1s;
-          background-image: url(https://rsv-ink-images-production.s3.sa-east-1.amazonaws.com/images/product_v2/main_image/f5c7871ada990a7bb31221d1f6f9db48.webp);
-          background-repeat: no-repeat;
+          background-image: url(https://rsv-ink-images-production.s3.sa-east-1.amazonaws.com/images/product_v2/main_image/3d19a5fda53b21d904cb666692f651ac.webp);
+          background-position: center;
+          background-size: cover;
 
           &:hover {
-            scale: 1.04;
+            scale: 1.02;
             box-shadow: 5px 6px 7px 1px rgba(0, 0, 0, 0.4);
           }
         }
