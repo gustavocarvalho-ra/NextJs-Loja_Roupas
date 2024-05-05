@@ -8,7 +8,6 @@ export const Man = styled.div `
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    background-color: gray;
 
     h1 {
       margin-top: 25px;
@@ -38,9 +37,12 @@ export const Man = styled.div `
           text-transform: uppercase;
           border: 1.5px solid var(--prim);
           transition: 1s;
+          background-image: url(https://rsv-ink-images-production.s3.sa-east-1.amazonaws.com/images/product_v2/main_image/f5c7871ada990a7bb31221d1f6f9db48.webp);
+          background-repeat: no-repeat;
 
           &:hover {
             scale: 1.04;
+            box-shadow: 5px 6px 7px 1px rgba(0, 0, 0, 0.4);
           }
         }
 
