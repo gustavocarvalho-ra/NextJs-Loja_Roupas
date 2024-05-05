@@ -6,16 +6,16 @@ export default function Main() {
       <div className="section">
         <h1>Coleções</h1>
         <div className="cards">
-          <a href="">Test</a>
-          <a href="">Test</a>
-          <a href="">Test</a>
-          <a href="">Test</a>
-          <a href="">Test</a>
-          <a href="">Test</a>
-          <a href="">Test</a>
-          <a href="">Test</a>
-          <a href="">Test</a>
-          <a href="">Test</a>
+          <a href="">Jaquetas</a>
+          <a href="">Camisetas</a>
+          <a href="">Calsas</a>
+          <a href="">Tênis</a>
+          <a href="">Bonés e toucas</a>
+          <a href="">Moletons</a>
+          <a href="">Meias</a>
+          <a href="">Mochilas</a>
+          <a href="">Óculos</a>
+          <a href="">Bags</a>
           <a href="">Test</a>
           <a href="">Test</a>
         </div>
