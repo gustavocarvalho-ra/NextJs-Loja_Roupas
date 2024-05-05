@@ -16,8 +16,6 @@ export default function Main() {
           <a href="">Mochilas</a>
           <a href="">Óculos</a>
           <a href="">Bags</a>
-          <a href="">Test</a>
-          <a href="">Test</a>
         </div>
 
       </div>
