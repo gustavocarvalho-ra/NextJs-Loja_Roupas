@@ -22,22 +22,22 @@
   },
   {
     "nome": "Calça Jogger Refletiva",
-    "preco": "129,98",
+    "preco": "194,91",
     "imagem": "./img/calcaJoggerRefletiva.jpeg",
     "tipo": "calça",
     "id": "4"
   },
   {
     "nome": "Calça Jogger Be Better",
-    "preco": "129,98",
+    "preco": "175,16",
     "imagem": "./img/calcaJoggerBeBetter.jpeg",
     "tipo": "calça",
     "id": "5"
   },
   {
-    "nome": "Calça Cargo",
-    "preco": "129,98",
-    "imagem": "./img/calcaJoggerBeBetter.jpeg",
+    "nome": "Calça Jogger Better Tomorrow",
+    "preco": "209,79",
+    "imagem": "./img/calcaJoggerBetterTomorrow.jpeg",
     "tipo": "calça",
     "id": "6"
   },
