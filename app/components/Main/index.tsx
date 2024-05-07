@@ -11,7 +11,7 @@ export default function Main() {
         <div className="cards">
           <a href="">Jaquetas</a>
           <a href="">Camisetas</a>
-          <Link href="/Calcas">Calças</Link>
+          <Link href="/calcas">Calças</Link>
           <a href="">Tênis</a>
           <a href="">Bonés e toucas</a>
           <a href="">Moletons</a>
