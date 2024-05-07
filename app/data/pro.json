@@ -70,9 +70,9 @@
     "id": "10"
   },
   {
-    "nome": "Calça Cargo",
-    "preco": "129,98",
-    "imagem": "./img/calcaCargoHocks.jpeg",
+    "nome": "Calça Cargo Camuflada",
+    "preco": "209,98",
+    "imagem": "./img/calcaCargoCamuflada.jpeg",
     "tipo": "calça",
     "id": "11"
   }
