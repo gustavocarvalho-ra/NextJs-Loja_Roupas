@@ -1,4 +1,7 @@
+import Link from "next/link";
+
 import { Man } from "./styles"
+
 
 export default function Main() {
   return (
@@ -8,7 +11,7 @@ export default function Main() {
         <div className="cards">
           <a href="">Jaquetas</a>
           <a href="">Camisetas</a>
-          <a href="">Calças</a>
+          <Link href="/Calcas">Calças</Link>
           <a href="">Tênis</a>
           <a href="">Bonés e toucas</a>
           <a href="">Moletons</a>
