@@ -12,7 +12,6 @@ export default function Main() {
           <a href="">Jaquetas</a>
           <a href="">Camisetas</a>
           <Link href="/calcas">Calças</Link>
-          <Link href="/pages/car">aaaaaaaaa</Link>
           <a href="">Tênis</a>
           <a href="">Bonés e toucas</a>
           <a href="">Moletons</a>
