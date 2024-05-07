@@ -75,6 +75,13 @@
     "photo": "/assets/calcaCargoCamuflada.jpeg",
     "type": "calça",
     "id": "11"
+  },
+  {
+    "name": "Calça Cargo Camuflada",
+    "price": "209,98",
+    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "type": "camisa",
+    "id": "11"
   }
 
 
