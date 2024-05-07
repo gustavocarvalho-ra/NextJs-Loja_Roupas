@@ -2,57 +2,70 @@
   {
     "nome": "Calça Cargo",
     "preco": "129,98",
-    "tipo": "calça"
+    "imagem": "./img/calcaJogger.jpeg",
+    "tipo": "calça",
+    "id": "1"
+  },
+  {
+    "nome": "Calça Jogger",
+    "preco": "129,98",
+    "imagem": "./img/calcaJogger.jpeg",
+    "tipo": "calça",
+    "id": "2"
   },
   {
     "nome": "Calça Cargo",
     "preco": "129,98",
-    "tipo": "calça"
+    "tipo": "calça",
+    "id": "3"
   },
   {
     "nome": "Calça Cargo",
     "preco": "129,98",
-    "tipo": "calça"
+    "tipo": "calça",
+    "id": "4"
   },
   {
     "nome": "Calça Cargo",
     "preco": "129,98",
-    "tipo": "calça"
+    "tipo": "calça",
+    "id": ""
   },
   {
     "nome": "Calça Cargo",
     "preco": "129,98",
-    "tipo": "calça"
+    "tipo": "calça",
+    "id": ""
   },
   {
     "nome": "Calça Cargo",
     "preco": "129,98",
-    "tipo": "calça"
+    "tipo": "calça",
+    "id": ""
   },
   {
     "nome": "Calça Cargo",
     "preco": "129,98",
-    "tipo": "calça"
+    "tipo": "calça",
+    "id": ""
   },
   {
     "nome": "Calça Cargo",
     "preco": "129,98",
-    "tipo": "calça"
+    "tipo": "calça",
+    "id": ""
   },
   {
     "nome": "Calça Cargo",
     "preco": "129,98",
-    "tipo": "calça"
+    "tipo": "calça",
+    "id": ""
   },
   {
     "nome": "Calça Cargo",
     "preco": "129,98",
-    "tipo": "calça"
-  },
-  {
-    "nome": "Calça Cargo",
-    "preco": "129,98",
-    "tipo": "calça"
+    "tipo": "calça",
+    "id": ""
   }
 
 
