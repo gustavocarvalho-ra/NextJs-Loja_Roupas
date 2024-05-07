@@ -42,8 +42,9 @@
     "id": "6"
   },
   {
-    "nome": "Calça Cargo",
-    "preco": "129,98",
+    "nome": "Calça Jogger Urbano",
+    "preco": "219,98",
+    "imagem": "./img/calcaJoggerUrbano.jpeg",
     "tipo": "calça",
     "id": "7"
   },
