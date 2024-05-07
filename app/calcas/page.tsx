@@ -4,6 +4,7 @@ import { Car } from "./styles";
 
 import pro from "../data/pro.json"
 import Header from "@/app/components/Header"
+import Menu from "../components/Menu";
 
 import Image from "next/image";
 
@@ -14,11 +15,15 @@ export default function Test () {
   return (
     <>
       <Header/>
+      
       <Car>
-        <div style={{width: "80%", display: "flex",alignItems: "flex-start"}}>
-          <h1 className="ti" >Calças</h1>
-        </div>
+        <Menu/>
+        
         <div className="cards">
+          <div style={{width: "100%", height: "50px", display: "flex",alignItems: "flex-start"}}>
+            <h1 className="ti" >Calças</h1>
+          </div>
+          
           {produtos
           .filter(item => item.type === "calça")
           .map(item => (

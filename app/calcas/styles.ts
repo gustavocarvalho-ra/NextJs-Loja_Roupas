@@ -3,9 +3,10 @@ import styled from "styled-components";
 export const Car = styled.div `
   width: 100%;
   display: flex;
-  align-items: center;
+  /* align-items: flex-end;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: column; */
+  
   background:  #e0e1ff;
 
   .ti {
@@ -15,7 +16,7 @@ export const Car = styled.div `
     text-transform: uppercase;
   }
   .cards {
-    width: 80%;
+    width: 60%;
 
     display: flex;
     justify-content: center;
@@ -43,13 +44,14 @@ export const Car = styled.div `
     }
 
     h1{
-      font-size: 15px;
+      font-size: 14px;
       font-weight: 400;
     } 
     
     p {
+      margin-top: 5px;
       font-size: 17px;
-      color: #00ff0f;
+      color: #00ff00;
       font-weight: 600;
 
     }

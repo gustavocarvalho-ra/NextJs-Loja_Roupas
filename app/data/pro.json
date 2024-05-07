@@ -1,84 +1,84 @@
 [
   {
     "name": "Calça Cargo",
-    "price": "194,98",
+    "price": "R$ 194,98",
     "photo": "/assets/calcaCargoLaco.jpeg",
     "type": "calça",
     "id": "1"
   },
   {
     "name": "Calça Jogger",
-    "price": "189,56",
+    "price": "R$ 189,56",
     "photo": "/assets/calcaJogger.jpeg",
     "type": "calça",
     "id": "2"
   },
   {
     "name": "Calça Jogger Com Corrente",
-    "price": "169,16",
+    "price": "R$ 169,16",
     "photo": "/assets/calcaJoggerCorrente.jpeg",
     "type": "calça",
     "id": "3"
   },
   {
     "name": "Calça Jogger Refletiva",
-    "price": "194,91",
+    "price": "R$ 194,91",
     "photo": "/assets/calcaJoggerRefletiva.jpeg",
     "type": "calça",
     "id": "4"
   },
   {
     "name": "Calça Jogger Be Better",
-    "price": "175,16",
+    "price": "R$ 175,16",
     "photo": "/assets/calcaJoggerBeBetter.jpeg",
     "type": "calça",
     "id": "5"
   },
   {
     "name": "Calça Jogger Better Tomorrow",
-    "price": "209,79",
+    "price": "R$ 209,79",
     "photo": "/assets/calcaJoggerBetterTomorrow.jpeg",
     "type": "calça",
     "id": "6"
   },
   {
     "name": "Calça Jogger Urbano",
-    "price": "219,98",
+    "price": "R$ 219,98",
     "photo": "/assets/calcaJoggerUrbano.jpeg",
     "type": "calça",
     "id": "7"
   },
   {
     "name": "Calça Jogger As",
-    "price": "205,43",
+    "price": "R$ 205,43",
     "photo": "/assets/calcaJoggerAs.jpeg",
     "type": "calça",
     "id": "8"
   },
   {
     "name": "Calça Cargo Simples",
-    "price": "152,38",
+    "price": "R$ 152,38",
     "photo": "/assets/calcaCargoSimples.jpeg",
     "type": "calça",
     "id": "9"
   },
   {
     "name": "Calça Cargo Hocks",
-    "price": "182,37",
+    "price": "R$ 182,37",
     "photo": "/assets/calcaCargoHocks.jpeg",
     "type": "calça",
     "id": "10"
   },
   {
     "name": "Calça Cargo Camuflada",
-    "price": "209,98",
+    "price": "R$ 209,98",
     "photo": "/assets/calcaCargoCamuflada.jpeg",
     "type": "calça",
     "id": "11"
   },
   {
     "name": "Calça Cargo Camuflada",
-    "price": "209,98",
+    "price": "R$ 209,98",
     "photo": "/assets/calcaCargoCamuflada.jpeg",
     "type": "camisa",
     "id": "11"
