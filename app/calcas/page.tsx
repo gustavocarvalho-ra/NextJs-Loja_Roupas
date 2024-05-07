@@ -17,10 +17,11 @@ export default function Test () {
     <Car>
       <h1 className="ti">Calças</h1>
       <div className="cards">
-        {produtos.map(item => (
+        {produtos
+        .filter(item => item.type === "calça")
+        .map(item => (
           // eslint-disable-next-line react/jsx-key
           <div className="card">
-            <h1 key={item.name}>{item.name}</h1>
             <h1 key={item.name}>{item.name}</h1>
             <h2 key={item.price}>{item.price}</h2>
             <Image src={item.photo} alt="test" width={235} height={280} style={{backgroundSize: "auto", backgroundRepeat: "no-repeat"}}/>
