@@ -8,7 +8,7 @@ export default function Main() {
         <div className="cards">
           <a href="">Jaquetas</a>
           <a href="">Camisetas</a>
-          <a href="">Calsas</a>
+          <a href="">Calças</a>
           <a href="">Tênis</a>
           <a href="">Bonés e toucas</a>
           <a href="">Moletons</a>
