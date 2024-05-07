@@ -21,9 +21,9 @@ export default function Test () {
         
         <div className="cards">
           <div style={{width: "100%", height: "50px", display: "flex",alignItems: "flex-start"}}>
-            <h1 className="ti" >Calças</h1>
+            <h1 className="ti">Calças</h1>
           </div>
-          
+
           {produtos
           .filter(item => item.type === "calça")
           .map(item => (

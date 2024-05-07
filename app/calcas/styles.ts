@@ -10,13 +10,14 @@ export const Car = styled.div `
   background:  #e0e1ff;
 
   .ti {
-    margin: 20px;
+    margin: 1em 0 0 4.5em;
     font-size: 24px;
     font-weight: 450;
     text-transform: uppercase;
   }
   .cards {
-    width: 60%;
+    width: 70%;
+    margin-right: 5em;
 
     display: flex;
     justify-content: center;
