@@ -56,21 +56,23 @@
     "id": "8"
   },
   {
-    "nome": "Calça Cargo",
-    "preco": "129,98",
-    "imagem": "./img/calcaJoggerAs.jpeg",
+    "nome": "Calça Cargo Simples",
+    "preco": "152,38",
+    "imagem": "./img/calcaCargoSimples.jpeg",
     "tipo": "calça",
     "id": "9"
   },
   {
-    "nome": "Calça Cargo",
-    "preco": "129,98",
+    "nome": "Calça Cargo Hocks",
+    "preco": "182,37",
+    "imagem": "./img/calcaCargoHocks.jpeg",
     "tipo": "calça",
     "id": "10"
   },
   {
     "nome": "Calça Cargo",
     "preco": "129,98",
+    "imagem": "./img/calcaCargoHocks.jpeg",
     "tipo": "calça",
     "id": "11"
   }
