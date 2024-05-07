@@ -20,8 +20,8 @@ export default function Test () {
           // eslint-disable-next-line react/jsx-key
           <div className="card">
             <h1 key={item.name}>{item.name}</h1>
-            <h2 key={item.preco}>{item.preco}</h2>
-            <Image src={item.imagem} alt="test" width={100} height={100} style={{background: "image"}}/>
+            <h2 key={item.price}>{item.price}</h2>
+            <Image src={item.photo} alt="test" width={250} height={300} style={{background: "image"}}/>
           </div>
         ))}
       </div>

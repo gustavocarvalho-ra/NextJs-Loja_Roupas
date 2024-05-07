@@ -1,79 +1,79 @@
 [
   {
     "name": "Calça Cargo",
-    "preco": "194,98",
-    "imagem": "/assets/calcaCargoLaco.jpeg",
-    "tipo": "calça",
+    "price": "194,98",
+    "photo": "/assets/calcaCargoLaco.jpeg",
+    "type": "calça",
     "id": "1"
   },
   {
     "name": "Calça Jogger",
-    "preco": "189,56",
-    "imagem": "/assets/calcaJogger.jpeg",
-    "tipo": "calça",
+    "price": "189,56",
+    "photo": "/assets/calcaJogger.jpeg",
+    "type": "calça",
     "id": "2"
   },
   {
     "name": "Calça Jogger Com Corrente",
-    "preco": "169,16",
-    "imagem": "/assets/calcaJoggerCorrente.jpeg",
-    "tipo": "calça",
+    "price": "169,16",
+    "photo": "/assets/calcaJoggerCorrente.jpeg",
+    "type": "calça",
     "id": "3"
   },
   {
     "name": "Calça Jogger Refletiva",
-    "preco": "194,91",
-    "imagem": "/assets/calcaJoggerRefletiva.jpeg",
-    "tipo": "calça",
+    "price": "194,91",
+    "photo": "/assets/calcaJoggerRefletiva.jpeg",
+    "type": "calça",
     "id": "4"
   },
   {
     "name": "Calça Jogger Be Better",
-    "preco": "175,16",
-    "imagem": "/assets/calcaJoggerBeBetter.jpeg",
-    "tipo": "calça",
+    "price": "175,16",
+    "photo": "/assets/calcaJoggerBeBetter.jpeg",
+    "type": "calça",
     "id": "5"
   },
   {
     "name": "Calça Jogger Better Tomorrow",
-    "preco": "209,79",
-    "imagem": "/assets/calcaJoggerBetterTomorrow.jpeg",
-    "tipo": "calça",
+    "price": "209,79",
+    "photo": "/assets/calcaJoggerBetterTomorrow.jpeg",
+    "type": "calça",
     "id": "6"
   },
   {
     "name": "Calça Jogger Urbano",
-    "preco": "219,98",
-    "imagem": "/assets/calcaJoggerUrbano.jpeg",
-    "tipo": "calça",
+    "price": "219,98",
+    "photo": "/assets/calcaJoggerUrbano.jpeg",
+    "type": "calça",
     "id": "7"
   },
   {
     "name": "Calça Jogger As",
-    "preco": "205,43",
-    "imagem": "/assets/calcaJoggerAs.jpeg",
-    "tipo": "calça",
+    "price": "205,43",
+    "photo": "/assets/calcaJoggerAs.jpeg",
+    "type": "calça",
     "id": "8"
   },
   {
     "name": "Calça Cargo Simples",
-    "preco": "152,38",
-    "imagem": "/assets/calcaCargoSimples.jpeg",
-    "tipo": "calça",
+    "price": "152,38",
+    "photo": "/assets/calcaCargoSimples.jpeg",
+    "type": "calça",
     "id": "9"
   },
   {
     "name": "Calça Cargo Hocks",
-    "preco": "182,37",
-    "imagem": "/assets/calcaCargoHocks.jpeg",
-    "tipo": "calça",
+    "price": "182,37",
+    "photo": "/assets/calcaCargoHocks.jpeg",
+    "type": "calça",
     "id": "10"
   },
   {
     "name": "Calça Cargo Camuflada",
-    "preco": "209,98",
-    "imagem": "/assets/calcaCargoCamuflada.jpeg",
-    "tipo": "calça",
+    "price": "209,98",
+    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "type": "calça",
     "id": "11"
   }
 
