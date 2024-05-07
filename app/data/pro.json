@@ -49,14 +49,16 @@
     "id": "7"
   },
   {
-    "nome": "Calça Cargo",
-    "preco": "129,98",
+    "nome": "Calça Jogger As",
+    "preco": "205,43",
+    "imagem": "./img/calcaJoggerAs.jpeg",
     "tipo": "calça",
     "id": "8"
   },
   {
     "nome": "Calça Cargo",
     "preco": "129,98",
+    "imagem": "./img/calcaJoggerAs.jpeg",
     "tipo": "calça",
     "id": "9"
   },
