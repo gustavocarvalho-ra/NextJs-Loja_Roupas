@@ -1,5 +1,7 @@
 import { A } from "./styles"
 
+import Link from "next/link";
+
 import { IoMdSearch } from "react-icons/io";
 import { SlLocationPin } from "react-icons/sl";
 
@@ -9,7 +11,8 @@ export default function Header() {
       <hr className="hrA"/>
       <div className="section">
         <div className="fis">
-          <p className="Log">Street <span className="Los">Shop</span></p>
+          <Link href="./" style={{textDecoration: "none"}}><p className="Log">Street <span className="Los">Shop</span></p></Link>
+          
           <div style={{display: 'flex', alignItems: 'center', flexDirection: 'row-reverse'}}>
             <input className="lup" placeholder="O que está procurando?"></input>
             <button className="btnLup"><IoMdSearch style={{color: 'var(--tex)', fontSize: '25px'}} /></button>
