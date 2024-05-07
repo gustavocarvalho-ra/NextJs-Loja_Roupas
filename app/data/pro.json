@@ -1,21 +1,22 @@
 [
   {
     "nome": "Calça Cargo",
-    "preco": "129,98",
-    "imagem": "./img/calcaJogger.jpeg",
+    "preco": "194,98",
+    "imagem": "./img/calcaCargoLaco.jpeg",
     "tipo": "calça",
     "id": "1"
   },
   {
     "nome": "Calça Jogger",
-    "preco": "129,98",
+    "preco": "189,56",
     "imagem": "./img/calcaJogger.jpeg",
     "tipo": "calça",
     "id": "2"
   },
   {
-    "nome": "Calça Cargo",
-    "preco": "129,98",
+    "nome": "Calça Jogger Com Corrente",
+    "preco": "169,16",
+    "imagem": "./img/calcaJoggerCorrente.jpeg",
     "tipo": "calça",
     "id": "3"
   },
@@ -29,43 +30,43 @@
     "nome": "Calça Cargo",
     "preco": "129,98",
     "tipo": "calça",
-    "id": ""
+    "id": "5"
   },
   {
     "nome": "Calça Cargo",
     "preco": "129,98",
     "tipo": "calça",
-    "id": ""
+    "id": "6"
   },
   {
     "nome": "Calça Cargo",
     "preco": "129,98",
     "tipo": "calça",
-    "id": ""
+    "id": "7"
   },
   {
     "nome": "Calça Cargo",
     "preco": "129,98",
     "tipo": "calça",
-    "id": ""
+    "id": "8"
   },
   {
     "nome": "Calça Cargo",
     "preco": "129,98",
     "tipo": "calça",
-    "id": ""
+    "id": "9"
   },
   {
     "nome": "Calça Cargo",
     "preco": "129,98",
     "tipo": "calça",
-    "id": ""
+    "id": "10"
   },
   {
     "nome": "Calça Cargo",
     "preco": "129,98",
     "tipo": "calça",
-    "id": ""
+    "id": "11"
   }
 
 
