@@ -1,17 +1,24 @@
 "use client"
 
+import pro from "../data/pro.json"
 import Header from "@/app/components/Header"
 
 
-const Test = () => {
+export default function Test () {
+  let produtos = [...pro];
+
   return (
     <>
     <Header/>
     <div>
-      aaaaaa
+      {produtos.map(item => (
+        // eslint-disable-next-line react/jsx-key
+        <div>
+          <h1 key={item.nome}>{item.nome}</h1>
+          <h2 key={item.preco}>{item.preco}</h2>
+        </div>
+      ))}
     </div>
     </>
   )
 }
-
-export default Test;
