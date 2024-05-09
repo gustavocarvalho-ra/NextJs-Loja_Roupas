@@ -9,7 +9,7 @@ export default function Main() {
       <div className="section">
         <h1>Coleções</h1>
         <div className="cards">
-          <a href="">Jaquetas</a>
+          <Link href="/jaquetas">Jaquetas</Link>
           <a href="">Camisetas</a>
           <Link href="/calcas">Calças</Link>
           <a href="">Tênis</a>
