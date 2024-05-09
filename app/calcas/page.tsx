@@ -20,7 +20,7 @@ export default function Test () {
         <Menu/>
         
         <div className="cards">
-          <div style={{width: "100%", height: "50px", display: "flex",alignItems: "flex-start"}}>
+          <div style={{width: "100%", height: "50px", marginBottom: "1em"}}>
             <h1 className="ti">Calças</h1>
           </div>
 

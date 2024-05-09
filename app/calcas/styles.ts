@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Car = styled.div `
+  padding-top: 2em;
   width: 100%;
   display: flex;
   /* align-items: flex-end;
@@ -31,11 +32,18 @@ export const Car = styled.div `
   .card {
     width: 200px;
     height: 280px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     /* justify-content: center; */
     align-items: center;
     flex-direction: column;
+    transition: 1s;
+    border-radius: 8px;
+
+    &:hover {
+      scale: 1.01;
+      box-shadow: 6px 8px 8px 0px #1a0f27
+    }
 
     .info {
       margin: 10px;
