@@ -4,10 +4,6 @@ export const Car = styled.div `
   padding-top: 2em;
   width: 100%;
   display: flex;
-  /* align-items: flex-end;
-  justify-content: center;
-  flex-direction: column; */
-  
   background:  #e0e1ff;
 
   .ti {
@@ -19,26 +15,22 @@ export const Car = styled.div `
   .cards {
     width: 70%;
     margin-right: 5em;
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 1em;
-
-
   }
 
   .card {
     width: 200px;
     height: 280px;
-    /* border: 1px solid red; */
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     transition: 1s;
     border-radius: 8px;
+    cursor: pointer;
 
     &:hover {
       scale: 1.01;

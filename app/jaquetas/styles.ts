@@ -30,6 +30,7 @@ export const Jaq = styled.div `
     flex-direction: column;
     transition: 1s;
     border-radius: 8px;
+    cursor: pointer;
 
     &:hover {
       scale: 1.01;
