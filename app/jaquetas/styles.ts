@@ -15,9 +15,8 @@ export const Jaq = styled.div `
     width: 70%;
     margin-right: 5em;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
+    flex-direction: row;
     gap: 2em;
   }
 
