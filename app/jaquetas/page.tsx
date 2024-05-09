@@ -25,7 +25,7 @@ export default function Test () {
           </div>
 
           {produtos
-          .filter(item => item.type === "Jaqueta")
+          .filter(item => item.type === "jaqueta")
           .map(item => (
             // eslint-disable-next-line react/jsx-key
             <div className="card">

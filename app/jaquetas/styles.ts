@@ -3,11 +3,7 @@ import styled from "styled-components";
 export const Jaq = styled.div `
   padding-top: 2em;
   width: 100%;
-  display: flex;
-  /* align-items: flex-end;
-  justify-content: center;
-  flex-direction: column; */
-  
+  display: flex;  
   background:  #e0e1ff;
 
   .ti {
@@ -19,22 +15,17 @@ export const Jaq = styled.div `
   .cards {
     width: 70%;
     margin-right: 5em;
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 1em;
-
-
   }
 
   .card {
     width: 200px;
-    height: 280px;
-    /* border: 1px solid red; */
+    height: 290px;
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     transition: 1s;
@@ -62,8 +53,6 @@ export const Jaq = styled.div `
       font-size: 17px;
       color: #00ff00;
       font-weight: 600;
-
     }
-
   }
 `
