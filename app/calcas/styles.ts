@@ -10,7 +10,6 @@ export const Car = styled.div `
     margin: 1em 0 0 4.5em;
     font-size: 24px;
     font-weight: 450;
-    text-transform: uppercase;
   }
   .cards {
     width: 70%;
@@ -19,7 +18,7 @@ export const Car = styled.div `
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 2em;
   }
 
   .card {
