@@ -10,7 +10,7 @@ export default function Main() {
         <h1>Coleções</h1>
         <div className="cards">
           <Link className="clas" href="/jaquetas">Jaquetas</Link>
-          <a href="">Camisetas</a>
+          <Link className="cami" href="/camisa">Camisetas</Link>
           <Link className="cas" href="/calcas">Calças</Link>
           <a href="">Tênis</a>
           <a href="">Bonés e toucas</a>
