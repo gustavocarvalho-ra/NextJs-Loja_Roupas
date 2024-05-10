@@ -77,13 +77,6 @@
     "id": "11"
   },
   {
-    "name": "Calça Cargo Camuflada",
-    "price": "R$ 209,98",
-    "photo": "/assets/calcaCargoCamuflada.jpeg",
-    "type": "camisa",
-    "id": "11"
-  },
-  {
     "name": "X",
     "price": "R$ 286,46",
     "photo": "/assets/jaquetaX.jpeg",
@@ -208,5 +201,68 @@
     "photo": "/assets/calcaCargoCamuflada.jpeg",
     "type": "camisa",
     "id": "30"
+  },
+  {
+    "name": "",
+    "price": "R$ 209,98",
+    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "type": "camisa",
+    "id": "31"
+  },
+  {
+    "name": "",
+    "price": "R$ 209,98",
+    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "type": "camisa",
+    "id": "32"
+  },
+  {
+    "name": "",
+    "price": "R$ 209,98",
+    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "type": "camisa",
+    "id": "33"
+  },
+  {
+    "name": "",
+    "price": "R$ 209,98",
+    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "type": "camisa",
+    "id": "34"
+  },
+  {
+    "name": "",
+    "price": "R$ 209,98",
+    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "type": "camisa",
+    "id": "35"
+  },
+  {
+    "name": "",
+    "price": "R$ 209,98",
+    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "type": "camisa",
+    "id": "36"
+  },
+  {
+    "name": "",
+    "price": "R$ 209,98",
+    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "type": "camisa",
+    "id": "37"
+  },
+  {
+    "name": "",
+    "price": "R$ 209,98",
+    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "type": "camisa",
+    "id": "38"
+  },
+  {
+    "name": "",
+    "price": "R$ 209,98",
+    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "type": "camisa",
+    "id": "39"
   }
 ]

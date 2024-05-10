@@ -20,7 +20,7 @@ export default function Test () {
         
         <div className="cards">
           <div style={{width: "100%", height: "50px", marginBottom: "1em"}}>
-            <h1 className="ti">Jaquetas</h1>
+            <h1 className="ti">Camisas</h1>
           </div>
 
           {produtos
