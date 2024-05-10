@@ -38,7 +38,7 @@ export const Man = styled.div `
           text-transform: uppercase;
           border: 1.5px solid var(--prim);
           transition: 1s;
-          background-image: url(https://rsv-ink-images-production.s3.sa-east-1.amazonaws.com/images/product_v2/main_image/3d19a5fda53b21d904cb666692f651ac.webp);
+          background-image: url("./assets/calcaCargoSimples.jpeg");
           background-position: center;
           background-size: cover;
 

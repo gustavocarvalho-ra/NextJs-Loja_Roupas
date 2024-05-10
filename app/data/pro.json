@@ -147,37 +147,37 @@
     "id": "20"
   },
   {
-    "name": "Calça Cargo Camuflada",
+    "name": "jaqueta RAD",
     "price": "R$ 209,98",
-    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "photo": "/assets/jaquetaRad.jpeg",
     "type": "jaqueta",
     "id": "21"
   },
   {
-    "name": "Calça Cargo Camuflada",
-    "price": "R$ 209,98",
-    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "name": "jaqueta Hyper Zero",
+    "price": "R$ 384,40",
+    "photo": "/assets/jaquetaHyperZero.jpeg",
     "type": "jaqueta",
     "id": "22"
   },
   {
-    "name": "Calça Cargo Camuflada",
-    "price": "R$ 209,98",
-    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "name": "Jaqueta HOODIE Grail",
+    "price": "R$ 295,98",
+    "photo": "/assets/jaquetaHOODIEGrail.jpeg",
     "type": "jaqueta",
     "id": "23"
   },
   {
-    "name": "Calça Cargo Camuflada",
-    "price": "R$ 209,98",
-    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "name": "Jaqueta Runs",
+    "price": "R$ 329,76",
+    "photo": "/assets/jaquetaRuns.jpeg",
     "type": "jaqueta",
     "id": "24"
   },
   {
-    "name": "Calça Cargo Camuflada",
-    "price": "R$ 209,98",
-    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "name": "Jaqueta Primodi",
+    "price": "R$ 282,94",
+    "photo": "/assets/jaquetaPrimodi.jpeg",
     "type": "jaqueta",
     "id": "25"
   },
