@@ -21,13 +21,15 @@ export const Jaq = styled.div `
   }
 
   .card {
-    width: 200px;
-    height: 290px;
+    width: 210px;
+    height: 300px;
     display: flex;
     align-items: center;
     flex-direction: column;
     transition: 1s;
     border-radius: 8px;
+    background-color: #f0f4f5;
+    padding-top: 1em;
     cursor: pointer;
 
     &:hover {
