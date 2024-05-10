@@ -182,31 +182,31 @@
     "id": "25"
   },
   {
-    "name": "Calça Cargo Camuflada",
-    "price": "R$ 209,98",
-    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "name": "jaqueta ROW",
+    "price": "R$ 229,98",
+    "photo": "/assets/jaquetaROW.jpg",
     "type": "jaqueta",
     "id": "26"
   },
   {
-    "name": "Calça Cargo Camuflada",
-    "price": "R$ 209,98",
-    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "name": "jaqueta Demon",
+    "price": "R$ 209,28",
+    "photo": "/assets/jaquetaDemon.jpg",
     "type": "jaqueta",
     "id": "28"
   },
   {
-    "name": "Calça Cargo Camuflada",
+    "name": "",
     "price": "R$ 209,98",
     "photo": "/assets/calcaCargoCamuflada.jpeg",
-    "type": "jaqueta",
+    "type": "",
     "id": "29"
   },
   {
-    "name": "Calça Cargo Camuflada",
+    "name": "",
     "price": "R$ 209,98",
     "photo": "/assets/calcaCargoCamuflada.jpeg",
-    "type": "jaqueta",
+    "type": "",
     "id": "30"
   }
 ]
