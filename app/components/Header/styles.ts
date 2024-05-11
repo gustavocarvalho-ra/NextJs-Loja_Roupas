@@ -143,6 +143,11 @@ export const A = styled.div `
       color: var(--tex);
       text-decoration: none;
       text-transform: uppercase;
+      transition: .5s;
+
+      &:hover {
+        color: #BA55D3;
+      }
     }
   }
 `
