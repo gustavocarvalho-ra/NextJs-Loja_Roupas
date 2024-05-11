@@ -224,44 +224,44 @@
     "id": "33"
   },
   {
-    "name": "",
-    "price": "R$ 209,98",
-    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "name": "Camisa Dream",
+    "price": "R$ 86,28",
+    "photo": "/assets/camisaDream.jpeg",
     "type": "camisa",
     "id": "34"
   },
   {
-    "name": "",
-    "price": "R$ 209,98",
-    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "name": "Camisa Equilibrium",
+    "price": "R$ 104,98",
+    "photo": "/assets/camisaEquilibrium.jpeg",
     "type": "camisa",
     "id": "35"
   },
   {
-    "name": "",
-    "price": "R$ 209,98",
-    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "name": "Camisa Faceless",
+    "price": "R$ 105,42",
+    "photo": "/assets/camisaFaceless.jpeg",
     "type": "camisa",
     "id": "36"
   },
   {
-    "name": "",
-    "price": "R$ 209,98",
-    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "name": "camisa GrafiK",
+    "price": "R$ 98,50",
+    "photo": "/assets/camisaGrafik.jpeg",
     "type": "camisa",
     "id": "37"
   },
   {
-    "name": "",
-    "price": "R$ 209,98",
-    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "name": "Camisa YinD",
+    "price": "R$ 94,20",
+    "photo": "/assets/camisaYinD.jpeg",
     "type": "camisa",
     "id": "38"
   },
   {
-    "name": "",
-    "price": "R$ 209,98",
-    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "name": "Camisa Zero Bug",
+    "price": "R$ 104,30",
+    "photo": "/assets/camisaZeroBug.jpeg",
     "type": "camisa",
     "id": "39"
   }
