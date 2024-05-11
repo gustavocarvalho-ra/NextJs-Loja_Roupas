@@ -8,6 +8,6 @@ export const Mn = styled.div `
   .menu {
     width: 100%;
     height: 300px;
-    background: red;
+    /* background: red; */
   }
 `
