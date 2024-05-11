@@ -7,6 +7,7 @@ export const Mn = styled.div `
   margin-right: 5em;
 
   .menu {
+    margin-top: 1.5em;
     width: 100%;
     height: 200px;
     gap: 2em;

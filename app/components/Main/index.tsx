@@ -14,7 +14,6 @@ export default function Main() {
           <Link className="cas" href="/calcas">Calças</Link>
           <a href="">Tênis</a>
           <a href="">Bonés e toucas</a>
-          <a href="">Moletons</a>
           <a href="">Meias</a>
           <a href="">Mochilas</a>
           <a href="">Óculos</a>

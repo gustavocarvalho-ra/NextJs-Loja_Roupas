@@ -52,6 +52,9 @@ export const Man = styled.div `
     }
     .cas {
       background-image: url("/assets/calcaJoggerRefletiva.jpeg");
-    }    
+    }
+    .cami {
+      background-image: url("/assets/camisaAnmask.jpeg");
+    }
   }
 `
