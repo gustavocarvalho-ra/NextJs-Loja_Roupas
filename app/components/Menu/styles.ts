@@ -5,12 +5,14 @@ export const Mn = styled.div `
   height: 30%;
   margin: 5em 0 0 7em;
   margin-right: 5em;
+
   .menu {
     width: 100%;
     height: 200px;
     gap: 2em;
     box-shadow: 4px 3px 5px #d3d3d3;
     background-color: #f0f4f5;
+    border-radius: 8px;
 
     h1 {
       font-size: 22px;
