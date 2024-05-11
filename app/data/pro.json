@@ -189,37 +189,37 @@
     "id": "28"
   },
   {
-    "name": "",
-    "price": "R$ 209,98",
-    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "name": "Camisa AK",
+    "price": "R$ 76,98",
+    "photo": "/assets/camisaAk.jpeg",
     "type": "camisa",
     "id": "29"
   },
   {
-    "name": "",
-    "price": "R$ 209,98",
-    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "name": "Camisa Anmask",
+    "price": "R$ 94,50",
+    "photo": "/assets/camisaAnmask.jpeg",
     "type": "camisa",
     "id": "30"
   },
   {
-    "name": "",
-    "price": "R$ 209,98",
-    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "name": "Camisa BC",
+    "price": "R$ 102,49",
+    "photo": "/assets/camisaBC.jpeg",
     "type": "camisa",
     "id": "31"
   },
   {
-    "name": "",
-    "price": "R$ 209,98",
-    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "name": "Camisa Butter",
+    "price": "R$ 120,35",
+    "photo": "/assets/camisaButter.jpeg",
     "type": "camisa",
     "id": "32"
   },
   {
-    "name": "",
-    "price": "R$ 209,98",
-    "photo": "/assets/calcaCargoCamuflada.jpeg",
+    "name": "Camisa DF",
+    "price": "R$ 95,23",
+    "photo": "/assets/camisaDF.jpeg",
     "type": "camisa",
     "id": "33"
   },
