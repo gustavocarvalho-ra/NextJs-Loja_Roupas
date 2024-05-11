@@ -7,11 +7,10 @@ export const Mn = styled.div `
   margin-right: 5em;
   .menu {
     width: 100%;
-    height: 300px;
-    /* background: red; */
-    /* border: 1px solid #BA55D3; */
+    height: 200px;
     gap: 2em;
     box-shadow: 4px 3px 5px #d3d3d3;
+    background-color: #f0f4f5;
 
     h1 {
       font-size: 22px;
@@ -20,6 +19,7 @@ export const Mn = styled.div `
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       color: black;
+      padding-top: .5em;
       margin: .5em 0 1em 0;
     }
 
