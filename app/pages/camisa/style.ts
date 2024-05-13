@@ -57,6 +57,8 @@ export const Cam = styled.div `
     }
 
     .ft {
+      width: 180px;
+      height: 210px;
       background-position: center;
       background-size: cover;
     }

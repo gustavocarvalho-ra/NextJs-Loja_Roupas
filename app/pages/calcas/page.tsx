@@ -29,7 +29,9 @@ export default function Test () {
           .map(item => (
             // eslint-disable-next-line react/jsx-key
             <div className="card">
-              <Image src={item.photo} alt="test" width={180} height={210} style={{backgroundSize: "auto", borderRadius: "8px"}}/>
+              <div className="ft">
+                <Image src={item.photo}  alt="test" sizes="100vh" width={180} height={210} style={{borderRadius: "8px"}}/>
+              </div>
               <div className="info">
                 <h1 key={item.name}>{item.name}</h1>
                 <p key={item.price}>{item.price}</p>
