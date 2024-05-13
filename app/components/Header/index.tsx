@@ -11,7 +11,7 @@ export default function Header() {
       <hr className="hrA"/>
       <div className="section">
         <div className="fis">
-          <Link href="/pages/categorias" style={{textDecoration: "none"}}><p className="Log">Street <span className="Los">Tech</span></p></Link>
+          <Link href="../" style={{textDecoration: "none"}}><p className="Log">Street <span className="Los">Tech</span></p></Link>
           
           <div style={{display: 'flex', alignItems: 'center', flexDirection: 'row-reverse'}}>
             <input className="lup" placeholder="O que está procurando?"></input>
@@ -41,7 +41,7 @@ export default function Header() {
 
 
         <div className="nav">
-          <Link href={"/all"}>Todos os produtos</Link>
+          <Link href={"/pages/all"}>Todos os produtos</Link>
           <a href="/">Roupas</a>
           <a href="/">Compra Segura</a>
           <a href="/">Contato</a>

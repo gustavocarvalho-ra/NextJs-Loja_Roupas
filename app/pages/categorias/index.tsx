@@ -1,10 +1,7 @@
 "use client"
 
-import pro from "../../data/pro.json"
 import Header from "@/app/components/Header"
-import Menu from "../../components/Menu";
 
-import Image from "next/image";
 import Link from "next/link";
 import { Cate } from "./styles";
 
