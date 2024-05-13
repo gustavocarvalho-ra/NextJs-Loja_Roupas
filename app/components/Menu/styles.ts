@@ -9,11 +9,13 @@ export const Mn = styled.div `
   .menu {
     margin-top: 1.5em;
     width: 100%;
-    height: 200px;
-    gap: 2em;
+    height: 300px;
+    gap: 1em;
     box-shadow: 4px 3px 5px #d3d3d3;
     background-color: #f0f4f5;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
 
     h1 {
       font-size: 22px;
