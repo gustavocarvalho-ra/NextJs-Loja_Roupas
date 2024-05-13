@@ -8,7 +8,7 @@ export default function Menu() {
     <Mn>
       <div className="menu">
         <h1 style={{display: "flex", justifyContent: "center"}}>Menu Principal</h1>
-        <Link href={"/all"}>Todos os Produtos</Link>
+        <Link href={"../pages/all"}>Todos os Produtos</Link>
       </div>
     </Mn>
   )

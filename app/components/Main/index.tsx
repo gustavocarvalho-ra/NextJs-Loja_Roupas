@@ -19,9 +19,7 @@ export default function Main() {
           <a href="">Óculos</a>
           <a href="">Bags</a>
         </div>
-
       </div>
     </Man>
-
   )
 }
