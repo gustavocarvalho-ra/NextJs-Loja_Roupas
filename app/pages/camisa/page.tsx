@@ -1,12 +1,11 @@
 "use client"
 
-import { Jaq } from "./styles";
-
-import pro from "../data/pro.json"
+import pro from "../../data/pro.json"
 import Header from "@/app/components/Header"
-import Menu from "../components/Menu";
+import Menu from "../../components/Menu";
 
 import Image from "next/image";
+import { Cam } from "./style";
 
 
 export default function Test () {
@@ -16,20 +15,20 @@ export default function Test () {
     <>
       <Header/>
       
-      <Jaq>
+      <Cam>
         <Menu/>
         
         <div className="cards">
           <div style={{width: "100%", height: "50px", marginBottom: "1em"}}>
-            <h1 className="ti">Jaquetas</h1>
+            <h1 className="ti">Camisas</h1>
           </div>
 
           {produtos
-          .filter(item => item.type === "jaqueta")
+          .filter(item => item.type === "camisa")
           .map(item => (
             // eslint-disable-next-line react/jsx-key
             <div className="card">
-              <Image src={item.photo} alt="test" width={180} height={210} style={{backgroundSize: "auto", borderRadius: "8px"}}/>
+              <Image className="ft" src={item.photo} alt="test" width={180} height={210} style={{ borderRadius: "8px"}}/>
               <div className="info">
                 <h1 key={item.name}>{item.name}</h1>
                 <p key={item.price}>{item.price}</p>
@@ -37,7 +36,7 @@ export default function Test () {
             </div>
           ))}
         </div>
-      </Jaq>
+      </Cam>
     </>
   )
 }
