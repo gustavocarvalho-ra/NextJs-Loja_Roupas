@@ -56,5 +56,8 @@ export const Man = styled.div `
     .cami {
       background-image: url("/assets/camisaAnmask.jpeg");
     }
+    .tes {
+      
+    }
   }
 `
