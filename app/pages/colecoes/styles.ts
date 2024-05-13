@@ -37,7 +37,7 @@ export const Cate = styled.div `
         text-transform: uppercase;
         border: 1.5px solid var(--prim);
         transition: 1s;
-        background-image: url("./assets/calcaCargoSimples.jpeg");
+        /* background-image: url("./assets/calcaCargoSimples.jpeg"); */
         background-position: center;
         background-size: cover;
 

@@ -42,7 +42,7 @@ export default function Header() {
 
         <div className="nav">
           <Link href={"/pages/all"}>Todos os produtos</Link>
-          <a href="/">Roupas</a>
+          <Link href={"/pages/colecoes"}>Categorias</Link>
           <a href="/">Compra Segura</a>
           <a href="/">Contato</a>
           <a href="/">Perguntas frequentes</a>
