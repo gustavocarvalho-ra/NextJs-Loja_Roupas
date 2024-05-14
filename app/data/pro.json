@@ -301,16 +301,16 @@
     "id": "44"
   },
   {
-    "name": "Camisa Zero Bug",
-    "price": "R$ 104,30",
-    "photo": "/assets/camisaZeroBug.jpeg",
+    "name": "Tênis HaXa",
+    "price": "R$ 216,30",
+    "photo": "/assets/tenisHaXa.jpeg",
     "type": "tenis",
     "id": "45"
   },
   {
-    "name": "Camisa Zero Bug",
-    "price": "R$ 104,30",
-    "photo": "/assets/camisaZeroBug.jpeg",
+    "name": "Tênis Of Nest",
+    "price": "R$ 231,84",
+    "photo": "/assets/tenisOfNest.jpeg",
     "type": "tenis",
     "id": "46"
   }
