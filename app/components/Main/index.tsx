@@ -12,8 +12,8 @@ export default function Main() {
           <Link className="clas" href="/pages/jaquetas">Jaquetas</Link>
           <Link className="cami" href="/pages/camisa">Camisetas</Link>
           <Link className="cas" href="/pages/calcas">Calças</Link>
-          <Link className="tes" href="/pages/tenis"></Link>
-          <a href="">Bonés e toucas</a>
+          <Link className="tes" href="/pages/tenis">Tênis</Link>
+          <Link className="bon" href="/pages/bones">Bonés e Buckets</Link>
           <a href="">Meias</a>
           <a href="">Mochilas</a>
           <a href="">Óculos</a>

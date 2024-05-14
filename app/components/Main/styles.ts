@@ -57,7 +57,10 @@ export const Man = styled.div `
       background-image: url("/assets/camisaAnmask.jpeg");
     }
     .tes {
-      background-image: url("/assets/tenisHaXa.jpeg");
+      background-image: url("/assets/tenisEANF.jpeg");
+    }
+    .bon {
+      background-image: url("/assets/tenisEANF.jpeg");
     }
   }
 `
