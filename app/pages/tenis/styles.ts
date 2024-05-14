@@ -22,7 +22,7 @@ export const Car = styled.div `
 
   .card {
     width: 210px;
-    height: 300px;
+    height: 280px;
     display: flex;
     align-items: center;
     flex-direction: column;
