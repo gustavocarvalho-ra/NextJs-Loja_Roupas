@@ -322,51 +322,51 @@
     "id": "47"
   },
   {
-    "name": "Tênis Of Nest",
-    "price": "R$ 231,84",
-    "photo": "/assets/",
+    "name": "Bucket Cat",
+    "price": "R$ 162,84",
+    "photo": "/assets/bucketCat.jpeg",
     "type": "bone",
     "id": "48"
   },
   {
-    "name": "Tênis Of Nest",
-    "price": "R$ 231,84",
-    "photo": "/assets/",
+    "name": "Boné Face",
+    "price": "R$ 97,26",
+    "photo": "/assets/boneFace.jpeg",
     "type": "bone",
     "id": "49"
   },
   {
-    "name": "Tênis Of Nest",
-    "price": "R$ 231,84",
-    "photo": "/assets/",
+    "name": "Boné Demon",
+    "price": "R$ 142,20",
+    "photo": "/assets/boneDemon.jpeg",
     "type": "bone",
     "id": "50"
   },
   {
-    "name": "Tênis Of Nest",
-    "price": "R$ 231,84",
-    "photo": "/assets/",
+    "name": "Bucket SF",
+    "price": "R$ 113,50",
+    "photo": "/assets/bucketSF.jpeg",
     "type": "bone",
     "id": "51"
   },
   {
-    "name": "Tênis Of Nest",
-    "price": "R$ 231,84",
-    "photo": "/assets/",
+    "name": "Bucket Ocean",
+    "price": "R$ 129,99",
+    "photo": "/assets/bucketOcean.jpeg",
     "type": "bone",
     "id": "52"
   },
   {
-    "name": "Tênis Of Nest",
-    "price": "R$ 231,84",
-    "photo": "/assets/",
+    "name": "Bucket Dragon",
+    "price": "R$ 123,44",
+    "photo": "/assets/bucketDragon.jpeg",
     "type": "bone",
     "id": "53"
   },
   {
-    "name": "Tênis Of Nest",
-    "price": "R$ 231,84",
-    "photo": "/assets/",
+    "name": "Boné AR",
+    "price": "R$ 130,84",
+    "photo": "/assets/boneAR.jpeg",
     "type": "bone",
     "id": "54"
   }
