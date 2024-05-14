@@ -13,6 +13,7 @@ export default function Menu() {
         <Link href={"../pages/camisa"}>Camisetas</Link>
         <Link href={"../pages/calcas"}>Calças</Link>
         <Link href={"../pages/tenis"}>Tênis</Link>
+        <Link href={"../pages/bones"}>Bonés e Buckets</Link>
       </div>
     </Mn>
   )
