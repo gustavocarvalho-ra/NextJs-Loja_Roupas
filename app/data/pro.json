@@ -264,5 +264,54 @@
     "photo": "/assets/camisaZeroBug.jpeg",
     "type": "camisa",
     "id": "39"
+  },
+  {
+    "name": "Camisa Zero Bug",
+    "price": "R$ 104,30",
+    "photo": "/assets/camisaZeroBug.jpeg",
+    "type": "tenis",
+    "id": "40"
+  },
+  {
+    "name": "Camisa Zero Bug",
+    "price": "R$ 104,30",
+    "photo": "/assets/camisaZeroBug.jpeg",
+    "type": "tenis",
+    "id": "41"
+  },
+  {
+    "name": "Camisa Zero Bug",
+    "price": "R$ 104,30",
+    "photo": "/assets/camisaZeroBug.jpeg",
+    "type": "tenis",
+    "id": "42"
+  },
+  {
+    "name": "Camisa Zero Bug",
+    "price": "R$ 104,30",
+    "photo": "/assets/camisaZeroBug.jpeg",
+    "type": "tenis",
+    "id": "43"
+  },
+  {
+    "name": "Camisa Zero Bug",
+    "price": "R$ 104,30",
+    "photo": "/assets/camisaZeroBug.jpeg",
+    "type": "tenis",
+    "id": "44"
+  },
+  {
+    "name": "Camisa Zero Bug",
+    "price": "R$ 104,30",
+    "photo": "/assets/camisaZeroBug.jpeg",
+    "type": "tenis",
+    "id": "45"
+  },
+  {
+    "name": "Camisa Zero Bug",
+    "price": "R$ 104,30",
+    "photo": "/assets/camisaZeroBug.jpeg",
+    "type": "tenis",
+    "id": "46"
   }
 ]
