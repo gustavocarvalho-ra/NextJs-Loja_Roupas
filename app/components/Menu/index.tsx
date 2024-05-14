@@ -14,6 +14,7 @@ export default function Menu() {
         <Link href={"../pages/calcas"}>Calças</Link>
         <Link href={"../pages/tenis"}>Tênis</Link>
         <Link href={"../pages/bones"}>Bonés e Buckets</Link>
+        <Link href={"../pages/meias"}>Meias</Link>
       </div>
     </Mn>
   )
