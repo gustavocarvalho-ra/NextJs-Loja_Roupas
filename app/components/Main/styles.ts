@@ -8,6 +8,7 @@ export const Man = styled.div `
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    background: #e0e1ff;
 
     h1 {
       margin-top: 25px;
