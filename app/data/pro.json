@@ -452,55 +452,55 @@
     "price": "R$ 98,99",
     "photo": "/assets/bagSM57.jpeg",
     "type": "bag",
-    "id": "6"
+    "id": "66"
   },
   {
-    "name": "Bag ",
-    "price": "R$ 98,99",
-    "photo": "/assets/meiasVisitA.jpeg",
+    "name": "Bag Techwear",
+    "price": "R$ 129,59",
+    "photo": "/assets/bagTechwear.jpeg",
     "type": "bag",
-    "id": "6"
+    "id": "67"
   },
   {
-    "name": "Bag ",
-    "price": "R$ 98,99",
-    "photo": "/assets/meiasVisitA.jpeg",
+    "name": "Bag Crossbody Y",
+    "price": "R$ 109,29",
+    "photo": "/assets/bagCrossbodyY.jpeg",
     "type": "bag",
-    "id": "6"
+    "id": "68"
   },
   {
-    "name": "Bag ",
-    "price": "R$ 98,99",
-    "photo": "/assets/meiasVisitA.jpeg",
+    "name": "Bag Sun BG",
+    "price": "R$ 137,99",
+    "photo": "/assets/bagSunBG.jpeg",
     "type": "bag",
-    "id": "6"
+    "id": "69"
   },
   {
-    "name": "Bag ",
-    "price": "R$ 98,99",
-    "photo": "/assets/meiasVisitA.jpeg",
+    "name": "Bag Rucksack",
+    "price": "R$ 97,30",
+    "photo": "/assets/bagRucksack.jpeg",
     "type": "bag",
-    "id": "6"
+    "id": "70"
   },
   {
-    "name": "Bag ",
-    "price": "R$ 98,99",
-    "photo": "/assets/meiasVisitA.jpeg",
+    "name": "Bag Hang Loose Un",
+    "price": "R$ 111,99",
+    "photo": "/assets/bagHangLooseUn.jpeg",
     "type": "bag",
-    "id": "6"
+    "id": "71"
   },
   {
-    "name": "Bag ",
-    "price": "R$ 98,99",
-    "photo": "/assets/meiasVisitA.jpeg",
+    "name": "Bag Rudder Verde",
+    "price": "R$ 99,99",
+    "photo": "/assets/bagRudderVerde.jpeg",
     "type": "bag",
-    "id": "6"
+    "id": "72"
   },
   {
-    "name": "Bag ",
-    "price": "R$ 98,99",
-    "photo": "/assets/meiasVisitA.jpeg",
+    "name": "Bag Impermeavel HAO",
+    "price": "R$ 138,49",
+    "photo": "/assets/bagImpermeavelHAO.jpeg",
     "type": "bag",
-    "id": "6"
-  },
+    "id": "73"
+  }
 ]

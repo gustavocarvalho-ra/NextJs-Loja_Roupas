@@ -21,11 +21,11 @@ export default function Test () {
         
         <div className="cards">
           <div style={{width: "100%", height: "50px", marginBottom: "1em"}}>
-            <h1 className="ti">Calças</h1>
+            <h1 className="ti">Bags</h1>
           </div>
 
           {produtos
-          .filter(item => item.type === "calça")
+          .filter(item => item.type === "bag")
           .map(item => (
             // eslint-disable-next-line react/jsx-key
             <div className="card">
