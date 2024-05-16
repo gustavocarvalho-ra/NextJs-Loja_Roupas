@@ -17,7 +17,7 @@ export default function Main() {
           <Link className="mei" href="/pages/meias">Meias</Link>
           <a href="">Mochilas</a>
           <a href="">Óculos</a>
-          <Link className="mei" href="/pages/meias">Meias</Link><a href="">Bags</a>
+          <Link className="bag" href="/pages/bags">Bags</Link>
         </div>
       </div>
     </Man>
