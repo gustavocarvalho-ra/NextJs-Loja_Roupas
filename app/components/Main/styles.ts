@@ -63,5 +63,8 @@ export const Man = styled.div `
     .bon {
       background-image: url("/assets/boneStreetWR.jpeg");
     }
+    .mei {
+      background-image: url("/assets/meiasFirePtt.jpeg");
+    }
   }
 `
