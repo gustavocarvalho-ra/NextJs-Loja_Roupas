@@ -427,23 +427,23 @@
     "id": "62"
   },
   {
-    "name": "",
-    "price": "R$ 130,84",
-    "photo": "/assets/boneAR.jpeg",
+    "name": "Meias ZapW",
+    "price": "R$ 26,20",
+    "photo": "/assets/meiasZapW.jpeg",
     "type": "meia",
     "id": "63"
   },
   {
-    "name": "",
-    "price": "R$ 130,84",
-    "photo": "/assets/boneAR.jpeg",
+    "name": "Meias fire Ptt",
+    "price": "R$ 33,99",
+    "photo": "/assets/meiasFirePtt.jpeg",
     "type": "meia",
     "id": "64"
   },
   {
-    "name": "",
-    "price": "R$ 130,84",
-    "photo": "/assets/boneAR.jpeg",
+    "name": "Meias Visit A",
+    "price": "R$ 25,99",
+    "photo": "/assets/meiasVisitA.jpeg",
     "type": "meia",
     "id": "65"
   }
