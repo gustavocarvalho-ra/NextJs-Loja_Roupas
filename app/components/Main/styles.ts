@@ -67,7 +67,7 @@ export const Man = styled.div `
       background-image: url("/assets/meiasFirePtt.jpeg");
     }
     .bag {
-      background-image: url("/assets/meiasFirePtt.jpeg");
+      background-image: url("/assets/bagSunBG.jpeg");
     }
   }
 `
