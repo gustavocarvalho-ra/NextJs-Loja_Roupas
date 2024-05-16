@@ -446,5 +446,61 @@
     "photo": "/assets/meiasVisitA.jpeg",
     "type": "meia",
     "id": "65"
-  }
+  },
+  {
+    "name": "Bag SM-57",
+    "price": "R$ 98,99",
+    "photo": "/assets/bagSM57.jpeg",
+    "type": "bag",
+    "id": "6"
+  },
+  {
+    "name": "Bag ",
+    "price": "R$ 98,99",
+    "photo": "/assets/meiasVisitA.jpeg",
+    "type": "bag",
+    "id": "6"
+  },
+  {
+    "name": "Bag ",
+    "price": "R$ 98,99",
+    "photo": "/assets/meiasVisitA.jpeg",
+    "type": "bag",
+    "id": "6"
+  },
+  {
+    "name": "Bag ",
+    "price": "R$ 98,99",
+    "photo": "/assets/meiasVisitA.jpeg",
+    "type": "bag",
+    "id": "6"
+  },
+  {
+    "name": "Bag ",
+    "price": "R$ 98,99",
+    "photo": "/assets/meiasVisitA.jpeg",
+    "type": "bag",
+    "id": "6"
+  },
+  {
+    "name": "Bag ",
+    "price": "R$ 98,99",
+    "photo": "/assets/meiasVisitA.jpeg",
+    "type": "bag",
+    "id": "6"
+  },
+  {
+    "name": "Bag ",
+    "price": "R$ 98,99",
+    "photo": "/assets/meiasVisitA.jpeg",
+    "type": "bag",
+    "id": "6"
+  },
+  {
+    "name": "Bag ",
+    "price": "R$ 98,99",
+    "photo": "/assets/meiasVisitA.jpeg",
+    "type": "bag",
+    "id": "6"
+  },
 ]
