@@ -35,7 +35,7 @@ export default function Test () {
             <div className="card">
                 <button className="btd">25% off</button>
               <div className="ft">
-                <Image src={item.photo}  alt="test" sizes="100vh" width={180} height={210} style={{borderRadius: "8px"}}/>
+                <Image src={item.photo}  alt="test" sizes="100vh" width={180} height={210} style={{borderRadius: "8px", marginTop: "4px"}}/>
               </div>
               <div className="info">
                 <h1 key={item.name}>{item.name}</h1>
