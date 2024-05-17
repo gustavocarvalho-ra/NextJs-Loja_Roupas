@@ -15,7 +15,7 @@ export default function Main() {
           <Link className="tes" href="/pages/tenis">Tênis</Link>
           <Link className="bon" href="/pages/bones">Bonés e Buckets</Link>
           <Link className="mei" href="/pages/meias">Meias</Link>
-          <a href="">Mochilas</a>
+          <Link className="moc" href="/pages/mochilas">Mochilas</Link>
           <a href="">Óculos</a>
           <Link className="bag" href="/pages/bags">Bags</Link>
         </div>
