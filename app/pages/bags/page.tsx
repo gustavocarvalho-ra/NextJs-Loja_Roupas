@@ -6,11 +6,18 @@ import pro from "../../data/pro.json"
 import Header from "@/app/components/Header"
 import Menu from "../../components/Menu";
 
-import Image from "next/image";
+import { products } from "@/app/types/products";
 
+import Image from "next/image";
 
 export default function Test () {
   let produtos = [...pro];
+  let products = produtos
+
+  // const porcent = porcent(20, 100)
+  // const porcentagem = (30. ...price) => {
+  //   return (30 / ...price) * 100;
+  // }
 
   return (
     <>
@@ -34,7 +41,8 @@ export default function Test () {
               </div>
               <div className="info">
                 <h1 key={item.name}>{item.name}</h1>
-                <p key={item.price}>{item.price}</p>
+                <p key={item.price}>R$ {item.price}</p>
+                <span key={item.price}>{Math.pow(item.des, item.price)}</span>
               </div>
             </div>
           ))}
