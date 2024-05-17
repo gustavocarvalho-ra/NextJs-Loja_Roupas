@@ -65,7 +65,7 @@
   {
     "name": "Calça Jogger As",
     "price": 200.49,
-    "photo": "/assets/calcaJoggedes.jpeg",
+    "photo": "/assets/calcaJoggerAs.jpeg",
     "type": "calça",
     "id": 8,
     "des": 25
@@ -290,7 +290,7 @@
   },
   {
     "name": "camisa GrafiK",
-    "price": 98.50,
+    "price": 98.59,
     "photo": "/assets/camisaGrafik.jpeg",
     "type": "camisa",
     "id": 37,
@@ -298,7 +298,7 @@
   },
   {
     "name": "Camisa YinD",
-    "price": 94.20,
+    "price": 94.28,
     "photo": "/assets/camisaYinD.jpeg",
     "type": "camisa",
     "id": 38,
@@ -306,7 +306,7 @@
   },
   {
     "name": "Camisa Zero Bug",
-    "price": 104.30,
+    "price": 104.33,
     "photo": "/assets/camisaZeroBug.jpeg",
     "type": "camisa",
     "id": 39,
@@ -314,7 +314,7 @@
   },
   {
     "name": "Tênis 006",
-    "price": 187.30,
+    "price": 187.39,
     "photo": "/assets/tenis006.jpeg",
     "type": "tenis",
     "id": 40,
@@ -354,7 +354,7 @@
   },
   {
     "name": "Tênis HaXa",
-    "price": 216.30,
+    "price": 216.35,
     "photo": "/assets/tenisHaXa.jpeg",
     "type": "tenis",
     "id": 45,
@@ -394,7 +394,7 @@
   },
   {
     "name": "Boné Demon",
-    "price": 142.20,
+    "price": 142.23,
     "photo": "/assets/boneDemon.jpeg",
     "type": "bone",
     "id": 50,
@@ -402,7 +402,7 @@
   },
   {
     "name": "Bucket SF",
-    "price": 113.50,
+    "price": 113.58,
     "photo": "/assets/bucketSF.jpeg",
     "type": "bone",
     "id": 51,
@@ -442,7 +442,7 @@
   },
   {
     "name": "Meias of Parth",
-    "price": 32.50,
+    "price": 32.52,
     "photo": "/assets/meiasParth.jpeg",
     "type": "meia",
     "id": 56,
@@ -450,7 +450,7 @@
   },
   {
     "name": "Meias Error",
-    "price": 28.80,
+    "price": 28.89,
     "photo": "/assets/meiasError.jpeg",
     "type": "meia",
     "id": 57,
@@ -554,7 +554,7 @@
   },
   {
     "name": "Bag Rucksack",
-    "price": 97.30,
+    "price": 97.37,
     "photo": "/assets/bagRucksack.jpeg",
     "type": "bag",
     "id": 70,
