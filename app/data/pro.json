@@ -266,7 +266,7 @@
   },
   {
     "name": "Camisa Dream",
-    "price": "R$ 86,28",
+    "price": 86.28,
     "photo": "/assets/camisaDream.jpeg",
     "type": "camisa",
     "id": 34,
@@ -274,7 +274,7 @@
   },
   {
     "name": "Camisa Equilibrium",
-    "price": "R$ 104,98",
+    "price": 104.98,
     "photo": "/assets/camisaEquilibrium.jpeg",
     "type": "camisa",
     "id": 35,
@@ -282,7 +282,7 @@
   },
   {
     "name": "Camisa Faceless",
-    "price": "R$ 105,42",
+    "price": 105.42,
     "photo": "/assets/camisaFaceless.jpeg",
     "type": "camisa",
     "id": 36,
@@ -290,7 +290,7 @@
   },
   {
     "name": "camisa GrafiK",
-    "price": "R$ 98,50",
+    "price": 98.50,
     "photo": "/assets/camisaGrafik.jpeg",
     "type": "camisa",
     "id": 37,
@@ -298,7 +298,7 @@
   },
   {
     "name": "Camisa YinD",
-    "price": "R$ 94,20",
+    "price": 94.20,
     "photo": "/assets/camisaYinD.jpeg",
     "type": "camisa",
     "id": 38,
@@ -306,7 +306,7 @@
   },
   {
     "name": "Camisa Zero Bug",
-    "price": "R$ 104,30",
+    "price": 104.30,
     "photo": "/assets/camisaZeroBug.jpeg",
     "type": "camisa",
     "id": 39,
@@ -314,7 +314,7 @@
   },
   {
     "name": "Tênis 006",
-    "price": "R$ 187,30",
+    "price": 187.30,
     "photo": "/assets/tenis006.jpeg",
     "type": "tenis",
     "id": 40,
@@ -322,7 +322,7 @@
   },
   {
     "name": "Tênis BL",
-    "price": "R$ 268,65",
+    "price": 268.65,
     "photo": "/assets/tenisBl.jpeg",
     "type": "tenis",
     "id": 41,
@@ -330,7 +330,7 @@
   },
   {
     "name": "Tênis EANF",
-    "price": "R$ 206,99",
+    "price": 206.99,
     "photo": "/assets/tenisEANF.jpeg",
     "type": "tenis",
     "id": 42,
@@ -338,7 +338,7 @@
   },
   {
     "name": "Tênis FS",
-    "price": "R$ 198,54",
+    "price": 198.54,
     "photo": "/assets/tenisForSkate.jpeg",
     "type": "tenis",
     "id": 43,
@@ -346,7 +346,7 @@
   },
   {
     "name": "Tênis White Off.jpeg",
-    "price": "R$ 248,51",
+    "price": 248.51,
     "photo": "/assets/tenisWhiteOff.jpeg",
     "type": "tenis",
     "id": 44,
@@ -354,7 +354,7 @@
   },
   {
     "name": "Tênis HaXa",
-    "price": "R$ 216,30",
+    "price": 216.30,
     "photo": "/assets/tenisHaXa.jpeg",
     "type": "tenis",
     "id": 45,
@@ -362,7 +362,7 @@
   },
   {
     "name": "Tênis Of Nest",
-    "price": "R$ 231,84",
+    "price": 231.84,
     "photo": "/assets/tenisOfNest.jpeg",
     "type": "tenis",
     "id": 46,
@@ -370,7 +370,7 @@
   },
   {
     "name": "Boné Street WR",
-    "price": "R$ 120,54",
+    "price": 120.54,
     "photo": "/assets/boneStreetWR.jpeg",
     "type": "bone",
     "id": 47,
@@ -378,7 +378,7 @@
   },
   {
     "name": "Bucket Cat",
-    "price": "R$ 162,84",
+    "price": 162.84,
     "photo": "/assets/bucketCat.jpeg",
     "type": "bone",
     "id": 48,
@@ -386,7 +386,7 @@
   },
   {
     "name": "Boné Face",
-    "price": "R$ 97,26",
+    "price": 97.26,
     "photo": "/assets/boneFace.jpeg",
     "type": "bone",
     "id": 49,
@@ -394,7 +394,7 @@
   },
   {
     "name": "Boné Demon",
-    "price": "R$ 142,20",
+    "price": 142.20,
     "photo": "/assets/boneDemon.jpeg",
     "type": "bone",
     "id": 50,
@@ -402,7 +402,7 @@
   },
   {
     "name": "Bucket SF",
-    "price": "R$ 113,50",
+    "price": 113.50,
     "photo": "/assets/bucketSF.jpeg",
     "type": "bone",
     "id": 51,
@@ -410,7 +410,7 @@
   },
   {
     "name": "Bucket Ocean",
-    "price": "R$ 129,99",
+    "price": 129.99,
     "photo": "/assets/bucketOcean.jpeg",
     "type": "bone",
     "id": 52,
@@ -418,7 +418,7 @@
   },
   {
     "name": "Bucket Dragon",
-    "price": "R$ 123,44",
+    "price": 123.44,
     "photo": "/assets/bucketDragon.jpeg",
     "type": "bone",
     "id": 53,
@@ -426,7 +426,7 @@
   },
   {
     "name": "Boné AR",
-    "price": "R$ 130,84",
+    "price": 130.84,
     "photo": "/assets/boneAR.jpeg",
     "type": "bone",
     "id": 54,
@@ -434,7 +434,7 @@
   },
   {
     "name": "Meias Butterfly Sk",
-    "price": "R$ 30,84",
+    "price": 30.49,
     "photo": "/assets/meiasButterflySk.jpeg",
     "type": "meia",
     "id": 55,
@@ -442,7 +442,7 @@
   },
   {
     "name": "Meias of Parth",
-    "price": "R$ 32,50",
+    "price": 32.50,
     "photo": "/assets/meiasParth.jpeg",
     "type": "meia",
     "id": 56,
@@ -450,7 +450,7 @@
   },
   {
     "name": "Meias Error",
-    "price": "R$ 28,80",
+    "price": 28.80,
     "photo": "/assets/meiasError.jpeg",
     "type": "meia",
     "id": 57,
@@ -458,7 +458,7 @@
   },
   {
     "name": "Meias Sk",
-    "price": "R$ 26,99",
+    "price": 26.99,
     "photo": "/assets/meiasSk.jpeg",
     "type": "meia",
     "id": 58,
@@ -466,7 +466,7 @@
   },
   {
     "name": "Meias Star",
-    "price": "R$ 31,28",
+    "price": 31.28,
     "photo": "/assets/meiasStar.jpeg",
     "type": "meia",
     "id": 59,
@@ -474,7 +474,7 @@
   },
   {
     "name": "Meias Smile",
-    "price": "R$ 32,85",
+    "price": 32.85,
     "photo": "/assets/meiasSmileD.jpeg",
     "type": "meia",
     "id": 60,
@@ -482,7 +482,7 @@
   },
   {
     "name": "Meias Dragon",
-    "price": "R$ 27,65",
+    "price": 27.65,
     "photo": "/assets/meiasDragon.jpeg",
     "type": "meia",
     "id": 61,
@@ -490,7 +490,7 @@
   },
   {
     "name": "Meias X)",
-    "price": "R$ 33,99",
+    "price": 33.99,
     "photo": "/assets/meiasX).jpeg",
     "type": "meia",
     "id": 62,
@@ -498,7 +498,7 @@
   },
   {
     "name": "Meias ZapW",
-    "price": "R$ 26,20",
+    "price": 26.20,
     "photo": "/assets/meiasZapW.jpeg",
     "type": "meia",
     "id": 63,
@@ -506,7 +506,7 @@
   },
   {
     "name": "Meias fire Ptt",
-    "price": "R$ 33,99",
+    "price": 33.99,
     "photo": "/assets/meiasFirePtt.jpeg",
     "type": "meia",
     "id": 64,
@@ -514,7 +514,7 @@
   },
   {
     "name": "Meias Visit A",
-    "price": "R$ 25,99",
+    "price": 25.99,
     "photo": "/assets/meiasVisitA.jpeg",
     "type": "meia",
     "id": 65,
@@ -522,7 +522,7 @@
   },
   {
     "name": "Bag SM-57",
-    "price": "R$ 98,99",
+    "price": 98.99,
     "photo": "/assets/bagSM57.jpeg",
     "type": "bag",
     "id": 66,
@@ -530,7 +530,7 @@
   },
   {
     "name": "Bag Techwear",
-    "price": "R$ 129,59",
+    "price": 129.59,
     "photo": "/assets/bagTechwear.jpeg",
     "type": "bag",
     "id": 67,
@@ -538,7 +538,7 @@
   },
   {
     "name": "Bag Crossbody Y",
-    "price": "R$ 109,29",
+    "price": 109.29,
     "photo": "/assets/bagCrossbodyY.jpeg",
     "type": "bag",
     "id": 68,
@@ -546,7 +546,7 @@
   },
   {
     "name": "Bag Sun BG",
-    "price": "R$ 137,99",
+    "price": 137.99,
     "photo": "/assets/bagSunBG.jpeg",
     "type": "bag",
     "id": 69,
@@ -554,7 +554,7 @@
   },
   {
     "name": "Bag Rucksack",
-    "price": "R$ 97,30",
+    "price": 97.30,
     "photo": "/assets/bagRucksack.jpeg",
     "type": "bag",
     "id": 70,
@@ -562,7 +562,7 @@
   },
   {
     "name": "Bag Hang Loose Un",
-    "price": "R$ 111,99",
+    "price": 111.99,
     "photo": "/assets/bagHangLooseUn.jpeg",
     "type": "bag",
     "id": 71,
@@ -570,7 +570,7 @@
   },
   {
     "name": "Bag Rudder Verde",
-    "price": "R$ 99,99",
+    "price": 99.99,
     "photo": "/assets/bagRudderVerde.jpeg",
     "type": "bag",
     "id": 72,
@@ -578,7 +578,7 @@
   },
   {
     "name": "Bag Impermeavel HAO",
-    "price": "R$ 138,49",
+    "price": 138.49,
     "photo": "/assets/bagImpermeavelHAO.jpeg",
     "type": "bag",
     "id": 73,
