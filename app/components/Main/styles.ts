@@ -36,11 +36,13 @@ export const Man = styled.div `
         color: var(--tex);
         text-decoration: none;
         text-transform: uppercase;
-        border: 1.5px solid var(--prim);
+        border: 1.5px solid #9370DB;
         transition: 1s;
         /* background-image: url("./assets/calcaCargoSimples.jpeg"); */
         background-position: center;
         background-size: cover;
+        border-radius: 4px;
+
 
         &:hover {
           scale: 1.02;
@@ -55,7 +57,7 @@ export const Man = styled.div `
       background-image: url("/assets/calcaJoggerRefletiva.jpeg");
     }
     .cami {
-      background-image: url("/assets/camisaAnmask.jpeg");
+      background-image: url("/assets/camisaSave.jpeg");
     }
     .tes {
       background-image: url("/assets/tenisEANF.jpeg");
