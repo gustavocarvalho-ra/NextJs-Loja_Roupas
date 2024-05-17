@@ -623,5 +623,13 @@
     "type": "mochila",
     "id": 78,
     "des": 25
+  },
+  {
+    "name": "Mochila Tokyo R",
+    "price": 215.64,
+    "photo": "/assets/mochilaCargoTechwearV1.jpeg",
+    "type": "mochila",
+    "id": 78,
+    "des": 25
   }
 ]
