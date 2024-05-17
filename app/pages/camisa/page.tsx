@@ -31,7 +31,7 @@ export default function Test () {
               <Image className="ft" src={item.photo} alt="test" width={180} height={210} no-repeat style={{borderRadius: "8px", backgroundPosition: "center", backgroundSize: "cover"}}/>
               <div className="info">
                 <h1 key={item.name}>{item.name}</h1>
-                <p key={item.price}>{item.price}</p>
+                <p key={item.price}>R$ {item.price}</p>
               </div>
             </div>
           ))}

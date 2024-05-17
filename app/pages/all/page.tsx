@@ -30,8 +30,8 @@ export default function Test () {
             <div className="card">
               <Image src={item.photo} alt="test" width={180} height={210} style={{backgroundSize: "cover", borderRadius: "8px"}}/>
               <div className="info">
-                <h1 key={item.id}>{item.name}</h1>
-                <p key={item.id}>{item.price}</p>
+                <h1 key={item.name}>{item.name}</h1>
+                <p key={item.price}>R$ {item.price}</p>
               </div>
             </div>
           ))}
