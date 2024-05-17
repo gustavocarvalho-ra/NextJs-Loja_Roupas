@@ -51,6 +51,8 @@ export const Bag = styled.div `
           font-size: 13px;
           margin-left: 20px;
           text-decoration: line-through;
+          color: grey;
+          font-weight: 600;
         }
         
       }
