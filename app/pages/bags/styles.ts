@@ -52,15 +52,18 @@ export const Bag = styled.div `
           margin-left: 20px;
           text-decoration: line-through;
         }
-        button {
-          font-size: 10px;
-          font-weight: 500;
-          border-width: 0;
-          background: gainsboro;
-          border-radius: 4px;
-        }
+        
       }
     }
+
+    .btd {
+        font-size: 12px;
+        font-weight: 500;
+        border-width: 0;
+        background: gainsboro;
+        border-radius: 4px;
+        margin-left: 9em;
+      }
 
     h1{
       font-size: 14px;
