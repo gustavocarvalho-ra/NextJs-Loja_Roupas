@@ -42,6 +42,24 @@ export const Bag = styled.div `
       width: 90%;
       display: flex;
       flex-direction: column;
+
+      .nis {
+        margin-top: 8px;
+        display: flex;
+
+        span {
+          font-size: 13px;
+          margin-left: 20px;
+          text-decoration: line-through;
+        }
+        button {
+          font-size: 10px;
+          font-weight: 500;
+          border-width: 0;
+          background: gainsboro;
+          border-radius: 4px;
+        }
+      }
     }
 
     h1{

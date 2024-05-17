@@ -14,10 +14,7 @@ export default function Test () {
   let produtos = [...pro];
   let products = produtos
 
-  // const porcent = porcent(20, 100)
-  // const porcentagem = (30. ...price) => {
-  //   return (30 / ...price) * 100;
-  // }
+  // var desconto = produtos.price * .3
 
   return (
     <>
@@ -41,8 +38,11 @@ export default function Test () {
               </div>
               <div className="info">
                 <h1 key={item.name}>{item.name}</h1>
-                <p key={item.price}>R$ {item.price}</p>
-                <span key={item.price}>{Math.pow(item.des, item.price)}</span>
+                <div className="nis" style={{display: "flex"}}>
+                  <p key={item.price}>R$ {item.price}</p>
+                  <span key={item.price}>R$ 200</span>
+                  <button>30% off</button>
+                </div>
               </div>
             </div>
           ))}
@@ -51,3 +51,4 @@ export default function Test () {
     </>
   )
 }
+// {Math.multiply(item.des * .03 , item.price)}
