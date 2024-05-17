@@ -583,5 +583,45 @@
     "type": "bag",
     "id": 73,
     "des": 25
+  },
+  {
+    "name": "Bag Impermeavel HAO",
+    "price": 138.49,
+    "photo": "/assets/bagImpermeavelHAO.jpeg",
+    "type": "mochila",
+    "id": 74,
+    "des": 25
+  },
+  {
+    "name": "Bag Impermeavel HAO",
+    "price": 138.49,
+    "photo": "/assets/bagImpermeavelHAO.jpeg",
+    "type": "mochila",
+    "id": 75,
+    "des": 25
+  },
+  {
+    "name": "Bag Impermeavel HAO",
+    "price": 138.49,
+    "photo": "/assets/bagImpermeavelHAO.jpeg",
+    "type": "mochila",
+    "id": 76,
+    "des": 25
+  },
+  {
+    "name": "Bag Impermeavel HAO",
+    "price": 138.49,
+    "photo": "/assets/bagImpermeavelHAO.jpeg",
+    "type": "mochila",
+    "id": 77,
+    "des": 25
+  },
+  {
+    "name": "Bag Impermeavel HAO",
+    "price": 138.49,
+    "photo": "/assets/bagImpermeavelHAO.jpeg",
+    "type": "mochila",
+    "id": 78,
+    "des": 25
   }
 ]
