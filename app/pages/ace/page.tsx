@@ -24,7 +24,7 @@ export default function Test () {
           </div>
 
           {produtos
-          .sort(() => Math.random() - 0.5)
+          .filter(item => item.type === "acessorio")
           .map(item => (
             // eslint-disable-next-line react/jsx-key
             <div className="card">
