@@ -74,5 +74,8 @@ export const Man = styled.div `
     .bag {
       background-image: url("/assets/bagSunBG.jpeg");
     }
+    .ace {
+      background-image: url("/assets/mascaraX.jpeg");
+    }
   }
 `
