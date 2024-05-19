@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Man = styled.div `
   .section {
     width: 100%;
-    height: 120vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,7 +11,7 @@ export const Man = styled.div `
     background: #e0e1ff;
 
     h1 {
-      margin-top: 25px;
+      margin-top: 45px;
       font-size: 26px;
       font-weight: 450;
       text-transform: uppercase;

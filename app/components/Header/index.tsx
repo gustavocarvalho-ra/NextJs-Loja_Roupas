@@ -49,6 +49,9 @@ export default function Header() {
         </div>
       </div>
       <hr className="hrB"/>
+      <div className="na" style={{background: "red"}}>
+        <h1>TODOS OS ITENS COM 20% DE DESCONTO!!!</h1>
+      </div>
     </A>
   )
 }

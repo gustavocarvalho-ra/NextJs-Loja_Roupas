@@ -150,4 +150,12 @@ export const A = styled.div `
       }
     }
   }
+  .na {
+    z-index: 100;
+    width: 100%;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    color: #7910e8;
+  }
 `
