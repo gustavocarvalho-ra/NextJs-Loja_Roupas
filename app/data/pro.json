@@ -631,5 +631,61 @@
     "type": "mochila",
     "id": 79,
     "des": 0.25
+  },
+  {
+    "name": "",
+    "price": 215.64,
+    "photo": "/assets/mochilaCargoTechwearV1.jpeg",
+    "type": "acessorio",
+    "id": 80,
+    "des": 0.25
+  },
+  {
+    "name": "",
+    "price": 215.64,
+    "photo": "/assets/mochilaCargoTechwearV1.jpeg",
+    "type": "acessorio",
+    "id": 80,
+    "des": 0.25
+  },
+  {
+    "name": "",
+    "price": 215.64,
+    "photo": "/assets/mochilaCargoTechwearV1.jpeg",
+    "type": "acessorio",
+    "id": 80,
+    "des": 0.25
+  },
+  {
+    "name": "",
+    "price": 215.64,
+    "photo": "/assets/mochilaCargoTechwearV1.jpeg",
+    "type": "acessorio",
+    "id": 80,
+    "des": 0.25
+  },
+  {
+    "name": "",
+    "price": 215.64,
+    "photo": "/assets/mochilaCargoTechwearV1.jpeg",
+    "type": "acessorio",
+    "id": 80,
+    "des": 0.25
+  },
+  {
+    "name": "",
+    "price": 215.64,
+    "photo": "/assets/mochilaCargoTechwearV1.jpeg",
+    "type": "acessorio",
+    "id": 80,
+    "des": 0.25
+  },
+  {
+    "name": "",
+    "price": 215.64,
+    "photo": "/assets/mochilaCargoTechwearV1.jpeg",
+    "type": "acessorio",
+    "id": 80,
+    "des": 0.25
   }
 ]
