@@ -9,7 +9,7 @@ export const Mn = styled.div `
   .menu {
     margin-top: 1.5em;
     width: 100%;
-    height: 420px;
+    height: 435px;
     gap: 1em;
     box-shadow: 4px 3px 5px #d3d3d3;
     background-color: #f0f4f5;
