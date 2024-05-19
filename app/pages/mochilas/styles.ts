@@ -34,7 +34,7 @@ export const Moc = styled.div `
 
     &:hover {
       scale: 1.01;
-      box-shadow: 6px 8px 8px 0px #1a0f27
+      box-shadow: 6px 8px 8px 0px #1a0f27;
     }
 
     .info {
@@ -55,7 +55,6 @@ export const Moc = styled.div `
           font-weight: 600;
           
         }
-        
       }
     }
 
