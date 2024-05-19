@@ -625,67 +625,59 @@
     "des": 0.25
   },
   {
-    "name": "Mochila Tokyo R",
-    "price": 215.64,
-    "photo": "/assets/mochilaCargoTechwearV1.jpeg",
-    "type": "mochila",
+    "name": "Tiara Demon",
+    "price": 86.99,
+    "photo": "/assets/tiaraDemon.jpeg",
+    "type": "acessorio",
     "id": 79,
     "des": 0.25
   },
   {
-    "name": "",
-    "price": 215.64,
-    "photo": "/assets/mochilaCargoTechwearV1.jpeg",
+    "name": "Óculos Cyber",
+    "price": 67.99,
+    "photo": "/assets/oculosCyber.jpeg",
     "type": "acessorio",
     "id": 80,
     "des": 0.25
   },
   {
-    "name": "",
-    "price": 215.64,
-    "photo": "/assets/mochilaCargoTechwearV1.jpeg",
+    "name": "Colar Remnant Tech",
+    "price": 42.64,
+    "photo": "/assets/colarRemnantTech.jpeg",
     "type": "acessorio",
-    "id": 80,
+    "id": 81,
     "des": 0.25
   },
   {
-    "name": "",
-    "price": 215.64,
-    "photo": "/assets/mochilaCargoTechwearV1.jpeg",
+    "name": "Máscara DG Led",
+    "price": 95.94,
+    "photo": "/assets/mascaraDGLed.jpeg",
     "type": "acessorio",
-    "id": 80,
+    "id": 82,
     "des": 0.25
   },
   {
-    "name": "",
-    "price": 215.64,
-    "photo": "/assets/mochilaCargoTechwearV1.jpeg",
+    "name": "Máscara X",
+    "price": 99.86,
+    "photo": "/assets/mascaraX.jpeg",
     "type": "acessorio",
-    "id": 80,
+    "id": 83,
     "des": 0.25
   },
   {
-    "name": "",
-    "price": 215.64,
-    "photo": "/assets/mochilaCargoTechwearV1.jpeg",
+    "name": "Óculos Led",
+    "price": 76.25,
+    "photo": "/assets/oculosLed.jpeg",
     "type": "acessorio",
-    "id": 80,
+    "id": 84,
     "des": 0.25
   },
   {
-    "name": "",
-    "price": 215.64,
-    "photo": "/assets/mochilaCargoTechwearV1.jpeg",
+    "name": "Pulsera Wolf",
+    "price": 37.99,
+    "photo": "/assets/pulseraWolf.jpeg",
     "type": "acessorio",
-    "id": 80,
-    "des": 0.25
-  },
-  {
-    "name": "",
-    "price": 215.64,
-    "photo": "/assets/mochilaCargoTechwearV1.jpeg",
-    "type": "acessorio",
-    "id": 80,
+    "id": 85,
     "des": 0.25
   }
 ]
