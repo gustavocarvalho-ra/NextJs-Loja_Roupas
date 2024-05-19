@@ -53,6 +53,7 @@ export const Moc = styled.div `
           text-decoration: line-through;
           color: grey;
           font-weight: 600;
+          
         }
         
       }
@@ -79,4 +80,7 @@ export const Moc = styled.div `
       font-weight: 600;
     }
   }
+  /* #var {
+    number-format: 2;
+  } */
 `

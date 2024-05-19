@@ -42,7 +42,30 @@ export const Al = styled.div `
       width: 90%;
       display: flex;
       flex-direction: column;
+
+      .nis {
+        margin-top: 8px;
+        display: flex;
+
+        span {
+          font-size: 13px;
+          margin-left: 20px;
+          text-decoration: line-through;
+          color: grey;
+          font-weight: 600;
+        }
+        
+      }
     }
+
+    .btd {
+        font-size: 12px;
+        font-weight: 500;
+        border-width: 0;
+        background: gainsboro;
+        border-radius: 4px;
+        margin-left: 9em;
+      }
 
     h1{
       font-size: 14px;
@@ -54,8 +77,6 @@ export const Al = styled.div `
       font-size: 17px;
       color: #00ff00;
       font-weight: 600;
-
     }
-
   }
 `

@@ -33,7 +33,7 @@ export default function Test () {
           .map(item => (
             // eslint-disable-next-line react/jsx-key
             <div className="card">
-                <button className="btd">25% off</button>
+                <button className="btd">20% off</button>
               <div className="ft">
                 <Image src={item.photo}  alt="test" sizes="100vh" width={180} height={210} style={{borderRadius: "8px", marginTop: "4px"}}/>
               </div>
@@ -41,8 +41,7 @@ export default function Test () {
                 <h1 key={item.name}>{item.name}</h1>
                 <div className="nis" style={{display: "flex"}}>
                   <p key={item.price}>R$ {item.price}</p>
-                  <span key={item.des}>{item.price * item.des + item.price}</span>
-                  
+                  <span id="var" key={item.des}>{item.price * item.des + item.price}</span>
                 </div>
               </div>
             </div>
