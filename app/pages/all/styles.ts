@@ -52,7 +52,7 @@ export const Al = styled.div `
           text-decoration: line-through;
           color: grey;
           font-weight: 600;
-          margin-right: 20px;
+          margin-right: 3em;
 
         }
         
