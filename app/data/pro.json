@@ -5,7 +5,7 @@
     "photo": "/assets/calcaCargoLaco.jpeg",
     "type": "calça",
     "id": 1,
-    "des": 25
+    "des": 0.25
   }
   ,
   {
@@ -14,7 +14,7 @@
     "photo": "/assets/calcaJogger.jpeg",
     "type": "calça",
     "id": 2,
-    "des": 25
+    "des": 0.25
   }
   ,
   {
@@ -23,7 +23,7 @@
     "photo": "/assets/calcaJoggerCorrente.jpeg",
     "type": "calça",
     "id": 3,
-    "des": 25
+    "des": 0.25
   }
   ,
   {
@@ -32,7 +32,7 @@
     "photo": "/assets/calcaJoggerRefletiva.jpeg",
     "type": "calça",
     "id": 4,
-    "des": 25
+    "des": 0.25
   }
   ,
   {
@@ -41,7 +41,7 @@
     "photo": "/assets/calcaJoggerBeBetter.jpeg",
     "type": "calça",
     "id": 5,
-    "des": 25
+    "des": 0.25
   }
   ,
   {
@@ -50,7 +50,7 @@
     "photo": "/assets/calcaJoggerBetterTomorrow.jpeg",
     "type": "calça",
     "id": 6,
-    "des": 25
+    "des": 0.25
   }
   ,
   {
@@ -59,7 +59,7 @@
     "photo": "/assets/calcaJoggerUrbano.jpeg",
     "type": "calça",
     "id": 7,
-    "des": 25
+    "des": 0.25
   }
   ,
   {
@@ -68,7 +68,7 @@
     "photo": "/assets/calcaJoggerAs.jpeg",
     "type": "calça",
     "id": 8,
-    "des": 25
+    "des": 0.25
   }
   ,
   {
@@ -77,7 +77,7 @@
     "photo": "/assets/calcaCargoSimples.jpeg",
     "type": "calça",
     "id": 9,
-    "des": 25
+    "des": 0.25
   }
   ,
   {
@@ -86,7 +86,7 @@
     "photo": "/assets/calcaCargoHocks.jpeg",
     "type": "calça",
     "id": 10,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Calça Cargo Camuflada",
@@ -94,7 +94,7 @@
     "photo": "/assets/calcaCargoCamuflada.jpeg",
     "type": "calça",
     "id": 11,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "X",
@@ -102,7 +102,7 @@
     "photo": "/assets/jaquetaX.jpeg",
     "type": "jaqueta",
     "id": 12,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Jaqueta BEEO",
@@ -110,7 +110,7 @@
     "photo": "/assets/jaquetaVerde.jpeg",
     "type": "jaqueta",
     "id": 13,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Jaqueta a Prova D'água Preta",
@@ -118,7 +118,7 @@
     "photo": "/assets/jaquetaAProvaDAgua.jpg",
     "type": "jaqueta",
     "id": 14,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Jaqueta HSBR",
@@ -126,7 +126,7 @@
     "photo": "/assets/jaquetaHSBR.jpg",
     "type": "jaqueta",
     "id": 15,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Jaqueta KACE Branca",
@@ -134,7 +134,7 @@
     "photo": "/assets/jaquetaKACE.png",
     "type": "jaqueta",
     "id": 16,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Corta Vento Preta Techwaer",
@@ -142,7 +142,7 @@
     "photo": "/assets/jaquetaPretaTechwear.jpg",
     "type": "jaqueta",
     "id": 17,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Jaqueta Punk techwaer",
@@ -150,7 +150,7 @@
     "photo": "/assets/jaquetaPunk.jpeg",
     "type": "jaqueta",
     "id": 18,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Jaqueta HOODIE",
@@ -158,7 +158,7 @@
     "photo": "/assets/jaquetaHOODIE.jpeg",
     "type": "jaqueta",
     "id": 19,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Jaqueta XGXF",
@@ -166,7 +166,7 @@
     "photo": "/assets/jaquetaXGXF.jpeg",
     "type": "jaqueta",
     "id": 20,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "jaqueta RAD",
@@ -174,7 +174,7 @@
     "photo": "/assets/jaquetaRad.jpeg",
     "type": "jaqueta",
     "id": 21,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "jaqueta Hyper Zero",
@@ -182,7 +182,7 @@
     "photo": "/assets/jaquetaHyperZero.jpeg",
     "type": "jaqueta",
     "id": 22,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Jaqueta HOODIE Grail",
@@ -190,7 +190,7 @@
     "photo": "/assets/jaquetaHOODIEGrail.jpeg",
     "type": "jaqueta",
     "id": 23,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Jaqueta Runs",
@@ -198,7 +198,7 @@
     "photo": "/assets/jaquetaRuns.jpeg",
     "type": "jaqueta",
     "id": 24,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Jaqueta Primodi",
@@ -206,7 +206,7 @@
     "photo": "/assets/jaquetaPrimodi.jpeg",
     "type": "jaqueta",
     "id": 25,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "jaqueta ROW",
@@ -214,7 +214,7 @@
     "photo": "/assets/jaquetaROW.jpg",
     "type": "jaqueta",
     "id": 26,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "jaqueta Demon",
@@ -222,7 +222,7 @@
     "photo": "/assets/jaquetaDemon.jpg",
     "type": "jaqueta",
     "id": 28,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Camisa AK",
@@ -230,7 +230,7 @@
     "photo": "/assets/camisaAk.jpeg",
     "type": "camisa",
     "id": 29,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Camisa Save",
@@ -238,7 +238,7 @@
     "photo": "/assets/camisaSave.jpeg",
     "type": "camisa",
     "id": 30,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Camisa BC",
@@ -246,7 +246,7 @@
     "photo": "/assets/camisaBC.jpeg",
     "type": "camisa",
     "id": 31,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Camisa Butter",
@@ -254,7 +254,7 @@
     "photo": "/assets/camisaButter.jpeg",
     "type": "camisa",
     "id": 32,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Camisa DF",
@@ -262,7 +262,7 @@
     "photo": "/assets/camisaDF.jpeg",
     "type": "camisa",
     "id": 33,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Camisa Dream",
@@ -270,7 +270,7 @@
     "photo": "/assets/camisaDream.jpeg",
     "type": "camisa",
     "id": 34,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Camisa Equilibrium",
@@ -278,7 +278,7 @@
     "photo": "/assets/camisaEquilibrium.jpeg",
     "type": "camisa",
     "id": 35,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Camisa Faceless",
@@ -286,7 +286,7 @@
     "photo": "/assets/camisaFaceless.jpeg",
     "type": "camisa",
     "id": 36,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "camisa GrafiK",
@@ -294,7 +294,7 @@
     "photo": "/assets/camisaGrafik.jpeg",
     "type": "camisa",
     "id": 37,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Camisa YinD",
@@ -302,7 +302,7 @@
     "photo": "/assets/camisaYinD.jpeg",
     "type": "camisa",
     "id": 38,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Camisa Zero Bug",
@@ -310,7 +310,7 @@
     "photo": "/assets/camisaZeroBug.jpeg",
     "type": "camisa",
     "id": 39,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Tênis 006",
@@ -318,7 +318,7 @@
     "photo": "/assets/tenis006.jpeg",
     "type": "tenis",
     "id": 40,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Tênis BL",
@@ -326,7 +326,7 @@
     "photo": "/assets/tenisBl.jpeg",
     "type": "tenis",
     "id": 41,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Tênis EANF",
@@ -334,7 +334,7 @@
     "photo": "/assets/tenisEANF.jpeg",
     "type": "tenis",
     "id": 42,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Tênis FS",
@@ -342,7 +342,7 @@
     "photo": "/assets/tenisForSkate.jpeg",
     "type": "tenis",
     "id": 43,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Tênis White Off.jpeg",
@@ -350,7 +350,7 @@
     "photo": "/assets/tenisWhiteOff.jpeg",
     "type": "tenis",
     "id": 44,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Tênis HaXa",
@@ -358,7 +358,7 @@
     "photo": "/assets/tenisHaXa.jpeg",
     "type": "tenis",
     "id": 45,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Tênis Of Nest",
@@ -366,7 +366,7 @@
     "photo": "/assets/tenisOfNest.jpeg",
     "type": "tenis",
     "id": 46,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Boné Street WR",
@@ -374,7 +374,7 @@
     "photo": "/assets/boneStreetWR.jpeg",
     "type": "bone",
     "id": 47,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Bucket Cat",
@@ -382,7 +382,7 @@
     "photo": "/assets/bucketCat.jpeg",
     "type": "bone",
     "id": 48,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Boné Face",
@@ -390,7 +390,7 @@
     "photo": "/assets/boneFace.jpeg",
     "type": "bone",
     "id": 49,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Boné Demon",
@@ -398,7 +398,7 @@
     "photo": "/assets/boneDemon.jpeg",
     "type": "bone",
     "id": 50,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Bucket SF",
@@ -406,7 +406,7 @@
     "photo": "/assets/bucketSF.jpeg",
     "type": "bone",
     "id": 51,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Bucket Ocean",
@@ -414,7 +414,7 @@
     "photo": "/assets/bucketOcean.jpeg",
     "type": "bone",
     "id": 52,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Bucket Dragon",
@@ -422,7 +422,7 @@
     "photo": "/assets/bucketDragon.jpeg",
     "type": "bone",
     "id": 53,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Boné AR",
@@ -430,7 +430,7 @@
     "photo": "/assets/boneAR.jpeg",
     "type": "bone",
     "id": 54,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Meias Butterfly Sk",
@@ -438,7 +438,7 @@
     "photo": "/assets/meiasButterflySk.jpeg",
     "type": "meia",
     "id": 55,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Meias of Parth",
@@ -446,7 +446,7 @@
     "photo": "/assets/meiasParth.jpeg",
     "type": "meia",
     "id": 56,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Meias Error",
@@ -454,7 +454,7 @@
     "photo": "/assets/meiasError.jpeg",
     "type": "meia",
     "id": 57,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Meias Sk",
@@ -462,7 +462,7 @@
     "photo": "/assets/meiasSk.jpeg",
     "type": "meia",
     "id": 58,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Meias Star",
@@ -470,7 +470,7 @@
     "photo": "/assets/meiasStar.jpeg",
     "type": "meia",
     "id": 59,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Meias Smile",
@@ -478,7 +478,7 @@
     "photo": "/assets/meiasSmileD.jpeg",
     "type": "meia",
     "id": 60,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Meias Dragon",
@@ -486,7 +486,7 @@
     "photo": "/assets/meiasDragon.jpeg",
     "type": "meia",
     "id": 61,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Meias X)",
@@ -494,7 +494,7 @@
     "photo": "/assets/meiasX).jpeg",
     "type": "meia",
     "id": 62,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Meias ZapW",
@@ -502,7 +502,7 @@
     "photo": "/assets/meiasZapW.jpeg",
     "type": "meia",
     "id": 63,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Meias fire Ptt",
@@ -510,7 +510,7 @@
     "photo": "/assets/meiasFirePtt.jpeg",
     "type": "meia",
     "id": 64,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Meias Visit A",
@@ -518,7 +518,7 @@
     "photo": "/assets/meiasVisitA.jpeg",
     "type": "meia",
     "id": 65,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Bag SM-57",
@@ -526,7 +526,7 @@
     "photo": "/assets/bagSM57.jpeg",
     "type": "bag",
     "id": 66,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Bag Techwear",
@@ -534,7 +534,7 @@
     "photo": "/assets/bagTechwear.jpeg",
     "type": "bag",
     "id": 67,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Bag Crossbody Y",
@@ -542,7 +542,7 @@
     "photo": "/assets/bagCrossbodyY.jpeg",
     "type": "bag",
     "id": 68,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Bag Sun BG",
@@ -550,7 +550,7 @@
     "photo": "/assets/bagSunBG.jpeg",
     "type": "bag",
     "id": 69,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Bag Rucksack",
@@ -558,7 +558,7 @@
     "photo": "/assets/bagRucksack.jpeg",
     "type": "bag",
     "id": 70,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Bag Hang Loose Un",
@@ -566,7 +566,7 @@
     "photo": "/assets/bagHangLooseUn.jpeg",
     "type": "bag",
     "id": 71,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Bag Rudder Verde",
@@ -574,7 +574,7 @@
     "photo": "/assets/bagRudderVerde.jpeg",
     "type": "bag",
     "id": 72,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Bag Impermeavel HAO",
@@ -582,7 +582,7 @@
     "photo": "/assets/bagImpermeavelHAO.jpeg",
     "type": "bag",
     "id": 73,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Mochila Cosmit S",
@@ -590,7 +590,7 @@
     "photo": "/assets/mochilaCosmitS.jpeg",
     "type": "mochila",
     "id": 74,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Mochila SD-v1",
@@ -598,7 +598,7 @@
     "photo": "/assets/mochilaSDv1.jpeg",
     "type": "mochila",
     "id": 75,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Mochila Sumally Y3",
@@ -606,7 +606,7 @@
     "photo": "/assets/mochilaSumallyY3.jpeg",
     "type": "mochila",
     "id": 76,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Mochila T60",
@@ -614,7 +614,7 @@
     "photo": "/assets/mochilaT60.jpeg",
     "type": "mochila",
     "id": 77,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Mochila Tokyo R",
@@ -622,14 +622,14 @@
     "photo": "/assets/mochilhaTokyoR.jpeg",
     "type": "mochila",
     "id": 78,
-    "des": 25
+    "des": 0.25
   },
   {
     "name": "Mochila Tokyo R",
     "price": 215.64,
     "photo": "/assets/mochilaCargoTechwearV1.jpeg",
     "type": "mochila",
-    "id": 78,
-    "des": 25
+    "id": 79,
+    "des": 0.25
   }
 ]

@@ -41,7 +41,7 @@ export default function Test () {
                 <h1 key={item.name}>{item.name}</h1>
                 <div className="nis" style={{display: "flex"}}>
                   <p key={item.price}>R$ {item.price}</p>
-                  <span key={item.price}>R$ 200</span>
+                  <span key={item.des}>{item.price * item.des + item.price}</span>
                   
                 </div>
               </div>
