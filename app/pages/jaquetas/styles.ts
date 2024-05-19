@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Jaq = styled.div `
   padding-top: 2em;
   width: 100%;
-  display: flex;  
+  display: flex;
   background:  #e0e1ff;
 
   .ti {
@@ -22,19 +22,19 @@ export const Jaq = styled.div `
 
   .card {
     width: 210px;
-    height: 300px;
+    height: 310px;
     display: flex;
     align-items: center;
     flex-direction: column;
     transition: 1s;
     border-radius: 8px;
     background-color: #f0f4f5;
-    padding-top: 1em;
+    padding-top: .3em;
     cursor: pointer;
 
     &:hover {
       scale: 1.01;
-      box-shadow: 6px 8px 8px 0px #1a0f27
+      box-shadow: 6px 8px 8px 0px #1a0f27;
     }
 
     .info {
@@ -42,7 +42,30 @@ export const Jaq = styled.div `
       width: 90%;
       display: flex;
       flex-direction: column;
+
+      .nis {
+        margin-top: 8px;
+        display: flex;
+
+        span {
+          font-size: 13px;
+          text-decoration: line-through;
+          color: grey;
+          font-weight: 600;
+          margin-right: 3em;
+        }
+        
+      }
     }
+
+    .btd {
+        font-size: 12px;
+        font-weight: 500;
+        border-width: 0;
+        background: gainsboro;
+        border-radius: 4px;
+        margin-left: 9em;
+      }
 
     h1{
       font-size: 14px;

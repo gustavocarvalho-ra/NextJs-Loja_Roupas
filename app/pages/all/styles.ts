@@ -53,7 +53,6 @@ export const Al = styled.div `
           color: grey;
           font-weight: 600;
           margin-right: 3em;
-
         }
         
       }

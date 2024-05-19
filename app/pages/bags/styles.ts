@@ -22,19 +22,19 @@ export const Bag = styled.div `
 
   .card {
     width: 210px;
-    height: 300px;
+    height: 310px;
     display: flex;
     align-items: center;
     flex-direction: column;
     transition: 1s;
     border-radius: 8px;
     background-color: #f0f4f5;
-    padding-top: 1em;
+    padding-top: .3em;
     cursor: pointer;
 
     &:hover {
       scale: 1.01;
-      box-shadow: 6px 8px 8px 0px #1a0f27
+      box-shadow: 6px 8px 8px 0px #1a0f27;
     }
 
     .info {
@@ -49,10 +49,10 @@ export const Bag = styled.div `
 
         span {
           font-size: 13px;
-          margin-left: 20px;
           text-decoration: line-through;
           color: grey;
           font-weight: 600;
+          margin-right: 3em;
         }
         
       }
