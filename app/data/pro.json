@@ -625,10 +625,10 @@
     "des": 0.25
   },
   {
-    "name": "Tiara Demon",
-    "price": 86.99,
-    "photo": "/assets/tiaraDemon.jpeg",
-    "type": "acessorio",
+    "name": "Mochila RaS",
+    "price": 168.99,
+    "photo": "/assets/mochilaRaS.jpeg",
+    "type": "mochila",
     "id": 79,
     "des": 0.25
   },
@@ -678,6 +678,14 @@
     "photo": "/assets/pulseraWolf.jpeg",
     "type": "acessorio",
     "id": 85,
+    "des": 0.25
+  },
+  {
+    "name": "Tiara Demon",
+    "price": 86.99,
+    "photo": "/assets/tiaraDemon.jpeg",
+    "type": "acessorio",
+    "id": 86,
     "des": 0.25
   }
 ]
