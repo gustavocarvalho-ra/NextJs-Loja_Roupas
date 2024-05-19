@@ -16,7 +16,7 @@ export default function Main() {
           <Link className="bon" href="/pages/bones">Bonés e Buckets</Link>
           <Link className="mei" href="/pages/meias">Meias</Link>
           <Link className="moc" href="/pages/mochilas">Mochilas</Link>
-          <a href="">Óculos</a>
+          <Link className="ace" href="/pages/ace">Acessórios</Link>
           <Link className="bag" href="/pages/bags">Bags</Link>
         </div>
       </div>
