@@ -22,14 +22,14 @@ export const Al = styled.div `
 
   .card {
     width: 210px;
-    height: 300px;
+    height: 310px;
     display: flex;
     align-items: center;
     flex-direction: column;
     transition: 1s;
     border-radius: 8px;
     background-color: #f0f4f5;
-    padding-top: 1em;
+    padding-top: .3em;
     cursor: pointer;
 
     &:hover {
@@ -49,10 +49,11 @@ export const Al = styled.div `
 
         span {
           font-size: 13px;
-          margin-left: 20px;
           text-decoration: line-through;
           color: grey;
           font-weight: 600;
+          margin-right: 20px;
+
         }
         
       }
