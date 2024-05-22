@@ -6,4 +6,3 @@ export type products = {
   id: number;
   ras: number;
 }
-
