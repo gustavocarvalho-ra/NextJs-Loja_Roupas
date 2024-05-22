@@ -156,7 +156,23 @@ export const A = styled.div `
         color: #BA55D3;
       }
     }
+
+    button {
+      font-size: 12px;
+      background: transparent;
+      color: var(--tex);
+      border: none;
+      text-decoration: none;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: .5s;
+
+      &:hover {
+        color: red;
+      }
+    }
   }
+
   .na {
     z-index: 100;
     width: 100%;

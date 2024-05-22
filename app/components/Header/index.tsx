@@ -31,7 +31,7 @@ export default function Header() {
               <div>
                 <p>Onde está meu pedido?</p>
                 <button className="Ras">
-                  <a href="/">Rastrear pedido</a>
+                  Rastrear pedido
                 </button>
               </div>
             </div>
@@ -51,9 +51,9 @@ export default function Header() {
         <div className="nav">
           <Link href={"/pages/all"}>Todos os produtos</Link>
           <Link href={"../"}>Coleções</Link>
-          <a href="/">Compra Segura</a>
-          <a href="/">Contato</a>
-          <a href="/">Perguntas frequentes</a>
+          <button>Compra Segura</button>
+          <button>Contato</button>
+          <button>Perguntas frequentes</button>
         </div>
       </div>
       <hr className="hrB"/>
