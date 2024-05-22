@@ -111,6 +111,13 @@ export const A = styled.div `
         background: transparent;
         color: var(--tex);
         font-weight: 500;
+        display: flex;
+
+        div {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+        }
       }
     }
   }

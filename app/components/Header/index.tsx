@@ -39,7 +39,7 @@ export default function Header() {
               <button className="Car">
                 <BsCart3 style={{marginRight: '8px', marginTop: '5px', color: '#fff', fontSize: '1.5em'}}/>
                 <div>
-                  <p>Onde está meu pedido?</p>
+                  <p>Abrir</p>
                   Carrinho
                 </div>
               </button>
