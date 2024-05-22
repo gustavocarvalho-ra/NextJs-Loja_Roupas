@@ -3,6 +3,9 @@ import { CartProvider } from "./contexts/CartContext"
 import "../globals.css"
 import "normalize.css";
 
+<time dateTime="2016-10-25" suppressHydrationWarning />
+
+
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <CartProvider>
