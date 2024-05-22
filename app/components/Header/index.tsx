@@ -3,6 +3,8 @@ import { A } from "./styles"
 import Link from "next/link";
 
 import { IoMdSearch } from "react-icons/io";
+import { FaOpencart } from "react-icons/fa6";
+import { BsCart3 } from "react-icons/bs";
 import { SlLocationPin } from "react-icons/sl";
 
 export default function Header() {
@@ -34,7 +36,13 @@ export default function Header() {
               </div>
             </div>
             <div>
-              <button className="Car">Carrinho</button>
+              <button className="Car">
+                <BsCart3 style={{marginRight: '8px', marginTop: '5px', color: '#fff', fontSize: '1.5em'}}/>
+                <div>
+                  <p>Onde está meu pedido?</p>
+                  Carrinho
+                </div>
+              </button>
             </div>
           </div>
         </div>
