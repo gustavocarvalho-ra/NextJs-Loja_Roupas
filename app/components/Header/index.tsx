@@ -1,13 +1,22 @@
 import { A } from "./styles"
 
 import Link from "next/link";
+import React from "react";
 
 import { IoMdSearch } from "react-icons/io";
-import { FaOpencart } from "react-icons/fa6";
 import { BsCart3 } from "react-icons/bs";
 import { SlLocationPin } from "react-icons/sl";
 
 export default function Header() {
+  const [isCartI, setCartI] = React.useState(false)
+
+  console.log("cart", isCartI)
+
+  const handleCart = () => {
+    setCartI((prevState) => !prevState)
+  }
+
+
   return (
     <A>
       <hr className="hrA"/>
@@ -36,7 +45,7 @@ export default function Header() {
               </div>
             </div>
             <div>
-              <button className="Car">
+              <button onClick={handleCart} className="Car">
                 <BsCart3 style={{marginRight: '8px', marginTop: '5px', color: '#fff', fontSize: '1.5em'}}/>
                 <div>
                   <p>Abrir</p>
