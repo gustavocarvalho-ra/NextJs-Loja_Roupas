@@ -10,14 +10,15 @@ export const CartContext = createContext ({})
 export const CartProvider = ({ children }: ProvidersProps) => {
   const [isCartI, setCartI] = useState([])
 
-  function addProductToCart(id) {};
+  function addProductToCart(id:number) {};
 
-  function removeProductToCart(id) {};
-  return ( 
+  function removeProductToCart(id:number) {};
+
+  return (
     <CartContext.Provider
-      value={{isCartI}, addProductToCart, removeProductToCart}}
+      value={{isCartI, addProductToCart, removeProductToCart}}
     >
-      {Children}
+      {children}
     </CartContext.Provider>
   );
 }
