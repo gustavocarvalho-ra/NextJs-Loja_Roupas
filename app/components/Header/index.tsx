@@ -6,6 +6,7 @@ import React from "react";
 import { IoMdSearch } from "react-icons/io";
 import { BsCart3 } from "react-icons/bs";
 import { SlLocationPin } from "react-icons/sl";
+import CartItens from "../CartItens";
 
 export default function Header() {
   const [isCartI, setCartI] = React.useState(false)
@@ -46,6 +47,7 @@ export default function Header() {
             </div>
             <div>
               <button onClick={handleCart} className="Car">
+                <div>{isCartI ? <CartItens/> : " "}</div>
                 <BsCart3 style={{marginRight: '8px', marginTop: '5px', color: '#fff', fontSize: '1.5em'}}/>
                 <div>
                   <p>Abrir</p>

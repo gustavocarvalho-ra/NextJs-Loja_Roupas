@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CartI } from "./styles";
 // import {  } from "./styles";
 
 
@@ -6,7 +7,9 @@ import Link from "next/link";
 export default function CartItens() {
   return (
     <>
-      
+    <CartI>
+      <h1>aaaaa</h1>
+    </CartI>
     </>
   )
 }
