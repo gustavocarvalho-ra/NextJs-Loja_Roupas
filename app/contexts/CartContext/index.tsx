@@ -10,7 +10,11 @@ export const CartContext = createContext ({})
 export const CartProvider = ({ children }: ProvidersProps) => {
   const [isCartI, setCartI] = useState([])
 
-  function addProductToCart(id:number) {};
+  function addProductToCart(id:number) {
+    const copyIsCartI = [...isCartI];
+    
+
+  };
 
   function removeProductToCart(id:number) {};
 
