@@ -12,8 +12,10 @@ export const CartProvider = ({ children }: ProvidersProps) => {
 
   function addProductToCart(id:number) {
     const copyIsCartI = [...isCartI];
-    
 
+    const item = copyIsCartI.find((product) => product.id === id)
+
+    console.log(item)
   };
 
   function removeProductToCart(id:number) {};
