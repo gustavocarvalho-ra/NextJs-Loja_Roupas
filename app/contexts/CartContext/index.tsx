@@ -8,7 +8,7 @@ interface ProvidersProps {
 export const CartContext = createContext ({})
 
 export const CartProvider = ({ children }: ProvidersProps) => {
-  const [isCartI, setCartI] = useState([])
+  const [isCartI, setCartI] = useState([{id: 1, qtd: 1}])
 
   function addProductToCart(id:number) {
     const copyIsCartI = [...isCartI];
