@@ -2,8 +2,12 @@
 
 ## Stack utilizada 
 - Typescript <img src="https://cdn3.emoji.gg/emojis/8584-typescript.png" width="18px" height="18px" alt="TypeScript">
+- Styled Components
 - Eslint
 - Next js
+
+![StreetTech](https://github.com/gustavocarvalho-ra/NextJs-Loja_Roupas/assets/137126878/1aa35bf3-c393-4d23-966e-ce9933464dea)
+
 
 ## Screenshots 📸
 
@@ -17,13 +21,12 @@
 
 
 
-
 ## 🔧 Instalação
 Execute os seguintes comandos no terminal da sua IDE:
 
 1 - Clonar o repositório:
 ```
- git clone https://github.com/gustavocarvalho-ra/
+ git clone https://github.com/gustavocarvalho-ra/NextJs-Loja_Roupas.git
 ```
 2 - Intalar as dependências do projeto:
 ```
