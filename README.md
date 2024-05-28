@@ -2,7 +2,13 @@
 
 ### Com um Banco de Dados local e utilizando métodos como .map para percorrer o JSON, produzi este teste para uma loja de roupas com produtos destinados ao público de roupas tech.
 
+v1 - ✔
 
+Next updates:
+
+v2 - Introduzir o carrinho de compra 🔄
+
+<hr/>
 
 ## Stack utilizada 
 - Typescript <img src="https://cdn3.emoji.gg/emojis/8584-typescript.png" width="18px" height="18px" alt="TypeScript">
