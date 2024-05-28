@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projeto destinado a uma loja de roupas fictícia chamada "Street Tech"
 
-## Getting Started
+## Stack utilizada 
+- Typescript <img src="https://cdn3.emoji.gg/emojis/8584-typescript.png" width="18px" height="18px" alt="TypeScript">
+- Eslint
+- Next js
 
-First, run the development server:
+## Screenshots 📸
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### page 1
+![1](https://github.com/gustavocarvalho-ra/NextJs-Loja_Roupas/assets/137126878/bbda8f97-d3a9-4c2b-8b38-8a1ed6349670)
+
+
+### page 2
+![2](https://github.com/gustavocarvalho-ra/NextJs-Loja_Roupas/assets/137126878/7f14decd-b7bb-47b8-8d92-c1d086aad67f)
+
+
+
+
+
+## 🔧 Instalação
+Execute os seguintes comandos no terminal da sua IDE:
+
+1 - Clonar o repositório:
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ git clone https://github.com/gustavocarvalho-ra/
+```
+2 - Intalar as dependências do projeto:
+```
+🧰 pnpm i
+```
+3 - Iniciar aplicação:
+```
+💻 pnpm dev 
+```
