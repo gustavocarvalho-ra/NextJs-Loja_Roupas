@@ -1,6 +1,6 @@
 # Projeto destinado a uma loja de roupas fictícia chamada "Street Tech"
 
-### Com um Banco de Dados local e utilizando métodos como .map para percorrer o JSON, produzi este teste para uma loja de roupas com produtos destinados ao público de roupas tech.
+### Com um Banco de Dados local e utilizando métodos como .map para percorrer o JSON, produzi este teste para uma loja de roupas com produtos destinados ao público com estilo tech.
 
 v1 - ✔
 
