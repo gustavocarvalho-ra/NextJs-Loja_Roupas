@@ -6,6 +6,7 @@ import React from "react";
 import { IoMdSearch } from "react-icons/io";
 import { BsCart3 } from "react-icons/bs";
 import { SlLocationPin } from "react-icons/sl";
+
 import CartItens from "../CartItens";
 
 export default function Header() {
@@ -16,7 +17,6 @@ export default function Header() {
   const handleCart = () => {
     setCartI((prevState) => !prevState)
   }
-
 
   return (
     <A>
@@ -68,7 +68,7 @@ export default function Header() {
         </div>
       </div>
       <hr className="hrB"/>
-      <div className="na" style={{background: "red"}}>
+      <div className="na">
         <h1>TODOS OS ITENS COM 20% DE DESCONTO!!!</h1>
       </div>
     </A>
