@@ -32,6 +32,10 @@ export const Mn = styled.div `
       text-decoration: none;
       color: #BA55D3;
       padding-left: 1em;
+
+      &:hover {
+        color: blue;
+      }
     }
   }
 `

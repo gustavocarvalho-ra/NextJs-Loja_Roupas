@@ -7,5 +7,5 @@ export const CartI = styled.div `
   top: 10.4em;
   background: red;
   position: absolute;
-  transition: 5s;
+  transition: all 5s;
 `
