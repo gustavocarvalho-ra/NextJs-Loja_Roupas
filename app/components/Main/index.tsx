@@ -2,7 +2,6 @@ import Link from "next/link";
 
 import { Man } from "./styles"
 
-
 export default function Main() {
   return (
     <Man>
