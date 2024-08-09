@@ -5,4 +5,5 @@ export type products = {
   type: string;
   id: number;
   ras: number;
+  quantity: number;
 }
