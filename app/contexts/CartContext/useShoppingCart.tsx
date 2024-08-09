@@ -1,4 +1,3 @@
-import { useToast } from "@hooks/useToast"
 import { 
   createContext,
   ReactNode,
@@ -23,6 +22,4 @@ type UseShoppingCartData = {
 
 const UseShoppingCartDataContext = createContext({} as UseShoppingCartData);
 
-export const UseShoppingCartProvider = ({ children }: UseShoppingCartProps) => {
-  const { toastSuccess } = useToast();
-}
+const [listShoppingCart, setListShoppingCart] = useState<products[]> ([]);
