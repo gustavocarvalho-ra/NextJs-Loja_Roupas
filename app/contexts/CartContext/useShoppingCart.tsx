@@ -23,3 +23,12 @@ type UseShoppingCartData = {
 const UseShoppingCartDataContext = createContext({} as UseShoppingCartData);
 
 const [listShoppingCart, setListShoppingCart] = useState<products[]> ([]);
+
+useEffect(() => {
+  const listShoppingCartStorage = localStorage.getItem(
+    "listSgoppingCartStorage",
+  );
+  if (listShoppingCartStorage) {
+    setListShoppingCart(JSON.parse(listShoppingCartStorage));
+  }
+}, []);
