@@ -37,5 +37,9 @@ const handleAddProductShopping = (product: products) => {
   const existingProductIndex = listShoppingCart.findIndex(
     (item) => item.id === product.id,
   );
-  
+
+  if (existingProductIndex !== -1) {
+    const updateListShoppingCart = [...listShoppingCart];
+    updateListShoppingCart[existingProductIndex].quantity += 1;
+  }
 }
