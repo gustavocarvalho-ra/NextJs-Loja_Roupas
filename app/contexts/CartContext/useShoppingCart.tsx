@@ -32,3 +32,10 @@ useEffect(() => {
     setListShoppingCart(JSON.parse(listShoppingCartStorage));
   }
 }, []);
+
+const handleAddProductShopping = (product: products) => {
+  const existingProductIndex = listShoppingCart.findIndex(
+    (item) => item.id === product.id,
+  );
+  
+}
