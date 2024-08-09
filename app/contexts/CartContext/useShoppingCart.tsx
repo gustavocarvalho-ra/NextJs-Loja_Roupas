@@ -4,10 +4,17 @@ import {
   useContext,
   useEffect,
   useState
- } from "react";
+} from "react";
 
- import { products } from "@/app/types/products";
+import { products } from "@/app/types/products";
 
- type UseShoppingCartProps = {
+type UseShoppingCartProps = {
   children: ReactNode;
- }
+};
+
+type UseShoppingCartData = {
+  listShoppingCart: products[];
+  handleAddProductShopping: (product: products) => void;
+  handleDecreaseQuantity: (productId: number) => void;
+  handleIncreaseQauntity: (productId: number) => void;
+}
