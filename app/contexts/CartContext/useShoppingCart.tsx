@@ -17,4 +17,7 @@ type UseShoppingCartData = {
   handleAddProductShopping: (product: products) => void;
   handleDecreaseQuantity: (productId: number) => void;
   handleIncreaseQauntity: (productId: number) => void;
+  handleRemoveProductShopping: (productId: number) => void;
 }
+
+const UseShoppingCartDataContext = createContext({} as UseShoppingCartData);
