@@ -30,7 +30,6 @@ export default function Header() {
             <button className="btnLup"><IoMdSearch style={{color: 'var(--tex)', fontSize: '25px'}} /></button>
           </div>
 
-
           <div className="user">
             <div>
               <p>Olá (user)</p>
@@ -58,9 +57,8 @@ export default function Header() {
           </div>
         </div>
 
-
         <div className="nav">
-          <Link href={"/pages/all"}>Todos os produtos</Link>
+          <Link href={"/produtos/all"}>Todos os produtos</Link>
           <Link href={"../"}>Coleções</Link>
           <button>Compra Segura</button>
           <button>Contato</button>

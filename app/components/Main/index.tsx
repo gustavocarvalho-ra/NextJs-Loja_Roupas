@@ -8,15 +8,15 @@ export default function Main() {
       <div className="section">
         <h1>Coleções</h1>
         <div className="cards">
-          <Link className="clas" href="/pages/jaquetas">Jaquetas</Link>
-          <Link className="cami" href="/pages/camisa">Camisetas</Link>
-          <Link className="cas" href="/pages/calcas">Calças</Link>
-          <Link className="tes" href="/pages/tenis">Tênis</Link>
-          <Link className="bon" href="/pages/bones">Bonés e Buckets</Link>
-          <Link className="mei" href="/pages/meias">Meias</Link>
-          <Link className="moc" href="/pages/mochilas">Mochilas</Link>
-          <Link className="ace" href="/pages/ace">Acessórios</Link>
-          <Link className="bag" href="/pages/bags">Bags</Link>
+          <Link className="clas" href="/produtos/jaquetas">Jaquetas</Link>
+          <Link className="cami" href="/produtos/camisa">Camisetas</Link>
+          <Link className="cas" href="/produtos/calcas">Calças</Link>
+          <Link className="tes" href="/produtos/tenis">Tênis</Link>
+          <Link className="bon" href="/produtos/bones">Bonés e Buckets</Link>
+          <Link className="mei" href="/produtos/meias">Meias</Link>
+          <Link className="moc" href="/produtos/mochilas">Mochilas</Link>
+          <Link className="ace" href="/produtos/ace">Acessórios</Link>
+          <Link className="bag" href="/produtos/bags">Bags</Link>
         </div>
       </div>
     </Man>
