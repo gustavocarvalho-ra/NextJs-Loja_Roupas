@@ -6,15 +6,12 @@ import Header from "@/app/components/Header"
 
 import Link from "next/link";
 import Image from "next/image";
-import { useParams } from "next/navigation";
 
 import { Al } from "./styles";
 
 
 export default function Test () {
   let produtos = [...pro];
-
-  // const params = useParams
 
   return (
     <>
