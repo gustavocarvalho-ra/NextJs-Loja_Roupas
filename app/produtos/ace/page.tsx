@@ -5,7 +5,7 @@ import Header from "@/app/components/Header"
 import Menu from "../../components/Menu";
 
 import Image from "next/image";
-import { Ace } from "./styles";
+import { Container } from "../styles";
 
 
 export default function Test () {
@@ -15,7 +15,7 @@ export default function Test () {
     <>
       <Header/>
       
-      <Ace>
+      <Container>
         <Menu/>
         
         <div className="cards">
@@ -42,7 +42,7 @@ export default function Test () {
             </div>
           ))}
         </div>
-      </Ace>
+      </Container>
     </>
   )
 }

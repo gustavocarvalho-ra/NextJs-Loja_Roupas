@@ -1,11 +1,12 @@
 "use client"
 
+import { Container } from "../styles";
+
 import pro from "../../data/pro.json"
 import Header from "@/app/components/Header"
 import Menu from "../../components/Menu";
 
 import Image from "next/image";
-import { Cam } from "./style";
 
 
 export default function Test () {
@@ -15,7 +16,7 @@ export default function Test () {
     <>
       <Header/>
       
-      <Cam>
+      <Container>
         <Menu/>
         
         <div className="cards">
@@ -42,7 +43,7 @@ export default function Test () {
             </div>
           ))}
         </div>
-      </Cam>
+      </Container>
     </>
   )
 }

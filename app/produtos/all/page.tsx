@@ -7,7 +7,7 @@ import Header from "@/app/components/Header"
 import Link from "next/link";
 import Image from "next/image";
 
-import { Al } from "./styles";
+import { Container } from "../styles";
 
 
 export default function Test () {
@@ -17,7 +17,7 @@ export default function Test () {
     <>
       <Header/>
       
-      <Al>
+      <Container>
         <Menu/>
         
         <div className="cards">
@@ -49,7 +49,7 @@ export default function Test () {
             </Link>
           ))}
         </div>
-      </Al>
+      </Container>
     </>
   )
 }

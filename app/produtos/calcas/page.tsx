@@ -1,6 +1,6 @@
 "use client"
 
-import { Car } from "./styles";
+import { Container } from "../styles";
 
 import pro from "../../data/pro.json"
 import Header from "@/app/components/Header"
@@ -16,7 +16,7 @@ export default function Test () {
     <>
       <Header/>
       
-      <Car>
+      <Container>
         <Menu/>
         
         <div className="cards">
@@ -43,7 +43,7 @@ export default function Test () {
             </div>
           ))}
         </div>
-      </Car>
+      </Container>
     </>
   )
 }

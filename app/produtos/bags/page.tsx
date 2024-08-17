@@ -1,26 +1,22 @@
 "use client"
 
-import { Bag } from "./styles";
-
-import pro from "../../data/pro.json"
-import Header from "@/app/components/Header"
-import Menu from "../../components/Menu";
-
-import { products } from "@/app/types/products";
+import { Container } from "../styles";
 
 import Image from "next/image";
 
+import Header from "@/app/components/Header"
+import Menu from "../../components/Menu";
+import pro from "../../data/pro.json"
+
+
 export default function Test () {
   let produtos = [...pro];
-  let products = produtos
-
-  // var desconto = produtos.price * .3
 
   return (
     <>
       <Header/>
       
-      <Bag>
+      <Container>
         <Menu/>
         
         <div className="cards">
@@ -47,7 +43,7 @@ export default function Test () {
             </div>
           ))}
         </div>
-      </Bag>
+      </Container>
     </>
   )
 }

@@ -1,26 +1,22 @@
 "use client"
 
-import { Moc } from "./styles";
+import { Container } from "../styles";
 
 import pro from "../../data/pro.json"
 import Header from "@/app/components/Header"
 import Menu from "../../components/Menu";
 
-import { products } from "@/app/types/products";
-
 import Image from "next/image";
+
 
 export default function Test () {
   let produtos = [...pro];
-  let products = produtos
-
-  // var desconto = produtos.price * .3
 
   return (
     <>
       <Header/>
       
-      <Moc>
+      <Container>
         <Menu/>
         
         <div className="cards">
@@ -47,7 +43,7 @@ export default function Test () {
             </div>
           ))}
         </div>
-      </Moc>
+      </Container>
     </>
   )
 }
