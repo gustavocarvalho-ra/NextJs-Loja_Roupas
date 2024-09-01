@@ -9,6 +9,7 @@ Next updates:
 v2 
 - Introduzir o carrinho de compra 🔄
 - Introduzir o link de detalhamento do produto 🔄
+- Introduzir o botão de busca de produto 🔍
 
 
 <hr/>
