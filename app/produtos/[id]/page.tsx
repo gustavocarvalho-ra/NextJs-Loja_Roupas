@@ -9,14 +9,11 @@ import { Main } from "../styles";
 import Image from 'next/image';
 
 
-interface Props {
-  produto: produc | null;
-  params: {
-    id: string
-  };
+interface Params {
+  id: string
 };
 
-const ProdutoDetalhes: React.FC<Props> = ({ params }) => {
+const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
   const { id } = params;
 
   const produto = pro?.find(item => item.id.toString() === id);
