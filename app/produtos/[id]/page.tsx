@@ -1,26 +1,49 @@
 "use client"
 
 import Header from "@/app/components/Header";
-import { useParams, useSearchParams } from "next/navigation";
+
+import { produc } from "../../types/prod"
 import pro from "../../data/pro.json"
+import { Main } from "../styles";
 
-export default function Detalhes( {params}: any) {
+import Image from 'next/image';
 
-  const searchParams = useSearchParams();
-  const newParam = searchParams.get("item")
 
-  console.log(newParam)
+interface Props {
+  produto: produc | null;
+  params: {
+    id: string
+  };
+};
 
-  // const params = useParams();
+const ProdutoDetalhes: React.FC<Props> = ({ params }) => {
+  const { id } = params;
 
-  // console.log(params)
+  const produto = pro?.find(item => item.id.toString() === id);
 
-  let produtos = [...pro];
+  if (!produto) 
+    return (
+      <div>
+        <h1>Produto não encontrado :(</h1>
+      </div>
+    )
 
   return (
     <>
-      <Header/>
-      <h1>test link ##{newParam}</h1>
+      <Header />
+      <Main>
+        <div className="deta">
+          <Image src={produto.photo} alt="Imagem do Produto" width={500} height={530}/>
+          <div className="details">
+            <h1>{produto.name}</h1>
+            <h1>R$: {produto.price}</h1>
+            <h1>{produto.id}</h1>
+            <h1>{produto.type}</h1>
+          </div>
+        </div>
+      </Main>
     </>
   );
-}
+};
+
+export default ProdutoDetalhes;

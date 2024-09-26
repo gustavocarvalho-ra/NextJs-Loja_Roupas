@@ -1,10 +1,43 @@
 import styled from "styled-components";
 
+export const Main = styled.div `
+  width: 100vw;
+  height: 76vh;
+  padding-top: 3em;
+  background: var(--back);
+  display: flex;
+  justify-content: center;
+
+  .deta {
+    width: 80%;
+    display: flex;
+    gap: 2em;
+
+
+    img {
+
+      &:hover {
+        cursor: crosshair;
+        zoom: 150%;
+      }
+    }
+  }
+`
+
 export const Container = styled.div `
   padding-top: 2em;
   width: 100%;
   display: flex;
-  background:  #e0e1ff;
+  background:  var(--back);
+
+  a {
+    text-decoration: none;
+
+    &:visited {
+      text-decoration: none;
+      color: #0000EE;
+    }
+  }
 
   .ti {
     margin: 1em 0 0 4.5em;

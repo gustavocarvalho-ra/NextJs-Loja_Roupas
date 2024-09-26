@@ -29,10 +29,7 @@ export default function Test () {
           .sort(() => Math.random() - 0.5)
           .map(item => (
             // eslint-disable-next-line react/jsx-key
-            <Link href={{
-              pathname: "../produtos/id",
-              query: {item: item.name}
-            }}>
+            <Link href={`/produtos/${item.id}`}>
               <div className="card">
                   <button className="btd">20% off</button>
                 <div className="ft">
