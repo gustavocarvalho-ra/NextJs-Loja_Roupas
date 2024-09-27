@@ -36,13 +36,14 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
           </div>
           <div className="stat">
             <div className="lin">
-              <h4><Link href="/">Página príncipal</Link> - {produto.name}</h4>
+              <h4><Link href="/">Página inicial</Link> - {produto.name}</h4>
             </div>
             <div className="details">
               <h1>{produto.name}</h1>
-              <h1>R$: {produto.price}</h1>
-              <h1>{produto.id}</h1>
-              <h1>{produto.type}</h1>
+              <div className="pri">
+                <h3>R$ {Math.floor(produto.price * produto.des + produto.price)}</h3>
+                <h2>R$: {produto.price}</h2>
+              </div>
             </div>
           </div>
         </div>

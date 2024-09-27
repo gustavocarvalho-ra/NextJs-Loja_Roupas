@@ -24,10 +24,12 @@ export const Main = styled.div `
       img {
         border-radius: 8px;
         border: 1px solid transparent;
+        transition: all 5s;
+        pointer-events: none;
 
         &:hover {
-          cursor: crosshair;
-          border: 1px solid var(--prim);
+          cursor: zoom-in;
+          border: 1px solid var(--purple);
           /* zoom: 150%; */
         }
       }
@@ -42,11 +44,29 @@ export const Main = styled.div `
       .lin {
         width: 100%;
         display: flex;
-        justify-content: center;
+        /* justify-content: center; */
+
+        a {
+          text-decoration: none;
+        }
       }
 
       .details {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        
+        .pri {
+          display: flex;
+          gap: 1em;
 
+          h3 {
+            text-decoration: line-through;
+          }
+          h2 {
+            color: #00ff00;
+          }
+        }
       }
     }
   }
