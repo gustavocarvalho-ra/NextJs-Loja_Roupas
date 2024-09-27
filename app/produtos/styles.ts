@@ -17,19 +17,38 @@ export const Main = styled.div `
     border-radius: 8px;
 
     .imag {
+      width: 50%;
       display: flex;
       gap: 1.5em;
 
       img {
         border-radius: 8px;
+        border: 1px solid transparent;
 
-        /* &:hover {
+        &:hover {
           cursor: crosshair;
-          zoom: 150%;
-        } */
+          border: 1px solid var(--prim);
+          /* zoom: 150%; */
+        }
       }
     }
 
+    .stat {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      gap: 2em;
+
+      .lin {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+
+      .details {
+
+      }
+    }
   }
 `
 
