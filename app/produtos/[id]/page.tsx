@@ -2,7 +2,6 @@
 
 import Header from "@/app/components/Header";
 
-import { produc } from "../../types/prod"
 import pro from "../../data/pro.json"
 import { Main } from "../styles";
 
@@ -45,6 +44,9 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
                 <h3>R$ {Math.floor(produto.price * produto.des + produto.price)},00</h3>
                 <p>por</p>
                 <h2>R$: {produto.price}</h2>
+              </div>
+              <div className="add">
+                <button>Adicionar ao carrinho</button>
               </div>
             </div>
           </div>

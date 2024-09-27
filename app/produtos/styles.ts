@@ -71,6 +71,26 @@ export const Main = styled.div `
             text-decoration-line: underline;
           }
         }
+
+        .add {
+          width: 50%;
+          height: 3em;
+
+          button {
+            width: 100%;
+            height: 100%;
+            font-size: 1em;
+            font-weight: 700;
+            border: 1px solid transparent;
+            background: var(--green);
+            border-radius: 8px;
+
+            &:hover {
+              border: 1px solid var(--purple);
+              cursor: pointer;
+            }
+          }
+        }
       }
     }
   }
