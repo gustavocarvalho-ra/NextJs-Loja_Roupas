@@ -60,6 +60,9 @@ export const Main = styled.div `
           display: flex;
           gap: 1em;
 
+          p {
+            font-weight: 600;
+          }
           h3 {
             text-decoration: line-through;
           }

@@ -10,9 +10,10 @@
 
 :root {
   --prim: #a9ddef;
+  --back: #e0e1ff;
+  --tex: #fdfdfd;
+  --card: #f0f4f5;
   --blue: #00ceeb;
   --purple: #8e00a7;
-  --tex: #fdfdfd;
-  --back: #e0e1ff;
-  --card: #f0f4f5;
+  --green: #00ff00;
 }
