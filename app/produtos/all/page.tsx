@@ -28,7 +28,6 @@ export default function Test () {
           {produtos
           .sort(() => Math.random() - 0.5)
           .map(item => (
-            // eslint-disable-next-line react/jsx-key
             <Link href={`/produtos/${item.id}`}>
               <div className="card">
                   <button className="btd">20% off</button>

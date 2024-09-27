@@ -3,6 +3,7 @@
 import { Container } from "../styles";
 
 import Image from "next/image";
+import Link from "next/link";
 
 import Header from "@/app/components/Header"
 import Menu from "../../components/Menu";
@@ -27,20 +28,21 @@ export default function Test () {
           {produtos
           .filter(item => item.type === "bag")
           .map(item => (
-            // eslint-disable-next-line react/jsx-key
-            <div className="card">
-                <button className="btd">20% off</button>
-              <div className="ft">
-                <Image src={item.photo}  alt="test" sizes="100vh" width={180} height={210} style={{borderRadius: "8px", marginTop: "4px"}}/>
-              </div>
-              <div className="info">
-                <h1 key={item.name}>{item.name}</h1>
-              <div className="nis" style={{display: "flex", justifyContent: "space-between"}}>
-                  <p key={item.price}>R$ {item.price}</p>
-                  <span className="var" key={item.des}>R$ {Math.floor(item.price * item.des + item.price)}</span>
+            <Link href={`/produtos/${item.id}`}>
+              <div className="card">
+                  <button className="btd">20% off</button>
+                <div className="ft">
+                  <Image src={item.photo}  alt="test" sizes="100vh" width={180} height={210} style={{borderRadius: "8px", marginTop: "4px"}}/>
+                </div>
+                <div className="info">
+                  <h1 key={item.name}>{item.name}</h1>
+                  <div className="nis" style={{display: "flex", justifyContent: "space-between"}}>
+                    <p key={item.price}>R$ {item.price}</p>
+                    <span className="var" key={item.des}>R$ {Math.floor(item.price * item.des + item.price)}</span>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </Container>
