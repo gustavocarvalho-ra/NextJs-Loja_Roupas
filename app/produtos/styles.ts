@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const Main = styled.div `
-  width: 100vw;
+  max-width: 100vw;
   height: 76vh;
-  padding-top: 3em;
+  padding-top: 5em;
   background: var(--back);
   display: flex;
   justify-content: center;
@@ -67,7 +67,8 @@ export const Main = styled.div `
             text-decoration: line-through;
           }
           h2 {
-            color: #00ff00;
+            color: var(--green);
+            text-decoration-line: underline;
           }
         }
       }
@@ -159,7 +160,7 @@ export const Container = styled.div `
     p {
       margin-top: 5px;
       font-size: 17px;
-      color: #00ff00;
+      color: var(--green);
       font-weight: 600;
     }
   }
