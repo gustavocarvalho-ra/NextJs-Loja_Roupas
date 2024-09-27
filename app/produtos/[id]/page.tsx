@@ -30,7 +30,10 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
       <Header />
       <Main>
         <div className="deta">
-          <Image src={produto.photo} alt="Imagem do Produto" width={500} height={530}/>
+          <div className="imag">
+            <Image src={produto.photo} alt="Imagem do Produto" width={80} height={95}/>
+            <Image src={produto.photo} alt="Imagem do Produto" width={500} height={530}/>
+          </div>
           <div className="details">
             <h1>{produto.name}</h1>
             <h1>R$: {produto.price}</h1>

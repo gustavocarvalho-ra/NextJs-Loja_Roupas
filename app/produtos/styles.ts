@@ -9,18 +9,27 @@ export const Main = styled.div `
   justify-content: center;
 
   .deta {
-    width: 80%;
+    padding: 2em;
+    background: var(--card);
+    width: 75%;
     display: flex;
     gap: 2em;
+    border-radius: 8px;
 
+    .imag {
+      display: flex;
+      gap: 1.5em;
 
-    img {
+      img {
+        border-radius: 8px;
 
-      &:hover {
-        cursor: crosshair;
-        zoom: 150%;
+        /* &:hover {
+          cursor: crosshair;
+          zoom: 150%;
+        } */
       }
     }
+
   }
 `
 
@@ -28,7 +37,7 @@ export const Container = styled.div `
   padding: 2em 0 2em 0;
   width: 100%;
   display: flex;
-  background:  var(--back);
+  background: var(--back);
 
   a {
     text-decoration: none;
