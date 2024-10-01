@@ -66,6 +66,7 @@ export const Main = styled.div `
           }
           h3 {
             text-decoration: line-through;
+            color: var(--grey);
           }
           h2 {
             color: var(--green);
@@ -156,7 +157,7 @@ export const Container = styled.div `
         span {
           font-size: 13px;
           text-decoration: line-through;
-          color: grey;
+          color: var(--grey);
           font-weight: 600;
           margin-right: 3em;
         }
