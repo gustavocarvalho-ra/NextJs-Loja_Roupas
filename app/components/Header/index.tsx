@@ -1,7 +1,7 @@
 import { A } from "./styles"
 
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 
 import { IoMdSearch } from "react-icons/io";
 import { BsCart3 } from "react-icons/bs";
@@ -10,12 +10,10 @@ import { SlLocationPin } from "react-icons/sl";
 import CartItens from "../CartItens";
 
 export default function Header() {
-  const [isCartI, setCartI] = React.useState(false)
+  const [modalIsOpen, setModalIsOpen] = useState(false)
 
-  console.log("cart", isCartI)
-
-  const handleCart = () => {
-    setCartI((prevState) => !prevState)
+  function handleOpenModal() {
+    setModalIsOpen(!modalIsOpen)
   }
 
   return (
@@ -45,8 +43,7 @@ export default function Header() {
               </div>
             </div>
             <div>
-              <button onClick={handleCart} className="Car">
-                <div>{isCartI ? <CartItens/> : " "}</div>
+              <button onClick={handleOpenModal} className="Car">
                 <BsCart3 style={{marginRight: '8px', marginTop: '5px', color: '#fff', fontSize: '1.5em'}}/>
                 <div>
                   <p>Abrir</p>
@@ -54,6 +51,7 @@ export default function Header() {
                 </div>
               </button>
             </div>
+            <CartItens isOpen={modalIsOpen} onClose={handleOpenModal}/>
           </div>
         </div>
 

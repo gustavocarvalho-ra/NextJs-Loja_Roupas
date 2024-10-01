@@ -5,7 +5,7 @@ interface ModalProps {
   onClose?: () => void;
 }
 
-export default function Modal({isOpen, onClose}: ModalProps) {
+export default function CartItens({isOpen, onClose}: ModalProps) {
   
   if (!isOpen) return null;
 
