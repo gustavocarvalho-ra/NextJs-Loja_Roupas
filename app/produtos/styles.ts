@@ -160,18 +160,17 @@ export const Container = styled.div `
           font-weight: 600;
           margin-right: 3em;
         }
-        
       }
     }
 
     .btd {
-        font-size: 12px;
-        font-weight: 500;
-        border-width: 0;
-        background: gainsboro;
-        border-radius: 4px;
-        margin-left: 9em;
-      }
+      font-size: 12px;
+      font-weight: 500;
+      border-width: 0;
+      background: gainsboro;
+      border-radius: 4px;
+      margin-left: 9em;
+    }
 
     h1{
       font-size: 14px;
