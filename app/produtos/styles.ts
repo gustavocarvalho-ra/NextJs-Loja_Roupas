@@ -58,7 +58,8 @@ export const Main = styled.div `
         
         .pri {
           display: flex;
-          gap: 1em;
+          flex-direction: column;
+          gap: .8em;
 
           p {
             font-weight: 600;
