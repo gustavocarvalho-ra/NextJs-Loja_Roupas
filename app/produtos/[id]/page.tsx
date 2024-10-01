@@ -7,6 +7,7 @@ import { Main } from "../styles";
 
 import Image from 'next/image';
 import Link from "next/link"
+import ImageZoom from "@/app/components/ZoomImage";
 
 interface Params {
   id: string
@@ -50,6 +51,13 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
               </div>
             </div>
           </div>
+          <ImageZoom
+            src={produto.photo}
+            zoomImageSrc="/path/to/your/zoom-image.jpg"
+            zoomFactor={2} /* Multiplicador do zoom */
+            width={500}
+            height={500}
+          />
         </div>
       </Main>
     </>
