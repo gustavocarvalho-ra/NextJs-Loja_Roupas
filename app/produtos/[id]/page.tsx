@@ -51,13 +51,7 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
               </div>
             </div>
           </div>
-          <ImageZoom
-            src={produto.photo}
-            zoomImageSrc="/path/to/your/zoom-image.jpg"
-            zoomFactor={2} /* Multiplicador do zoom */
-            width={500}
-            height={500}
-          />
+          {/* <ImageZoom src={produto.photo} zoomImageSrc="/path/to/your/zoom-image.jpg" zoomFactor={2} width={500} height={500} /> */}
         </div>
       </Main>
     </>
