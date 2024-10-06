@@ -2,6 +2,7 @@ import { A } from "./styles"
 
 import Link from "next/link";
 import React, { useState } from "react";
+import { useRouter } from "next/navigation";
 
 import { IoMdSearch } from "react-icons/io";
 import { BsCart3 } from "react-icons/bs";
@@ -10,11 +11,21 @@ import { SlLocationPin } from "react-icons/sl";
 import CartItens from "../CartItens";
 
 export default function Header() {
-  const [modalIsOpen, setModalIsOpen] = useState(false)
+  const [searchQuery, setSearchQuery] = useState('');
+  const router = useRouter();
+
+  const handleSearch = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      router.push(`/search?q=${searchQuery}`);
+    }
+  };
+
+  const [modalIsOpen, setModalIsOpen] = useState(false);
 
   function handleOpenModal() {
     setModalIsOpen(!modalIsOpen)
-  }
+  };
 
   return (
     <A>
@@ -24,8 +35,18 @@ export default function Header() {
           <Link href="../" style={{textDecoration: "none"}}><p className="Log">Street <span className="Los">Tech</span></p></Link>
           
           <div style={{display: 'flex', alignItems: 'center', flexDirection: 'row-reverse'}}>
-            <input className="lup" placeholder="O que está procurando?"></input>
-            <button className="btnLup"><IoMdSearch style={{color: 'var(--tex)', fontSize: '25px'}} /></button>
+            <form className="sear" onSubmit={handleSearch}>
+              <input
+                className="lup" 
+                type="text" 
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder="O que está procurando?"
+              />
+              <button className="btnLup" type="submit">
+                <IoMdSearch style={{color: 'var(--tex)', fontSize: '25px'}} />
+              </button>
+            </form>
           </div>
 
           <div className="user">

@@ -18,6 +18,11 @@ export const A = styled.div `
       display: flex;
       align-items: center;
       justify-content: center;
+      .sear {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+      }
       .Log {
         font-family: "Sedgwick Ave Display";
         color: #fff;
