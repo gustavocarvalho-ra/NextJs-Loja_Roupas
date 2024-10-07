@@ -44,7 +44,6 @@ export const Main = styled.div `
       .lin {
         width: 100%;
         display: flex;
-        /* justify-content: center; */
 
         a {
           text-decoration: none;
@@ -55,6 +54,7 @@ export const Main = styled.div `
         display: flex;
         flex-direction: column;
         gap: 2em;
+        cursor: default;
         
         .pri {
           display: flex;
