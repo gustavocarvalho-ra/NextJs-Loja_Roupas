@@ -42,7 +42,10 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
               <h1>{produto.name}</h1>
               <div className="pri">
                 <p>De:</p>
-                <h3>R$ {Math.floor(produto.price * produto.des + produto.price)},00</h3>
+                <div style={{display: "flex", alignItems: "center"}}>
+                  <h3>R$ {Math.floor(produto.price * produto.des + produto.price)},00 </h3>
+                  <span>20%off</span>
+                </div>
                 <p>por:</p>
                 <h2>R$ {produto.price}</h2>
               </div>

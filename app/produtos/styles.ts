@@ -64,6 +64,17 @@ export const Main = styled.div `
           p {
             font-weight: 600;
           }
+
+          span {
+            margin-left: 1em;
+            color: var(--blue);
+            font-size: 1em;
+            font-weight: 800;
+            border-radius: 8px;
+            padding: .35em;
+            background: var(--purple);
+          }
+
           h3 {
             text-decoration: line-through;
             color: var(--grey);
