@@ -100,6 +100,7 @@ export const Main = styled.div `
             transition: all .3s;
 
             &:hover {
+              font-size: 1.1em;
               border: 1px solid var(--purple);
               cursor: pointer;
               background: var(--prim);
