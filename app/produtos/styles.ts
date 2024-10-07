@@ -97,10 +97,12 @@ export const Main = styled.div `
             border: 1px solid transparent;
             background: var(--green);
             border-radius: 8px;
+            transition: all .3s;
 
             &:hover {
               border: 1px solid var(--purple);
               cursor: pointer;
+              background: var(--prim);
             }
           }
         }
