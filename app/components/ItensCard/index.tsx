@@ -1,0 +1,2 @@
+import { Conte } from "./styles";
+
