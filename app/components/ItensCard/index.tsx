@@ -1,16 +1,14 @@
-import { Conte } from "./styles";
-
 "use client"
 
 import pro from "../../data/pro.json"
-import Menu from "../../components/Menu";
-import Header from "@/app/components/Header"
+
+import { Conte } from "./styles";
 
 import Link from "next/link";
 import Image from "next/image";
 
 
-export default function Test () {
+export default function ItensCard () {
   let produtos = [...pro];
 
   return (
