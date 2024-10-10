@@ -21,6 +21,8 @@ export const Main = styled.div `
       width: 50%;
       display: flex;
       gap: 1.5em;
+      background: var(--back);
+      border-radius: 8px;
 
       img {
         border-radius: 8px;
@@ -42,6 +44,8 @@ export const Main = styled.div `
       display: flex;
       flex-direction: column;
       gap: 2em;
+      background: var(--back);
+      border-radius: 8px;
 
       .lin {
         width: 100%;
