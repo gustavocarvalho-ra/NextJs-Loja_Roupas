@@ -17,6 +17,7 @@ export const Main = styled.div `
     border-radius: 8px;
 
     .imag {
+      padding: 2em;
       width: 50%;
       display: flex;
       gap: 1.5em;
@@ -36,6 +37,7 @@ export const Main = styled.div `
     }
 
     .stat {
+      padding: 2em;
       width: 50%;
       display: flex;
       flex-direction: column;
