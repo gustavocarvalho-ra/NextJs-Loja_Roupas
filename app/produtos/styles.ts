@@ -27,13 +27,15 @@ export const Main = styled.div `
       img {
         border-radius: 8px;
         border: 1px solid transparent;
-        transition: all 5s;
-        pointer-events: none;
+        transition: all .5s;
+      }
+
+      .mini {
+        border: 1px solid transparent;
 
         &:hover {
-          cursor: zoom-in;
+          cursor: pointer;
           border: 1px solid var(--purple);
-          /* zoom: 150%; */
         }
       }
     }

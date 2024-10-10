@@ -31,8 +31,8 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
       <Main>
         <div className="deta">
           <div className="imag">
-            <Image src={produto.photo} alt="Imagem do Produto" width={80} height={95}/>
-            <Image src={produto.photo} alt="Imagem do Produto" width={550} height={580}/>
+            <Image src={produto.photo} className="mini" alt="Imagem do produto minimizado" width={80} height={95}/>
+            <Image src={produto.photo} alt="Imagem do produto" width={550} height={580}/>
           </div>
           <div className="stat">
             <div className="lin">
