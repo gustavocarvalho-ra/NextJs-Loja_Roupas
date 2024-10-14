@@ -15,6 +15,7 @@ export default function ItensCard () {
       <Conte>
           {produtos
           .sort(() => Math.random() - 0.5)
+          .slice(0, 5)
           .map(item => (
             <Link href={`/produtos/${item.id}`}>
               <div className="card">
