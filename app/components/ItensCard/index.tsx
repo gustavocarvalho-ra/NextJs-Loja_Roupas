@@ -25,7 +25,7 @@ export default function ItensCard () {
                 </div>
                 <div className="info">
                   <h1 key={item.name}>{item.name}</h1>
-                <div className="nis" style={{display: "flex", justifyContent: "space-between"}}>
+                  <div className="nis" style={{display: "flex", justifyContent: "space-between"}}>
                     <p key={item.price}>R$ {item.price}</p>
                     <span className="var" key={item.des}>R$ {Math.floor(item.price * item.des + item.price)}</span>
                   </div>

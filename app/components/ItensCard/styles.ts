@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Conte = styled.div `
   max-width: 100vw;
-  height: 15vh;
+  height: 50vh;
   /* padding-top: 5em; */
   background: red;
   display: flex;
