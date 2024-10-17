@@ -3,7 +3,7 @@
 import Header from "@/app/components/Header";
 
 import pro from "../../data/pro.json"
-import { Main } from "../styles";
+import { Main, Body } from "../styles";
 
 import Image from 'next/image';
 import Link from "next/link"
@@ -29,37 +29,39 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
   return (
     <>
       <Header />
-      
-      <Main>
-        <div className="deta">
-          <div className="imag">
-            <Image src={produto.photo} className="mini" alt="Imagem do produto minimizado" width={80} height={95}/>
-            <Image src={produto.photo} alt="Imagem do produto" width={550} height={580}/>
-          </div>
-          <div className="stat">
-            <div className="lin">
-              <h4><Link href="/">Página inicial</Link> - {produto.name}</h4>
+      <Body>
+
+        <Main>
+          <div className="deta">
+            <div className="imag">
+              <Image src={produto.photo} className="mini" alt="Imagem do produto minimizado" width={80} height={95}/>
+              <Image src={produto.photo} alt="Imagem do produto" width={550} height={580}/>
             </div>
-            <div className="details">
-              <h1>{produto.name}</h1>
-              <div className="pri">
-                <p>De:</p>
-                <div style={{display: "flex", alignItems: "center"}}>
-                  <h3>R$ {Math.floor(produto.price * produto.des + produto.price)},00 </h3>
-                  <span>20%off</span>
+            <div className="stat">
+              <div className="lin">
+                <h4><Link href="/">Página inicial</Link> - {produto.name}</h4>
+              </div>
+              <div className="details">
+                <h1>{produto.name}</h1>
+                <div className="pri">
+                  <p>De:</p>
+                  <div style={{display: "flex", alignItems: "center"}}>
+                    <h3>R$ {Math.floor(produto.price * produto.des + produto.price)},00 </h3>
+                    <span>20%off</span>
+                  </div>
+                  <p>por:</p>
+                  <h2>R$ {produto.price}</h2>
                 </div>
-                <p>por:</p>
-                <h2>R$ {produto.price}</h2>
-              </div>
-              <div className="add">
-                <button>Adicionar ao carrinho</button>
+                <div className="add">
+                  <button>Adicionar ao carrinho</button>
+                </div>
               </div>
             </div>
+            {/* <ImageZoom src={produto.photo} zoomImageSrc="/path/to/your/zoom-image.jpg" zoomFactor={2} width={500} height={500} /> */}
           </div>
-          {/* <ImageZoom src={produto.photo} zoomImageSrc="/path/to/your/zoom-image.jpg" zoomFactor={2} width={500} height={500} /> */}
-        </div>
-      </Main>
         <ItensCard />
+        </Main>
+      </Body>
     </>
   );
 };

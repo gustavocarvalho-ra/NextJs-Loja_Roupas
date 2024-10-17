@@ -14,7 +14,7 @@ export const Card = styled.div `
     flex-direction: column;
     transition: 1s;
     border-radius: 8px;
-    background-color: #f0f4f5;
+    background-color: var(--card);
     padding-top: .3em;
     cursor: pointer;
 
@@ -47,10 +47,12 @@ export const Card = styled.div `
 
 export const Main = styled.div `
   max-width: 100vw;
-  height: 76vh;
+  height: 120vh;
   padding-top: 5em;
   background: var(--back);
   display: flex;
+  align-items: center;
+  flex-direction: column;
   justify-content: center;
 
   .deta {
