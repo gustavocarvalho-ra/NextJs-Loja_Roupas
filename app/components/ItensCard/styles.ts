@@ -24,6 +24,8 @@ export const Conte = styled.div `
       display: flex;
       flex-direction: column;
       align-items: center;
+      border-radius: 8px;
+      gap: 1.1em;
     }
   
     .card {
