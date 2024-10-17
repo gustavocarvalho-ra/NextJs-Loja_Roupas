@@ -11,11 +11,20 @@ export const Conte = styled.div `
     width: 75%;
     background: var(--card);
     gap: 2em;
-    padding: 2em;
+    padding: 0 2em 0 2em;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+
+    .sec {
+      width: 100%;
+      height: 100%;
+      background: var(--back);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   
     .card {
       width: 210px;
