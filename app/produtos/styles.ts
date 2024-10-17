@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+export const Body = styled.div `
+  display: flex;
+  flex-direction: column;
+`
+
 export const Card = styled.div `
   .card {
     width: 210px;

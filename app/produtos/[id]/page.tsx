@@ -29,6 +29,7 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
   return (
     <>
       <Header />
+      
       <Main>
         <div className="deta">
           <div className="imag">
@@ -58,8 +59,7 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
           {/* <ImageZoom src={produto.photo} zoomImageSrc="/path/to/your/zoom-image.jpg" zoomFactor={2} width={500} height={500} /> */}
         </div>
       </Main>
-    <ItensCard />
-
+        <ItensCard />
     </>
   );
 };
