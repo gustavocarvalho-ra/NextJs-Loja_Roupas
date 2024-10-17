@@ -4,17 +4,18 @@ export const Conte = styled.div `
   width: 100%;
   height: 50vh;
   gap: 2em;
-  background: var(--back);
   display: flex;
   justify-content: center;
 
   .section {
     width: 75%;
     background: var(--card);
+    gap: 2em;
     padding: 2em;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   
     .card {
       width: 210px;

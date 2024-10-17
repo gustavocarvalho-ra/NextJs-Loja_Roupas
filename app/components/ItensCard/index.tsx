@@ -14,26 +14,30 @@ export default function ItensCard () {
   return (
     <Conte>
       <div className="section">
-        {produtos
-        .sort(() => Math.random() - 0.5)
-        .slice(0, 5)
-        .map(item => (
-          <Link href={`/produtos/${item.id}`}>
-            <div className="card">
-                <button className="btd">20% off</button>
-              <div className="ft">
-                <Image src={item.photo}  alt="test" sizes="100vh" width={180} height={210} style={{borderRadius: "8px", marginTop: "4px"}}/>
-              </div>
-              <div className="info">
-                <h1 key={item.name}>{item.name}</h1>
-                <div className="nis" style={{display: "flex", justifyContent: "space-between"}}>
-                  <p key={item.price}>R$ {item.price}</p>
-                  <span className="var" key={item.des}>R$ {Math.floor(item.price * item.des + item.price)}</span>
+        <h1>Demais peças</h1>
+        <div style={{display: "flex"}}>
+
+          {produtos
+          .sort(() => Math.random() - 0.5)
+          .slice(0, 6)
+          .map(item => (
+            <Link href={`/produtos/${item.id}`}>
+              <div className="card">
+                  <button className="btd">20% off</button>
+                <div className="ft">
+                  <Image src={item.photo}  alt="test" sizes="100vh" width={180} height={210} style={{borderRadius: "8px", marginTop: "4px"}}/>
+                </div>
+                <div className="info">
+                  <h1 key={item.name}>{item.name}</h1>
+                  <div className="nis" style={{display: "flex", justifyContent: "space-between"}}>
+                    <p key={item.price}>R$ {item.price}</p>
+                    <span className="var" key={item.des}>R$ {Math.floor(item.price * item.des + item.price)}</span>
+                  </div>
                 </div>
               </div>
-            </div>
-          </Link>
-        ))}
+            </Link>
+          ))}
+        </div>
       </div>
     </Conte>
   )

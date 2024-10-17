@@ -61,7 +61,7 @@ export const Main = styled.div `
     width: 75%;
     display: flex;
     gap: 2em;
-    border-radius: 8px;
+    border-radius: 8px 8px 0 0;
 
     .imag {
       padding: 2em;
