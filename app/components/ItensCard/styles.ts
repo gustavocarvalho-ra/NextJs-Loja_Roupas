@@ -26,6 +26,7 @@ export const Conte = styled.div `
       align-items: center;
       border-radius: 8px;
       gap: 1.1em;
+      padding-top: 1em;
     }
   
     .card {
