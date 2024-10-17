@@ -13,6 +13,7 @@ export default function ItensCard () {
 
   return (
     <Conte>
+      <div className="section">
         {produtos
         .sort(() => Math.random() - 0.5)
         .slice(0, 5)
@@ -33,6 +34,7 @@ export default function ItensCard () {
             </div>
           </Link>
         ))}
+      </div>
     </Conte>
   )
 }
