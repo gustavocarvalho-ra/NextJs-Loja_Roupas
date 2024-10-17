@@ -17,7 +17,7 @@ export default function ItensCard () {
         <div className="sec">
 
           <h1>Demais peças</h1>
-          <div style={{display: "flex", gap: "1em"}}>
+          <div className="containerCard">
             {produtos
             .sort(() => Math.random() - 0.5)
             .slice(0, 6)
