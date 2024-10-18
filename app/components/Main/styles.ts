@@ -1,5 +1,15 @@
 import styled from "styled-components";
 
+export const AllOff = styled.h2 `
+  font-size: 2em;
+  font-weight: 800;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  color: #7910e8;
+  z-index: 100;
+`
+
 export const Man = styled.div `
   .section {
     width: 100%;
@@ -11,7 +21,7 @@ export const Man = styled.div `
     background: #e0e1ff;
 
     h1 {
-      margin-top: 45px;
+      /* margin-top: 45px; */
       font-size: 26px;
       font-weight: 450;
       text-transform: uppercase;

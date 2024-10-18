@@ -1,11 +1,12 @@
 import Link from "next/link";
 
-import { Man } from "./styles"
+import { Man, AllOff } from "./styles"
 
 export default function Main() {
   return (
     <Man>
       <div className="section">
+        <AllOff>Todos os intens com 20% de desconto!</AllOff>
         <h1>Coleções</h1>
         <div className="cards">
           <Link className="clas" href="/produtos/jaquetas">Jaquetas</Link>

@@ -85,9 +85,10 @@ export default function Header() {
         </div>
       </div>
       <hr className="hrB"/>
-      <div className="na">
+
+      {/* <div className="na">
         <h1>TODOS OS ITENS COM 20% DE DESCONTO!!!</h1>
-      </div>
+      </div> */}
     </A>
   )
 }

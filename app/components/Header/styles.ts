@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const A = styled.div `
   width: 100%;
-  height: 18vh;
+  height: 17vh;
 
   .section {
     width: 100%;
@@ -176,14 +176,5 @@ export const A = styled.div `
         color: red;
       }
     }
-  }
-
-  .na {
-    z-index: 100;
-    width: 100%;
-    height: 46px;
-    display: flex;
-    justify-content: center;
-    color: #7910e8;
   }
 `
