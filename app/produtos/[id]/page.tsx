@@ -3,7 +3,7 @@
 import Header from "@/app/components/Header";
 
 import pro from "../../data/pro.json"
-import { Main, Body } from "../styles";
+import { Main, Body, Off } from "../styles";
 
 import Image from 'next/image';
 import Link from "next/link"
@@ -47,7 +47,7 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
                   <p>De:</p>
                   <div style={{display: "flex", alignItems: "center"}}>
                     <h3>R$ {Math.floor(produto.price * produto.des + produto.price)},00 </h3>
-                    <span>20%off</span>
+                    <Off>20%off</Off>
                   </div>
                   <p>por:</p>
                   <h2>R$ {produto.price}</h2>

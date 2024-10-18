@@ -3,6 +3,7 @@
 import pro from "../../data/pro.json"
 
 import { Conte } from "./styles";
+import { Off } from "@/app/produtos/styles";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -24,7 +25,7 @@ export default function ItensCard () {
             .map(item => (
               <Link href={`/produtos/${item.id}`}>
                 <div className="card">
-                    <span className="btd">20% off</span>
+                    <Off className="btd">20% off</Off>
                   <div className="ft">
                     <Image src={item.photo}  alt="test" sizes="100vh" width={180} height={210} style={{borderRadius: "8px", marginTop: "4px"}}/>
                   </div>

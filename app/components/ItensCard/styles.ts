@@ -78,23 +78,7 @@ export const Conte = styled.div `
               }
             }
           }
-      
-          .btd {
-            /* font-size: 12px;
-            font-weight: 500;
-            border-width: 0;
-            background: gainsboro;
-            border-radius: 4px;
-            */
-            margin-left: 8em;
-            color: var(--blue);
-            font-size: .7em;
-            font-weight: 800;
-            border-radius: 8px;
-            padding: .35em;
-            background: var(--purple);
-          }
-      
+          
           h1{
             font-size: 14px;
             font-weight: 400;
