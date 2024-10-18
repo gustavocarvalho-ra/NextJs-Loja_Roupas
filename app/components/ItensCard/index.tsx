@@ -24,7 +24,7 @@ export default function ItensCard () {
             .map(item => (
               <Link href={`/produtos/${item.id}`}>
                 <div className="card">
-                    <button className="btd">20% off</button>
+                    <span className="btd">20% off</span>
                   <div className="ft">
                     <Image src={item.photo}  alt="test" sizes="100vh" width={180} height={210} style={{borderRadius: "8px", marginTop: "4px"}}/>
                   </div>

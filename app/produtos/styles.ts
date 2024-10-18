@@ -1,5 +1,15 @@
 import styled from "styled-components";
 
+export const Off = styled.span `
+  margin-left: 8em;
+  color: var(--blue);
+  font-size: .7em;
+  font-weight: 800;
+  border-radius: 8px;
+  padding: .35em;
+  background: var(--purple);
+`
+
 export const Body = styled.div `
   display: flex;
   flex-direction: column;
