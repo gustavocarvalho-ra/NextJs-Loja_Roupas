@@ -20,7 +20,7 @@ export const Body = styled.div `
 export const Main = styled.div `
   max-width: 100vw;
   height: 120vh;
-  padding-top: 5em;
+  padding: 5em 0;
   background: var(--back);
   display: flex;
   align-items: center;
