@@ -47,15 +47,14 @@ export const Conte = styled.div `
       border-radius: 8px;
       gap: 1.1em;
       padding-top: 1em;
-      margin-bottom: 2em;
       overflow-y: hidden;
       overflow-x: auto;
-      margin-bottom: 1em;
 
       .containerCard{
         width: 96%;
         display: flex;
         gap: 1.5em;
+        margin-bottom: 1em;
 
         .card {
           width: 210px;
