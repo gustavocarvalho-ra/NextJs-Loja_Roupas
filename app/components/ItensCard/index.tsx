@@ -21,7 +21,7 @@ export default function ItensCard () {
           <div className="containerCard">
             {produtos
             .sort(() => Math.random() - 0.5)
-            .slice(0, 6)
+            .slice(0, 10)
             .map(item => (
               <Link href={`/produtos/${item.id}`}>
                 <div className="card">

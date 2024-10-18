@@ -36,6 +36,9 @@ export const Conte = styled.div `
       border-radius: 8px;
       gap: 1.1em;
       padding-top: 1em;
+      margin-bottom: 2em;
+      overflow-y: hidden;
+      overflow-x: auto;
 
       .containerCard{
         display: flex;
