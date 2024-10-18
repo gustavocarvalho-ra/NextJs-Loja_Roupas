@@ -7,6 +7,16 @@ export const Conte = styled.div `
   display: flex;
   justify-content: center;
 
+  ::-webkit-scrollbar {
+    width: 4px;
+    background: var(--prim);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+    background-color: var(--grey);
+  }
+
   .section {
     width: 75%;
     background: var(--card);
@@ -39,11 +49,12 @@ export const Conte = styled.div `
       margin-bottom: 2em;
       overflow-y: hidden;
       overflow-x: auto;
+      margin-bottom: 1em;
 
       .containerCard{
+        width: 96%;
         display: flex;
         gap: 1.5em;
-        /* text-decoration: none; */
 
         .card {
           width: 210px;
