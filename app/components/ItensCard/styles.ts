@@ -19,6 +19,11 @@ export const Conte = styled.div `
 
     a {
       text-decoration: none;
+
+      &:visited {
+        text-decoration: none;
+        color: #0000EE;
+      }   
     }
 
     .sec {
