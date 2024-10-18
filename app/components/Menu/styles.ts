@@ -11,8 +11,8 @@ export const Mn = styled.div `
     width: 100%;
     height: 435px;
     gap: 1em;
-    box-shadow: 4px 3px 5px #d3d3d3;
-    background-color: #f0f4f5;
+    box-shadow: 5px 4px 5px #54396f;
+    background-color: var(--card);
     border-radius: 8px;
     display: flex;
     flex-direction: column;
