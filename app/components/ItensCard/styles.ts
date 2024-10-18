@@ -8,7 +8,7 @@ export const Conte = styled.div `
   justify-content: center;
 
   ::-webkit-scrollbar {
-    width: 4px;
+    height: .8em;
     background: var(--prim);
   }
 
@@ -21,11 +21,12 @@ export const Conte = styled.div `
     width: 75%;
     background: var(--card);
     gap: 2em;
-    padding: 0 2em 0 2em;
+    padding: 0 2em 2em 2em;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+    border-radius: 0 0 8px 8px;
 
     a {
       text-decoration: none;
