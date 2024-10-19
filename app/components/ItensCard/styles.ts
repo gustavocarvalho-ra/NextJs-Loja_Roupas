@@ -9,6 +9,7 @@ export const Conte = styled.div `
 
   ::-webkit-scrollbar {
     height: .8em;
+    border-radius: 0 0 8px 8px;
     background: var(--prim);
   }
 
