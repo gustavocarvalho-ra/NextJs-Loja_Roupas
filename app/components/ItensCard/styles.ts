@@ -16,6 +16,10 @@ export const Conte = styled.div `
   ::-webkit-scrollbar-thumb {
     border-radius: 12px;
     background-color: var(--grey);
+
+    &:hover {
+      background-color: #757575;
+    }
   }
 
   .section {
