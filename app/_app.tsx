@@ -1,5 +1,5 @@
 import type { AppProps } from "next/app";
-import { CartProvider } from "./contexts/CartContext"
+import { CartProvider } from "./contexts"
 import "../globals.css"
 import "normalize.css";
 
