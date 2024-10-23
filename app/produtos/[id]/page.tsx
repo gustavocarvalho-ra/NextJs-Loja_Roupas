@@ -9,6 +9,8 @@ import Image from 'next/image';
 import Link from "next/link"
 import ImageZoom from "@/app/components/ZoomImage";
 import ItensCard from './../../components/ItensCard/index';
+import { useShoppingCart } from "@/app/contexts/useShoppingCart";
+import { products } from '@/app/types/products';
 
 interface Params {
   id: string
@@ -25,6 +27,9 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
         <h1>Produto não encontrado :(</h1>
       </div>
     )
+
+  const {handleAddProductShopping, listShoppingCart} = useShoppingCart()
+  console.log(listShoppingCart)
 
   return (
     <>
@@ -53,7 +58,7 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
                   <h2>R$ {produto.price}</h2>
                 </div>
                 <div className="add">
-                  <button>Adicionar ao carrinho</button>
+                    <button onClick={() => handleAddProductShopping(produto as products)}>Adicionar ao carrinho</button>
                 </div>
               </div>
             </div>

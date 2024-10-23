@@ -20,6 +20,8 @@ type UseShoppingCartData = {
   handleRemoveProductShopping: (productId: number) => void;
 }
 
+
+
 const UseShoppingCartContext = createContext({} as UseShoppingCartData);
 
 export const UseShoppingCartProvider = ({ children }: UseShoppingCartProps) => {

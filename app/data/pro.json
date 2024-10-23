@@ -5,7 +5,8 @@
     "photo": "/assets/calcaCargoLaco.jpeg",
     "type": "calça",
     "id": 1,
-    "des": 0.25
+    "des": 0.25,
+    "quantity": 0
   }
   ,
   {

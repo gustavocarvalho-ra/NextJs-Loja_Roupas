@@ -4,6 +4,5 @@ export type products = {
   photo: string;
   type: string;
   id: number;
-  ras: number;
-  quantity: number;
+  quantity:number
 }
