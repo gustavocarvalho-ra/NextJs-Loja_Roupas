@@ -53,7 +53,21 @@ export const UseShoppingCartProvider = ({ children }: UseShoppingCartProps) => {
       );
       //test
     }
-  }
+  };
+
+  const handleRemoveProductShopping = (productId: number) => {
+    const updateListShoppingCart = listShoppingCart.filter(
+      (product) => product.id !== productId,
+    );
+    setListShoppingCart(updateListShoppingCart);
+    localStorage.setItem(
+      "listShoppingCartStorage",
+      JSON.stringify(updateListShoppingCart),
+    );
+    //test
+  };
+
+  
 }
 
 
