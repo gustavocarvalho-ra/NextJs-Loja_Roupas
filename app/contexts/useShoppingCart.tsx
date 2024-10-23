@@ -67,6 +67,23 @@ export const UseShoppingCartProvider = ({ children }: UseShoppingCartProps) => {
     //test
   };
 
+  const handleDecreaseQuantity = (productId: number) => {
+    const updatedListShoppingCart = listShoppingCart
+      .map((product) => {
+        if (product.id === productId && product.quantity > 1) {
+          return { ...product, quantity: product.quantity - 1};
+        }
+        return product;
+      })
+      .filter((product) => product.quantity > 0);
+
+    setListShoppingCart(updatedListShoppingCart);
+    localStorage.setitem(
+      "listShoppingCartStorage",
+      JSON.stringify(updatedListShoppingCart),
+    );
+  };
+
   
 }
 
