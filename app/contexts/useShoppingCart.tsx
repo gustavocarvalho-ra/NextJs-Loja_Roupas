@@ -113,4 +113,12 @@ export const UseShoppingCartProvider = ({ children }: UseShoppingCartProps) => {
   );
 };
 
+export const useShoppingCart = () => {
+  const context = useContext(UseShoppingCartContext);
 
+  if(!context) {
+    throw new Error("useShoppingCart must be used within an UploadProvider");
+  }
+
+  return context;
+}
