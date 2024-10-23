@@ -16,11 +16,11 @@ type UseShoppingCartData = {
   listShoppingCart: products[];
   handleAddProductShopping: (product: products) => void;
   handleDecreaseQuantity: (productId: number) => void;
-  handleIncreaseQauntity: (productId: number) => void;
+  handleIncreaseQuantity: (productId: number) => void;
   handleRemoveProductShopping: (productId: number) => void;
 }
 
-const UseShoppingCartDataContext = createContext({} as UseShoppingCartData);
+const UseShoppingCartContext = createContext({} as UseShoppingCartData);
 
 export const UseShoppingCartProvider = ({ children }: UseShoppingCartProps) => {
 
@@ -84,7 +84,33 @@ export const UseShoppingCartProvider = ({ children }: UseShoppingCartProps) => {
     );
   };
 
-  
-}
+  const handleIncreaseQuantity = (productId: number) => {
+    const updatedListShoppingCart = listShoppingCart.map((product) => {
+      if (product.id === productId) {
+        return { ...product, quantity: product.quantity + 1}
+      }
+      return product;
+    });
+    setListShoppingCart(updatedListShoppingCart);
+    localStorage.setItem(
+      "listShoppingcartStorage",
+      JSON.stringify(updatedListShoppingCart),
+    );
+  };
+
+  return (
+    <UseShoppingCartContext.Provider
+      value={{
+        listShoppingCart,
+        handleAddProductShopping,
+        handleRemoveProductShopping,
+        handleDecreaseQuantity,
+        handleIncreaseQuantity,
+      }}
+    >
+      {children}
+    </UseShoppingCartContext.Provider>
+  );
+};
 
 
