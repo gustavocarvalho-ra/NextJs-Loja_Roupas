@@ -22,24 +22,38 @@ type UseShoppingCartData = {
 
 const UseShoppingCartDataContext = createContext({} as UseShoppingCartData);
 
-const [listShoppingCart, setListShoppingCart] = useState<products[]> ([]);
+export const UseShoppingCartProvider = ({ children }: UseShoppingCartProps) => {
 
-useEffect(() => {
-  const listShoppingCartStorage = localStorage.getItem(
-    "listSgoppingCartStorage",
-  );
-  if (listShoppingCartStorage) {
-    setListShoppingCart(JSON.parse(listShoppingCartStorage));
-  }
-}, []);
+  const [listShoppingCart, setListShoppingCart] = useState<products[]> ([]);
 
-const handleAddProductShopping = (product: products) => {
-  const existingProductIndex = listShoppingCart.findIndex(
-    (item) => item.id === product.id,
-  );
+  useEffect(() => {
+    const listShoppingCartStorage = localStorage.getItem(
+      "listSgoppingCartStorage",
+    );
+    if (listShoppingCartStorage) {
+      setListShoppingCart(JSON.parse(listShoppingCartStorage));
+    }
+  }, []);
 
-  if (existingProductIndex !== -1) {
-    const updateListShoppingCart = [...listShoppingCart];
-    updateListShoppingCart[existingProductIndex].quantity += 1;
+
+  const handleAddProductShopping = (product: products) => {
+    const existingProductIndex = listShoppingCart.findIndex(
+      (item) => item.id === product.id,
+    );
+  
+    if (existingProductIndex !== -1) {
+      const updateListShoppingCart = [...listShoppingCart];
+      updateListShoppingCart[existingProductIndex].quantity += 1;
+  
+
+      setListShoppingCart(updateListShoppingCart);
+      localStorage.setItem(
+        "listShoppingCartStorage",
+        JSON.stringify(updateListShoppingCart),
+      );
+      //test
+    }
   }
 }
+
+
