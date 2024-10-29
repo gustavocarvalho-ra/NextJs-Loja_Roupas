@@ -29,41 +29,41 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
       </div>
     )
 
-  const { listShoppingCart } = useShoppingCart()
+  // const { listShoppingCart } = useShoppingCart()
 
-//   const [listShoppingCart, setListShoppingCart] = useState<products[]> ([]);
+  const [listShoppingCart, setListShoppingCart] = useState<products[]> ([]);
 
-//   useEffect(() => {
-//     const listShoppingCartStorage = localStorage.getItem(
-//       "listSgoppingCartStorage",
-//     );
-//     if (listShoppingCartStorage) {
-//       setListShoppingCart(JSON.parse(listShoppingCartStorage));
-//     }
-//   }, []);
+  useEffect(() => {
+    const listShoppingCartStorage = localStorage.getItem(
+      "listSgoppingCartStorage",
+    );
+    if (listShoppingCartStorage) {
+      setListShoppingCart(JSON.parse(listShoppingCartStorage));
+    }
+  }, []);
 
 
 
-//   const handleAddProductShopping = (product: products) => {
-//     const existingProductIndex = listShoppingCart.findIndex(
-//       (item) => item.id === product.id,
-//     );
+  const handleAddProductShopping = (product: products) => {
+    const existingProductIndex = listShoppingCart.findIndex(
+      (item) => item.id === product.id,
+    );
   
-//     if (existingProductIndex !== -1) {
-//       const updateListShoppingCart = [...listShoppingCart, product];
-// console.log('oi')
+    if (existingProductIndex !== -1) {
+      const updateListShoppingCart = [...listShoppingCart, product];
+console.log('oi')
   
 
-//       setListShoppingCart(updateListShoppingCart);
-//       localStorage.setItem(
-//         "listShoppingCartStorage",
-//         JSON.stringify(updateListShoppingCart),
-//       );
-//       //test
-//     }
-//   };
+      setListShoppingCart(updateListShoppingCart);
+      localStorage.setItem(
+        "listShoppingCartStorage",
+        JSON.stringify(updateListShoppingCart),
+      );
+      //test
+    }
+  };
 
-//   console.log(listShoppingCart)
+  console.log(listShoppingCart)
 
   return (
     <>
