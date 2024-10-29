@@ -30,7 +30,7 @@ export const UseShoppingCartProvider = ({ children }: UseShoppingCartProps) => {
 
   useEffect(() => {
     const listShoppingCartStorage = localStorage.getItem(
-      "listSgoppingCartStorage",
+      "listShoppingCartStorage",
     );
     if (listShoppingCartStorage) {
       setListShoppingCart(JSON.parse(listShoppingCartStorage));
@@ -80,7 +80,7 @@ export const UseShoppingCartProvider = ({ children }: UseShoppingCartProps) => {
       .filter((product) => product.quantity > 0);
 
     setListShoppingCart(updatedListShoppingCart);
-    localStorage.setitem(
+    localStorage.setItem(
       "listShoppingCartStorage",
       JSON.stringify(updatedListShoppingCart),
     );
@@ -95,7 +95,7 @@ export const UseShoppingCartProvider = ({ children }: UseShoppingCartProps) => {
     });
     setListShoppingCart(updatedListShoppingCart);
     localStorage.setItem(
-      "listShoppingcartStorage",
+      "listShoppingCartStorage",
       JSON.stringify(updatedListShoppingCart),
     );
   };
