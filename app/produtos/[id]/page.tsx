@@ -45,11 +45,11 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
 
 
   const handleAddProductShopping = (product: products) => {
-    // const existingProductIndex = listShoppingCart.findIndex(
-    //   (item) => item.id === product.id,
-    // );
+    const existingProductIndex = listShoppingCart.findIndex(
+      (item) => item.id === product.id,
+    );
   
-    // if (existingProductIndex !== -1) {
+    if (existingProductIndex !== -1) {
       const updateListShoppingCart = [...listShoppingCart, product];
 console.log('oi')
   
@@ -60,7 +60,7 @@ console.log('oi')
         JSON.stringify(updateListShoppingCart),
       );
       //test
-    // }
+    }
   };
 
   console.log(listShoppingCart)
