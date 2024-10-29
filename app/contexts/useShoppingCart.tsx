@@ -119,7 +119,7 @@ export const useShoppingCart = () => {
   const context = useContext(UseShoppingCartContext);
 
   if(!context) {
-    throw new Error("useShoppingCart must be used within an UploadProvider");
+    throw new Error("useShoppingCart must be used within a UseShoppingCartProvider");
   }
 
   return context;
