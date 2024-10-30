@@ -47,20 +47,19 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
   const handleAddProductShopping = (product: products) => {
     const existingProductIndex = listShoppingCart.findIndex(
       (item) => item.id === product.id,
-
-      console.log(listShoppingCart)
     );
   
-    if (existingProductIndex != -1) {
+    if (existingProductIndex === -1) {
       const updateListShoppingCart = [...listShoppingCart, product];
-      console.log('oi')
+      console.log('Produto adicionado ao carrinho', product);
   
       setListShoppingCart(updateListShoppingCart);
       localStorage.setItem(
         "listShoppingCartStorage",
         JSON.stringify(updateListShoppingCart),
       );
-      //test
+    } else {
+      console.log("Produto já existe no carrinho");
     }
   };
 
