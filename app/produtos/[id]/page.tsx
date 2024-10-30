@@ -47,13 +47,14 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
   const handleAddProductShopping = (product: products) => {
     const existingProductIndex = listShoppingCart.findIndex(
       (item) => item.id === product.id,
+
+      console.log(item)
     );
   
-    if (existingProductIndex !== -1) {
+    if (existingProductIndex != -1) {
       const updateListShoppingCart = [...listShoppingCart, product];
-console.log('oi')
+      console.log('oi')
   
-
       setListShoppingCart(updateListShoppingCart);
       localStorage.setItem(
         "listShoppingCartStorage",
@@ -92,7 +93,7 @@ console.log('oi')
                   <h2>R$ {produto.price}</h2>
                 </div>
                 <div className="add">
-                    <button onClick={() => handleAddProductShopping(produto as products)}>Adicionar ao carrinho</button>
+                  <button onClick={() => handleAddProductShopping(produto as products)}>Adicionar ao carrinho</button>
                 </div>
               </div>
             </div>
