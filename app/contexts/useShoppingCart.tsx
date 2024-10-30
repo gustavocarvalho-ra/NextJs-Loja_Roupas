@@ -41,23 +41,27 @@ export const UseShoppingCartProvider = ({ children }: UseShoppingCartProps) => {
 
 
   const handleAddProductShopping = (product: products) => {
+    console.log(listShoppingCart)
+
     const existingProductIndex = listShoppingCart.findIndex(
       (item) => item.id === product.id,
     );
   
-    if (existingProductIndex !== -1) {
-      const updateListShoppingCart = [...listShoppingCart];
-      updateListShoppingCart[existingProductIndex].quantity += 1;
-  
+    let updateListShoppingCart;
 
-      setListShoppingCart(updateListShoppingCart);
-      localStorage.setItem(
-        "listShoppingCartStorage",
-        JSON.stringify(updateListShoppingCart),
-      );
-      //test
-    }
-  };
+    if (existingProductIndex === -1) {
+      updateListShoppingCart = [
+        ...listShoppingCart,
+        { ...product, quantity: 1 }
+      ];
+      console.log("Produto adicionado ao carrinho.", product);
+    } else {
+      updateListShoppingCart = listShoppingCart.map((item, index) =>
+        index === existingProductIndex ? {...item, quantity: item.quantity + 1} : item);
+    };
+
+    console.log("Quantidade incrementada para o produto: ", product);
+  }
 
   const handleRemoveProductShopping = (productId: number) => {
     const updateListShoppingCart = listShoppingCart.filter(
