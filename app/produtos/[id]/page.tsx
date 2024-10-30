@@ -45,6 +45,9 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
 
 
   const handleAddProductShopping = (product: products) => {
+    
+    console.log(listShoppingCart)
+
     const existingProductIndex = listShoppingCart.findIndex(
       (item) => item.id === product.id,
     );
