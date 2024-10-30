@@ -40,8 +40,6 @@ export const UseShoppingCartProvider = ({ children }: UseShoppingCartProps) => {
 
 
   const handleAddProductShopping = (product: products) => {
-    console.log(listShoppingCart)
-
     const existingProductIndex = listShoppingCart.findIndex(
       (item) => item.id === product.id,
     );
@@ -58,8 +56,13 @@ export const UseShoppingCartProvider = ({ children }: UseShoppingCartProps) => {
       updateListShoppingCart = listShoppingCart.map((item, index) =>
         index === existingProductIndex ? {...item, quantity: item.quantity + 1} : item);
     };
-
     console.log("Quantidade incrementada para o produto: ", product);
+
+    setListShoppingCart(updateListShoppingCart);
+    localStorage.setItem(
+      "listShoppingCartStorage",
+      JSON.stringify(updateListShoppingCart),
+    );
   }
 
   const handleRemoveProductShopping = (productId: number) => {

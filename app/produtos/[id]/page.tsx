@@ -31,55 +31,6 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
 
   const { listShoppingCart } = useShoppingCart()
 
-  // const [listShoppingCart, setListShoppingCart] = useState<products[]> ([]);
-
-  // useEffect(() => {
-  //   const listShoppingCartStorage = localStorage.getItem(
-  //     "listSgoppingCartStorage",
-  //   );
-  //   if (listShoppingCartStorage) {
-  //     setListShoppingCart(JSON.parse(listShoppingCartStorage));
-  //   }
-  // }, []);
-
-
-
-  // const handleAddProductShopping = (product: products) => {
-  //   console.log(listShoppingCart)
-
-  //   const existingProductIndex = listShoppingCart.findIndex(
-  //     (item) => item.id === product.id,
-  //   );
-  
-  //   let updateListShoppingCart;
-
-  //   if (existingProductIndex === -1) {
-  //     updateListShoppingCart = [
-  //       ...listShoppingCart,
-  //       { ...product, quantity: 1 }
-  //     ];
-  //     console.log("Produto adicionado ao carrinho.", product);
-  //   } else {
-  //     updateListShoppingCart = listShoppingCart.map((item, index) =>
-  //       index === existingProductIndex ? {...item, quantity: item.quantity + 1} : item);
-  //   };
-
-  //   console.log("Quantidade incrementada para o produto: ", product);
-
-  //   if (existingProductIndex === -1) {
-  //     const updateListShoppingCart = [...listShoppingCart, product];
-  //     console.log('Produto adicionado ao carrinho', product);
-  
-  //     setListShoppingCart(updateListShoppingCart);
-  //     localStorage.setItem(
-  //       "listShoppingCartStorage",
-  //       JSON.stringify(updateListShoppingCart),
-  //     );
-  //   } else {
-  //     console.log("Produto já existe no carrinho");
-  //   }
-  // };
-
   return (
     <>
       <Header />

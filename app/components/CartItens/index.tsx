@@ -13,7 +13,13 @@ export default function CartItens({isOpen, onClose}: ModalProps) {
 
     <CartI>
       <div className="image" style={{pointerEvents: "none"}}/>
-      
+
+      {/* listShoppingCart.map((item) => (
+        <div key={item.id}>
+          <p>{item.nome}</p>
+          <p>Quantidade: {item.quantidade}</p>
+        </div>
+      )); */}
     </CartI>
   )
 }
