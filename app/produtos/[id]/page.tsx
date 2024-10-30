@@ -29,42 +29,42 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
       </div>
     )
 
-  // const { listShoppingCart } = useShoppingCart()
+  const { listShoppingCart } = useShoppingCart()
 
-  const [listShoppingCart, setListShoppingCart] = useState<products[]> ([]);
+  // const [listShoppingCart, setListShoppingCart] = useState<products[]> ([]);
 
-  useEffect(() => {
-    const listShoppingCartStorage = localStorage.getItem(
-      "listSgoppingCartStorage",
-    );
-    if (listShoppingCartStorage) {
-      setListShoppingCart(JSON.parse(listShoppingCartStorage));
-    }
-  }, []);
+  // useEffect(() => {
+  //   const listShoppingCartStorage = localStorage.getItem(
+  //     "listSgoppingCartStorage",
+  //   );
+  //   if (listShoppingCartStorage) {
+  //     setListShoppingCart(JSON.parse(listShoppingCartStorage));
+  //   }
+  // }, []);
 
 
 
-  const handleAddProductShopping = (product: products) => {
-    console.log(listShoppingCart)
+  // const handleAddProductShopping = (product: products) => {
+  //   console.log(listShoppingCart)
 
-    const existingProductIndex = listShoppingCart.findIndex(
-      (item) => item.id === product.id,
-    );
+  //   const existingProductIndex = listShoppingCart.findIndex(
+  //     (item) => item.id === product.id,
+  //   );
   
-    let updateListShoppingCart;
+  //   let updateListShoppingCart;
 
-    if (existingProductIndex === -1) {
-      updateListShoppingCart = [
-        ...listShoppingCart,
-        { ...product, quantity: 1 }
-      ];
-      console.log("Produto adicionado ao carrinho.", product);
-    } else {
-      updateListShoppingCart = listShoppingCart.map((item, index) =>
-        index === existingProductIndex ? {...item, quantity: item.quantity + 1} : item);
-    };
+  //   if (existingProductIndex === -1) {
+  //     updateListShoppingCart = [
+  //       ...listShoppingCart,
+  //       { ...product, quantity: 1 }
+  //     ];
+  //     console.log("Produto adicionado ao carrinho.", product);
+  //   } else {
+  //     updateListShoppingCart = listShoppingCart.map((item, index) =>
+  //       index === existingProductIndex ? {...item, quantity: item.quantity + 1} : item);
+  //   };
 
-    console.log("Quantidade incrementada para o produto: ", product);
+  //   console.log("Quantidade incrementada para o produto: ", product);
 
   //   if (existingProductIndex === -1) {
   //     const updateListShoppingCart = [...listShoppingCart, product];
@@ -78,7 +78,7 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
   //   } else {
   //     console.log("Produto já existe no carrinho");
   //   }
-  };
+  // };
 
   return (
     <>

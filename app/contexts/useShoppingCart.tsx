@@ -23,8 +23,7 @@ type UseShoppingCartData = {
 }
 
 
-
-const UseShoppingCartContext = createContext({} as UseShoppingCartData);
+export const UseShoppingCartContext = createContext({} as UseShoppingCartData);
 
 export const UseShoppingCartProvider = ({ children }: UseShoppingCartProps) => {
 
