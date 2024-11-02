@@ -58,8 +58,8 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
     } else {
       updateListShoppingCart = listShoppingCart.map((item, index) =>
         index === existingProductIndex ? {...item, quantity: item.quantity + 1} : item);
+      console.log("Quantidade incrementada para o produto: ", product);
     };
-    console.log("Quantidade incrementada para o produto: ", product);
 
     setListShoppingCart(updateListShoppingCart);
     localStorage.setItem(
