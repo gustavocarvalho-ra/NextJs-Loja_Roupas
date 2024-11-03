@@ -18,8 +18,8 @@ export default function CartItens({isOpen, onClose}: ModalProps) {
         <div key={item.id}>
           <p>{item.nome}</p>
           <p>Quantidade: {item.quantidade}</p>
-        </div>
-      )); */}
+        </div> */}
+      {/* )); */}
     </CartI>
   )
 }

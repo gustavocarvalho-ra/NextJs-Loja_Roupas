@@ -18,11 +18,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body className={inter.className}>
-        <UseShoppingCartProvider>
-          {children}
-        </UseShoppingCartProvider>
-      </body>
+      <UseShoppingCartProvider>
+        {children}
+        <body className={inter.className}>
+        </body>
+      </UseShoppingCartProvider>
     </html>
   );
 }

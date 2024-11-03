@@ -9,9 +9,10 @@ import Image from 'next/image';
 import Link from "next/link"
 import ImageZoom from "@/app/components/ZoomImage";
 import ItensCard from './../../components/ItensCard/index';
-import { useShoppingCart } from "../../contexts/useShoppingCart";
+import { useCart, useShoppingCart } from "../../contexts/useShoppingCart";
 import { products } from '@/app/types/products';
 import { useState,useEffect } from "react";
+
 
 interface Params {
   id: string
@@ -31,43 +32,44 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
 
   // const { listShoppingCart } = useShoppingCart()
 
-  const [listShoppingCart, setListShoppingCart] = useState<products[]> ([]);
+  // const [listShoppingCart, setListShoppingCart] = useState<products[]> ([]);
 
-  useEffect(() => {
-    const listShoppingCartStorage = localStorage.getItem(
-      "listShoppingCartStorage",
-    );
-    if (listShoppingCartStorage) {
-      setListShoppingCart(JSON.parse(listShoppingCartStorage));
-    }
-  }, []);
+  // useEffect(() => {
+  //   const listShoppingCartStorage = localStorage.getItem(
+  //     "listShoppingCartStorage",
+  //   );
+  //   if (listShoppingCartStorage) {
+  //     setListShoppingCart(JSON.parse(listShoppingCartStorage));
+  //   }
+  // }, []);
 
-  const handleAddProductShopping = (product: products) => {
-    const existingProductIndex = listShoppingCart.findIndex(
-      (item) => item.id === product.id,
-    );
+  // const handleAddProductShopping = (product: products) => {
+  //   const existingProductIndex = listShoppingCart.findIndex(
+  //     (item) => item.id === product.id,
+  //   );
   
-    let updateListShoppingCart;
+  //   let updateListShoppingCart;
 
-    if (existingProductIndex === -1) {
-      updateListShoppingCart = [
-        ...listShoppingCart,
-        { ...product, quantity: 1 }
-      ];
-      console.log("Produto adicionado ao carrinho.", product);
-    } else {
-      updateListShoppingCart = listShoppingCart.map((item, index) =>
-        index === existingProductIndex ? {...item, quantity: item.quantity + 1} : item);
-      console.log("Quantidade incrementada para o produto: ", product);
-    };
+  //   if (existingProductIndex === -1) {
+  //     updateListShoppingCart = [
+  //       ...listShoppingCart,
+  //       { ...product, quantity: 1 }
+  //     ];
+  //     console.log("Produto adicionado ao carrinho.", product);
+  //   } else {
+  //     updateListShoppingCart = listShoppingCart.map((item, index) =>
+  //       index === existingProductIndex ? {...item, quantity: item.quantity + 1} : item);
+  //     console.log("Quantidade incrementada para o produto: ", product);
+  //   };
 
-    setListShoppingCart(updateListShoppingCart);
-    localStorage.setItem(
-      "listShoppingCartStorage",
-      JSON.stringify(updateListShoppingCart),
-    );
-  };
+  //   setListShoppingCart(updateListShoppingCart);
+  //   localStorage.setItem(
+  //     "listShoppingCartStorage",
+  //     JSON.stringify(updateListShoppingCart),
+  //   );
+  // };
 
+  let test = useCart;
 
   return (
     <>
@@ -96,7 +98,7 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
                   <h2>R$ {produto.price}</h2>
                 </div>
                 <div className="add">
-                  <button onClick={() => handleAddProductShopping(produto as products)}>Adicionar ao carrinho</button>
+                  {/* <button onClick={add}>Adicionar ao carrinho</button> */}
                 </div>
               </div>
             </div>
