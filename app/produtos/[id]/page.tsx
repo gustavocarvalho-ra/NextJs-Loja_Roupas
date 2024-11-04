@@ -30,44 +30,48 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
       </div>
     )
 
+  //TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--
+
   // const { listShoppingCart } = useShoppingCart()
 
-  // const [listShoppingCart, setListShoppingCart] = useState<products[]> ([]);
+  const [listShoppingCart, setListShoppingCart] = useState<products[]> ([]);
 
-  // useEffect(() => {
-  //   const listShoppingCartStorage = localStorage.getItem(
-  //     "listShoppingCartStorage",
-  //   );
-  //   if (listShoppingCartStorage) {
-  //     setListShoppingCart(JSON.parse(listShoppingCartStorage));
-  //   }
-  // }, []);
+  useEffect(() => {
+    const listShoppingCartStorage = localStorage.getItem(
+      "listShoppingCartStorage",
+    );
+    if (listShoppingCartStorage) {
+      setListShoppingCart(JSON.parse(listShoppingCartStorage));
+    }
+  }, []);
 
-  // const handleAddProductShopping = (product: products) => {
-  //   const existingProductIndex = listShoppingCart.findIndex(
-  //     (item) => item.id === product.id,
-  //   );
+  const handleAddProductShopping = (product: products) => {
+    const existingProductIndex = listShoppingCart.findIndex(
+      (item) => item.id === product.id,
+    );
   
-  //   let updateListShoppingCart;
+    let updateListShoppingCart;
 
-  //   if (existingProductIndex === -1) {
-  //     updateListShoppingCart = [
-  //       ...listShoppingCart,
-  //       { ...product, quantity: 1 }
-  //     ];
-  //     console.log("Produto adicionado ao carrinho.", product);
-  //   } else {
-  //     updateListShoppingCart = listShoppingCart.map((item, index) =>
-  //       index === existingProductIndex ? {...item, quantity: item.quantity + 1} : item);
-  //     console.log("Quantidade incrementada para o produto: ", product);
-  //   };
+    if (existingProductIndex === -1) {
+      updateListShoppingCart = [
+        ...listShoppingCart,
+        { ...product, quantity: 1 }
+      ];
+      console.log("Produto adicionado ao carrinho.", product);
+    } else {
+      updateListShoppingCart = listShoppingCart.map((item, index) =>
+        index === existingProductIndex ? {...item, quantity: item.quantity + 1} : item);
+      console.log("Quantidade incrementada para o produto: ", product);
+    };
 
-  //   setListShoppingCart(updateListShoppingCart);
-  //   localStorage.setItem(
-  //     "listShoppingCartStorage",
-  //     JSON.stringify(updateListShoppingCart),
-  //   );
-  // };
+    setListShoppingCart(updateListShoppingCart);
+    localStorage.setItem(
+      "listShoppingCartStorage",
+      JSON.stringify(updateListShoppingCart),
+    );
+  };
+
+  //TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--
 
   let test = useCart;
 
