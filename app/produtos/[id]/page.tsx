@@ -71,11 +71,12 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
     );
   };
 
-  const handleRemoveProductShopping = (productId: number) => {
+  const handleRemoveProductShopping = (product: products) => {
     const updateListShoppingCart = listShoppingCart.filter(
-      (product) => product.id !== productId,
+      (item) => item.id !== product.id
     );
-    console.log("Produto adicionado ao carrinho.", productId);
+    console.log("Produto adicionado ao carrinho.", product);
+    
     setListShoppingCart(updateListShoppingCart);
     localStorage.setItem(
       "listShoppingCartStorage",
