@@ -82,7 +82,6 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
       "listShoppingCartStorage",
       JSON.stringify(updateListShoppingCart),
     );
-    //test
   };
 
   //TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--

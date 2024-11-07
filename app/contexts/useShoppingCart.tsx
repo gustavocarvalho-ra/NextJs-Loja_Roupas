@@ -17,7 +17,7 @@ interface UseShoppingCartData {
   handleAddProductShopping: (product: products) => void;
   handleDecreaseQuantity: (productId: number) => void;
   handleIncreaseQuantity: (productId: number) => void;
-  handleRemoveProductShopping: (productId: number) => void;
+  handleRemoveProductShopping: (product: products) => void;
 }
 
 
@@ -62,34 +62,35 @@ export const UseShoppingCartProvider: React.FC<UseShoppingCartProps> = ({ childr
       ];
       console.log("Produto adicionado ao carrinho.", product);
     } else {
-        updateListShoppingCart = listShoppingCart.map((item, index) =>
-          index === existingProductIndex ? {...item, quantity: item.quantity + 1} : item);
-        console.log("Quantidade incrementada para o produto: ", product);
-      };
+      updateListShoppingCart = listShoppingCart.map((item, index) =>
+        index === existingProductIndex ? {...item, quantity: item.quantity + 1} : item);
+      console.log("Quantidade incrementada para o produto: ", product);
+    };
 
     setListShoppingCart(updateListShoppingCart);
     localStorage.setItem(
       "listShoppingCartStorage",
       JSON.stringify(updateListShoppingCart),
     );
-  }
+  };
 
+  const handleRemoveProductShopping = (product: products) => {
+    const updateListShoppingCart = listShoppingCart.filter(
+      (item) => item.id !== product.id
+    );
+    console.log("Produto adicionado ao carrinho.", product);
+    
+    setListShoppingCart(updateListShoppingCart);
+    localStorage.setItem(
+      "listShoppingCartStorage",
+      JSON.stringify(updateListShoppingCart),
+    );
+  };
+  
   const add = (product: products) => {
     setListShoppingCart((prevItems) => [...prevItems, product]);
     console.log("contexto ativo");
   }
-
-  const handleRemoveProductShopping = (productId: number) => {
-    const updateListShoppingCart = listShoppingCart.filter(
-      (product) => product.id !== productId,
-    );
-    setListShoppingCart(updateListShoppingCart);
-    localStorage.setItem(
-      "listShoppingCartStorage",
-      JSON.stringify(updateListShoppingCart),
-    );
-    //test
-  };
 
   const handleDecreaseQuantity = (productId: number) => {
     const updatedListShoppingCart = listShoppingCart
