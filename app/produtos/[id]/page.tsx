@@ -9,7 +9,7 @@ import Image from 'next/image';
 import Link from "next/link"
 import ImageZoom from "@/app/components/ZoomImage";
 import ItensCard from './../../components/ItensCard/index';
-import { useCart, useShoppingCart } from "../../contexts/useShoppingCart";
+import { useShoppingCart } from "../../contexts/useShoppingCart";
 import { products } from '@/app/types/products';
 import { useState,useEffect } from "react";
 

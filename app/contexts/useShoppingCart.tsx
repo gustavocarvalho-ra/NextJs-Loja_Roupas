@@ -13,7 +13,6 @@ import { products } from "@/app/types/products";
 
 interface UseShoppingCartData {
   listShoppingCart: products[];
-  add: (product: products) => void;
   handleAddProductShopping: (product: products) => void;
   handleDecreaseQuantity: (productId: number) => void;
   handleIncreaseQuantity: (productId: number) => void;
@@ -22,14 +21,6 @@ interface UseShoppingCartData {
 
 
 const UseShoppingCartContext = createContext<UseShoppingCartData | undefined>(undefined);
-
-export const useCart = (): UseShoppingCartData => {
-  const context = useContext(UseShoppingCartContext);
-  if(!context) {
-    throw new Error("useCart must be used within a CartProvider");
-  }
-  return context;
-};
 
 interface UseShoppingCartProps {
   children: ReactNode;
@@ -87,8 +78,6 @@ export const UseShoppingCartProvider: React.FC<UseShoppingCartProps> = ({ childr
     );
   };
   
-  
-
   const handleDecreaseQuantity = (productId: number) => {
     const updatedListShoppingCart = listShoppingCart
       .map((product) => {
@@ -120,32 +109,23 @@ export const UseShoppingCartProvider: React.FC<UseShoppingCartProps> = ({ childr
     );
   };
 
-//TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--
-
-  const add = (product: products) => {
-    setListShoppingCart((prevItems) => [...prevItems, product]);
-    console.log("contexto ativo");
-  }
-
-//TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--
-
 
   const cartContextValue: UseShoppingCartData = {
     listShoppingCart,
     handleAddProductShopping,
     handleRemoveProductShopping,
     handleDecreaseQuantity,
-    handleIncreaseQuantity,
-    add
+    handleIncreaseQuantity
   };
 
   return (
     <UseShoppingCartContext.Provider
-      value={cartContextValue}>
+      value={ cartContextValue }>
       {children}
     </UseShoppingCartContext.Provider>
   );
 };
+
 
 export const useShoppingCart = () => {
   const context = useContext(UseShoppingCartContext);
