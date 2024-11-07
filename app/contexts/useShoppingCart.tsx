@@ -87,10 +87,7 @@ export const UseShoppingCartProvider: React.FC<UseShoppingCartProps> = ({ childr
     );
   };
   
-  const add = (product: products) => {
-    setListShoppingCart((prevItems) => [...prevItems, product]);
-    console.log("contexto ativo");
-  }
+  
 
   const handleDecreaseQuantity = (productId: number) => {
     const updatedListShoppingCart = listShoppingCart
@@ -122,6 +119,16 @@ export const UseShoppingCartProvider: React.FC<UseShoppingCartProps> = ({ childr
       JSON.stringify(updatedListShoppingCart),
     );
   };
+
+//TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--
+
+  const add = (product: products) => {
+    setListShoppingCart((prevItems) => [...prevItems, product]);
+    console.log("contexto ativo");
+  }
+
+//TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--TEST--
+
 
   const cartContextValue: UseShoppingCartData = {
     listShoppingCart,
