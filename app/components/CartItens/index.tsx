@@ -44,9 +44,8 @@ export default function CartItens({isOpen, onClose}: ModalProps) {
             <h3>{item.price}</h3>
             <div className="btn">
               <button onClick={() => handleRemoveProductShopping(item)}>X</button>
-              <button onClick={() => handleDecreaseQuantity(item)}>-</button>
-              <button onClick={() => handleAddProductShopping(item)}>+++</button>
-              <button onClick={() => handleIncreaseQuantity(item)}>+</button>
+              <button onClick={() => handleDecreaseQuantity(item.id)}>-</button>
+              <button onClick={() => handleIncreaseQuantity(item.id)}>+</button>
             </div>
           </div>
         ))}
