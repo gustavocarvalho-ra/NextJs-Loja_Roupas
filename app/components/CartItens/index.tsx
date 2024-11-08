@@ -14,7 +14,6 @@ export default function CartItens({isOpen, onClose}: ModalProps) {
 
   const {
     listShoppingCart,
-    handleAddProductShopping,
     handleRemoveProductShopping,
     handleDecreaseQuantity,
     handleIncreaseQuantity,
