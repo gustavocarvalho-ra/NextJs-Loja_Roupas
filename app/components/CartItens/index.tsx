@@ -12,7 +12,13 @@ interface ModalProps {
 export default function CartItens({isOpen, onClose}: ModalProps) {  
   if (!isOpen) return null;
 
-  const { listShoppingCart, handleRemoveProductShopping } = useShoppingCart();
+  const {
+    listShoppingCart,
+    handleAddProductShopping,
+    handleRemoveProductShopping,
+    handleDecreaseQuantity,
+    handleIncreaseQuantity,
+  } = useShoppingCart();
 
   const [items, setItems] = useState<products[]>([]);
 
@@ -36,7 +42,12 @@ export default function CartItens({isOpen, onClose}: ModalProps) {
           <div key={index} className="card">
             <h2>{item.name}</h2>
             <h3>{item.price}</h3>
-            <button onClick={() => handleRemoveProductShopping(item)}>add</button>
+            <div className="btn">
+              <button onClick={() => handleRemoveProductShopping(item)}>X</button>
+              <button onClick={() => handleDecreaseQuantity(item)}>-</button>
+              <button onClick={() => handleAddProductShopping(item)}>+++</button>
+              <button onClick={() => handleIncreaseQuantity(item)}>+</button>
+            </div>
           </div>
         ))}
       </div>
