@@ -65,7 +65,6 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
                 </div>
                 <div className="add">
                   <button onClick={() => handleAddProductShopping(produto as products)}>Adicionar ao carrinho</button>
-                  <button onClick={() => handleRemoveProductShopping(produto as products)}>Remover do carrinho</button>
                 </div>
               </div>
             </div>
