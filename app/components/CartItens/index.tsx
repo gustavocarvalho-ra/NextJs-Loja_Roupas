@@ -35,21 +35,20 @@ export default function CartItens({isOpen, onClose}: ModalProps) {
   return (
 
     <CartI>
-      <div className="image" style={{pointerEvents: "none"}}/>
-
       <div className="container">
         {listShoppingCart.map((item, index) => (
           <div key={index} className="card">
-            <Image src={item.photo} alt="Imagem do produto" width={60} height={60}/>
+            <Image className="image" src={item.photo} alt="Imagem do produto" width={60} height={60}/>
             <div className="description">
-              <h4>{item.name}</h4>
-              <h5>{item.price}</h5>
+              <h5>{item.name}</h5>
+              <h6>{item.price}</h6>
             </div>
             <div className="btn">
-              <button onClick={() => handleRemoveProductShopping(item)}>X</button>
               <button onClick={() => handleDecreaseQuantity(item.id)}>-</button>
+              <p>{item.quantity}</p>
               <button onClick={() => handleIncreaseQuantity(item.id)}>+</button>
             </div>
+            <button className="close" onClick={() => handleRemoveProductShopping(item)}>X</button>
           </div>
         ))}
       </div>

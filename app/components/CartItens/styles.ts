@@ -17,8 +17,7 @@ export const CartI = styled.div `
 
   .container {
     margin: 1em;
-    background: red;
-    width: 85%;
+    width: 90%;
     height: 95%;
     display: flex;
     gap: 1em;
@@ -26,11 +25,27 @@ export const CartI = styled.div `
 
     .card {
       display: flex;
-      background: pink;
+      background: var(--back);
       width: 96%;
       border-radius: 8px;
       align-items: center;
       padding: .4em;
+
+      .image {
+        border-radius: 8px;
+      }
+
+      .btn {
+        display: flex;
+
+        gap: .5em;
+      }
+
+      .close {
+        position: relative;
+        top: 0;
+        right: 0;
+      }
     }
   }
 `
