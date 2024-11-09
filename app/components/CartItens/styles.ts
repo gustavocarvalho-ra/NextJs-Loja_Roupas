@@ -24,11 +24,11 @@ export const CartI = styled.div `
     flex-direction: column;
 
     .card {
-      display: flex;
-      background: var(--back);
       width: 96%;
-      border-radius: 8px;
+      display: flex;
       align-items: center;
+      background: var(--back);
+      border-radius: 8px;
       padding: .4em;
 
       .image {
@@ -55,16 +55,23 @@ export const CartI = styled.div `
 
       .btn {
         width: 15%;
+        height: 30%;
         display: flex;
+        align-items: center;
+        justify-content: space-between;
         background: var(--card);
         border: 1px solid var(--purple);
         border-radius: 8px;
-        justify-content: space-between;
-
+        padding: .2em;
         gap: .5em;
+
+        p {
+          font-size: .8em;
+        }
 
         button {
           border: none;
+          font-size: 1.2em;
         }
       }
 
@@ -76,6 +83,11 @@ export const CartI = styled.div `
         align-content: flex-start;
         flex-wrap: wrap;
         justify-content: flex-end;
+        
+        button {
+          background: none;
+          border: none;
+        }
       }
     }
   }
