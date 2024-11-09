@@ -125,6 +125,10 @@ export const Main = styled.div `
             background: var(--green);
             border-radius: 8px;
             transition: all .3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: .7em;
 
             &:hover {
               font-size: 1.1em;

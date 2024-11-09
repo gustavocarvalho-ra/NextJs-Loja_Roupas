@@ -11,6 +11,8 @@ import ImageZoom from "@/app/components/ZoomImage";
 import ItensCard from './../../components/ItensCard/index';
 import { useShoppingCart } from "../../contexts/useShoppingCart";
 import { products } from '@/app/types/products';
+import { FaCartArrowDown } from "react-icons/fa";
+import { styled } from 'styled-components';
 
 
 interface Params {
@@ -64,7 +66,7 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
                   <h2>R$ {produto.price}</h2>
                 </div>
                 <div className="add">
-                  <button onClick={() => handleAddProductShopping(produto as products)}>Adicionar ao carrinho</button>
+                  <button onClick={() => handleAddProductShopping(produto as products)}>Adicionar ao carrinho <FaCartArrowDown style={{fontSize: "1.3em"}}/></button>
                 </div>
               </div>
             </div>
