@@ -16,7 +16,7 @@ export const CartI = styled.div `
   position: fixed;
 
   ::-webkit-scrollbar {
-      width: .8em;
+      width: .5em;
       border-radius: 8px;
       background: var(--purple);
     }
