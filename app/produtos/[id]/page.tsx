@@ -1,19 +1,19 @@
 "use client"
 
 import Header from "@/app/components/Header";
+import ImageZoom from "@/app/components/ZoomImage";
+import ItensCard from './../../components/ItensCard/index';
 
 import pro from "../../data/pro.json"
 import { Main, Body, Off } from "../styles";
-
-import Image from 'next/image';
-import Link from "next/link"
-import ImageZoom from "@/app/components/ZoomImage";
-import ItensCard from './../../components/ItensCard/index';
-import { useShoppingCart } from "../../contexts/useShoppingCart";
-import { products } from '@/app/types/products';
 import { FaCartArrowDown } from "react-icons/fa";
-import { styled } from 'styled-components';
 
+import Link from "next/link"
+import Image from 'next/image';
+
+import { useShoppingCart } from "../../contexts/useShoppingCart";
+
+import { products } from '@/app/types/products';
 
 interface Params {
   id: string
@@ -32,11 +32,7 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
     )
 
     const {
-      listShoppingCart,
-      handleAddProductShopping,
-      handleRemoveProductShopping,
-      handleDecreaseQuantity,
-      handleIncreaseQuantity,
+      handleAddProductShopping
     } = useShoppingCart();
 
   return (
