@@ -14,17 +14,7 @@ interface ModalProps {
 
 export default function CartItens({isOpen, onClose}: ModalProps) {  
   if (!isOpen) return null;
-
-  const [total, setTotal] = useState<number>(0);
-
-  useEffect(() => {
-    const storeLocal = localStorage.getItem("listShoppingCartStorage");
-    const cart: products[] = storeLocal ? JSON.parse(storeLocal) : [];
-
-    const cartCash = cart.reduce((acc, item):number => acc + item.price * item.quantity, 0);
-    setTotal(cartCash);
-  }, []);
-
+  
   const {
     listShoppingCart,
     handleRemoveProductShopping,
@@ -32,31 +22,42 @@ export default function CartItens({isOpen, onClose}: ModalProps) {
     handleIncreaseQuantity,
   } = useShoppingCart();
 
-  const [items, setItems] = useState<products[]>([]);
+  const [total, setTotal] = useState<number>(0);
 
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      const storedItems = localStorage.getItem("listShoppingCartStorage");
+    // const storeLocal = localStorage.getItem("listShoppingCartStorage");
+    // const cart: products[] = storeLocal ? JSON.parse(storeLocal) : [];
 
-      if (storedItems) {
-        setItems(JSON.parse(storedItems));
-      }
-    }
-  }, [])
+    const cartCash = listShoppingCart.reduce((acc, item):number => acc + item.price * item.quantity, 0);
+    setTotal(cartCash);
+  }, [listShoppingCart]);
+
+
+  // const [items, setItems] = useState<products[]>([]);
+
+  // useEffect(() => {
+  //   if (typeof window !== "undefined") {
+  //     const storedItems = localStorage.getItem("listShoppingCartStorage");
+
+  //     if (storedItems) {
+  //       setItems(JSON.parse(storedItems));
+  //     }
+  //   }
+  // }, [])
 
   return (
 
     <CartI>
       <div className="container">
         {listShoppingCart.map((item, index) => (
-          <div key={index} className="card">
+          <div key={item.id} className="card">
             <div className="image">
-              <Image className="img" src={item.photo} alt="Imagem do produto" width={60} height={60}/>
+              <Image className="img" src={item.photo} alt={item.name} width={60} height={60}/>
             </div>
 
             <div className="description">
               <h4>{item.name}</h4>
-              <h5>{item.price}</h5>
+              <h5>R$ {item.price}</h5>
             </div>
 
             <div className="btn">
