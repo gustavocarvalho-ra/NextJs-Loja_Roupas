@@ -15,6 +15,21 @@ export const CartI = styled.div `
   box-shadow: -2px 1px 5px var(--purple);
   position: fixed;
 
+  ::-webkit-scrollbar {
+      width: .8em;
+      border-radius: 8px;
+      background: var(--purple);
+    }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: var(--grey);
+
+    &:hover {
+      background-color: #757575;
+    }
+  }
+
   .container {
     margin: 1em;
     width: 90%;
@@ -22,9 +37,12 @@ export const CartI = styled.div `
     display: flex;
     gap: .8em;
     flex-direction: column;
+    overflow-y: auto;
+
+    
 
     .card {
-      width: 96%;
+      width: 95%;
       display: flex;
       align-items: center;
       background: var(--back);
