@@ -69,12 +69,13 @@ export const CartI = styled.div `
       }
 
       .close {
-        width: 5%;
+        width: 9%;
         position: relative;
-        top: 0;
-        right: 0;
         display: flex;
         height: 100%;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        justify-content: flex-end;
       }
     }
   }

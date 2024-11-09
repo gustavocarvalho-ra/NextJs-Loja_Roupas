@@ -5,6 +5,8 @@ import { products } from "@/app/types/products";
 import { useShoppingCart } from "@/app/contexts/useShoppingCart";
 import Image from "next/image";
 
+import { FaTrash } from "react-icons/fa";
+
 interface ModalProps {
   isOpen?: boolean;
   onClose?: () => void;
@@ -54,7 +56,7 @@ export default function CartItens({isOpen, onClose}: ModalProps) {
             </div>
 
             <div className="close">
-              <button onClick={() => handleRemoveProductShopping(item)}>X</button>
+              <button onClick={() => handleRemoveProductShopping(item)}><FaTrash /></button>
             </div>
           </div>
         ))}
