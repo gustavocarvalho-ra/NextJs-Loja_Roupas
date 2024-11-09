@@ -32,16 +32,31 @@ export const CartI = styled.div `
       padding: .4em;
 
       .image {
-        border-radius: 8px;
+        width: 20%;
+
+        .img {
+          border-radius: 8px;
+        }
+      }
+
+      .description {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 0 .5em 0 .5em;
       }
 
       .btn {
+        width: 20%;
         display: flex;
 
         gap: .5em;
       }
 
       .close {
+        width: 5%;
         position: relative;
         top: 0;
         right: 0;
