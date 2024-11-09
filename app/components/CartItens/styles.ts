@@ -20,7 +20,7 @@ export const CartI = styled.div `
     width: 90%;
     height: 95%;
     display: flex;
-    gap: 1em;
+    gap: .8em;
     flex-direction: column;
 
     .card {
@@ -30,6 +30,12 @@ export const CartI = styled.div `
       background: var(--back);
       border-radius: 8px;
       padding: .4em;
+      border: 1px solid transparent;
+      transition: all .4s ;
+
+      &:hover {
+        border: 1px solid var(--purple);
+      }
 
       .image {
         width: 20%;
