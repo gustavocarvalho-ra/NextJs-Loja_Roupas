@@ -6,7 +6,7 @@ export default function Main() {
   return (
     <Man>
       <div className="section">
-        <AllOff>Todos os intens com 20% de desconto!</AllOff>
+        <AllOff>Todos os itens com 20% de desconto!</AllOff>
         <h1>Coleções</h1>
         <div className="cards">
           <Link className="clas" href="/produtos/jaquetas">Jaquetas</Link>
