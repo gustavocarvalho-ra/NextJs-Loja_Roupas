@@ -15,6 +15,16 @@ interface ModalProps {
 export default function CartItens({isOpen, onClose}: ModalProps) {  
   if (!isOpen) return null;
 
+  const [total, setTotal] = useState<number>(0);
+
+  useEffect(() => {
+    const storeLocal = localStorage.getItem("listShoppingCartStorage");
+    const cart: products[] = storeLocal ? JSON.parse(storeLocal) : [];
+
+    const cartCash = cart.reduce((acc, item):number => acc + item.price * item.quantity, 0);
+    setTotal(cartCash);
+  }, []);
+
   const {
     listShoppingCart,
     handleRemoveProductShopping,
@@ -60,6 +70,9 @@ export default function CartItens({isOpen, onClose}: ModalProps) {
             </div>
           </div>
         ))}
+          <div className="cash">
+            <h2>{total.toFixed(2)}</h2>
+          </div>
       </div>
     </CartI>
   )
