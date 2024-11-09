@@ -46,13 +46,26 @@ export const CartI = styled.div `
         flex-direction: column;
         justify-content: flex-start;
         margin: 0 .5em 0 .5em;
+        gap: .4em;
+
+        h4 {
+          font-weight: 500;
+        }
       }
 
       .btn {
-        width: 20%;
+        width: 15%;
         display: flex;
+        background: var(--card);
+        border: 1px solid var(--purple);
+        border-radius: 8px;
+        justify-content: space-between;
 
         gap: .5em;
+
+        button {
+          border: none;
+        }
       }
 
       .close {
@@ -60,6 +73,8 @@ export const CartI = styled.div `
         position: relative;
         top: 0;
         right: 0;
+        display: flex;
+        height: 100%;
       }
     }
   }

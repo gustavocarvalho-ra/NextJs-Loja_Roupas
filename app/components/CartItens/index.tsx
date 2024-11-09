@@ -43,8 +43,8 @@ export default function CartItens({isOpen, onClose}: ModalProps) {
             </div>
 
             <div className="description">
-              <h5>{item.name}</h5>
-              <h6>{item.price}</h6>
+              <h4>{item.name}</h4>
+              <h5>{item.price}</h5>
             </div>
 
             <div className="btn">
