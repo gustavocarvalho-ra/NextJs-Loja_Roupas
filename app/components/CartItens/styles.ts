@@ -113,6 +113,17 @@ export const CartI = styled.div `
           border: none;
         }
       }
+
+    }
+    .cash {
+      width: 100%;
+      height: 3em;
+      background: red;
+      border-radius: 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
     }
   }
 `
