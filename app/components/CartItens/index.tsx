@@ -32,7 +32,7 @@ export default function CartItens({isOpen, onClose}: ModalProps) {
 
     <CartI>
       <div className="container">
-        {listShoppingCart.map((item, index) => (
+        {listShoppingCart.map((item) => (
           <div key={item.id} className="card">
             <div className="image">
               <Image className="img" src={item.photo} alt={item.name} width={60} height={60}/>
