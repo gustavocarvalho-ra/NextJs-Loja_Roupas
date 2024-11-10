@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 
 import { CartI } from "./styles";
-import { products } from "@/app/types/products";
 import { useShoppingCart } from "@/app/contexts/useShoppingCart";
 import Image from "next/image";
 
@@ -25,25 +24,9 @@ export default function CartItens({isOpen, onClose}: ModalProps) {
   const [total, setTotal] = useState<number>(0);
 
   useEffect(() => {
-    // const storeLocal = localStorage.getItem("listShoppingCartStorage");
-    // const cart: products[] = storeLocal ? JSON.parse(storeLocal) : [];
-
     const cartCash = listShoppingCart.reduce((acc, item):number => acc + item.price * item.quantity, 0);
     setTotal(cartCash);
   }, [listShoppingCart]);
-
-
-  // const [items, setItems] = useState<products[]>([]);
-
-  // useEffect(() => {
-  //   if (typeof window !== "undefined") {
-  //     const storedItems = localStorage.getItem("listShoppingCartStorage");
-
-  //     if (storedItems) {
-  //       setItems(JSON.parse(storedItems));
-  //     }
-  //   }
-  // }, [])
 
   return (
 
