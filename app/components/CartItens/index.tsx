@@ -55,7 +55,8 @@ export default function CartItens({isOpen, onClose}: ModalProps) {
           </div>
         ))}
           <div className="cash">
-            <h2>{total.toFixed(2)}</h2>
+            <h2>Total:</h2>
+            <h2>R$ {total.toFixed(2)}</h2>
           </div>
       </div>
     </CartI>

@@ -121,7 +121,7 @@ export const CartI = styled.div `
       background: red;
       border-radius: 8px;
       display: flex;
-      justify-content: center;
+      justify-content: space-evenly;
       align-items: center;
       
     }
