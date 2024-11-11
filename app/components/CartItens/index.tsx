@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { CartI } from "./styles";
 import { useShoppingCart } from "@/app/contexts/useShoppingCart";
 import Image from "next/image";
+import Link from "next/link";
 
 import { FaTrash } from "react-icons/fa";
 
@@ -55,8 +56,10 @@ export default function CartItens({isOpen, onClose}: ModalProps) {
           </div>
         ))}
           <div className="cash">
-            <h2>Total:</h2>
-            <h2>R$ {total.toFixed(2)}</h2>
+            <Link href={"../cart"}>
+              <h2>Total:</h2>
+              <h2>R$ {total.toFixed(2)}</h2>
+            </Link>
           </div>
       </div>
     </CartI>
