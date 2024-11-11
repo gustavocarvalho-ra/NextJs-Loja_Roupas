@@ -32,7 +32,7 @@ export const CartI = styled.div `
 
   .totalCart {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-top: 1em;
   }
 
