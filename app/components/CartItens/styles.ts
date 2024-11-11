@@ -121,11 +121,16 @@ export const CartI = styled.div `
       margin-top: 1.4em;
       background: var(--card);
       border-radius: 8px;
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center;
       bottom: 0;
       position: sticky;
+
+      a {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
     }
   }
 `
