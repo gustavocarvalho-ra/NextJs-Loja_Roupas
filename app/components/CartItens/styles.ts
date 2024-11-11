@@ -9,9 +9,9 @@ export const CartI = styled.div `
   display: flex;
   align-content: center;
   justify-content: center;
+  flex-direction: column;
   z-index: 20;
   background: linear-gradient(29deg, rgba(142,0,167,0.7) 20%, rgba(0,206,235,1) 100%);
-  /* border: 2px solid var(--grey); */
   box-shadow: -2px 1px 5px var(--purple);
   position: fixed;
 
@@ -28,6 +28,12 @@ export const CartI = styled.div `
     &:hover {
       background-color: #757575;
     }
+  }
+
+  .totalCart {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
   }
 
   .container {
@@ -116,20 +122,18 @@ export const CartI = styled.div `
 
     }
     .cash {
-      width: 100%;
-      height: 3em;
-      margin-top: 1.4em;
-      background: var(--card);
-      border-radius: 8px;
-      bottom: 0;
-      position: sticky;
-
       a {
         width: 100%;
         height: 100%;
         display: flex;
-        justify-content: space-evenly;
         align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        margin-top: 1.4em;
+        background: var(--card);
+        border-radius: 8px;
+        bottom: 0;
+        position: sticky;
       }
     }
   }

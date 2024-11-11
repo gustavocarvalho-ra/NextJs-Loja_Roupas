@@ -32,6 +32,10 @@ export default function CartItens({isOpen, onClose}: ModalProps) {
   return (
 
     <CartI>
+      <div className="totalCart">
+        <h2>Total: </h2>
+        <h2>R${total.toFixed(2)}</h2>
+      </div>
       <div className="container">
         {listShoppingCart.map((item) => (
           <div key={item.id} className="card">
@@ -56,9 +60,9 @@ export default function CartItens({isOpen, onClose}: ModalProps) {
           </div>
         ))}
           <div className="cash">
+            
             <Link href={"../cart"}>
-              <h2>Total:</h2>
-              <h2>R$ {total.toFixed(2)}</h2>
+              <h2>Finalizar compra</h2>
             </Link>
           </div>
       </div>
