@@ -38,35 +38,35 @@ export default function CartItens({isOpen, onClose}: ModalProps) {
             <h2>Total: </h2>
             <h2>R${total.toFixed(2)}</h2>
           </div>
-        <div className="conadding message on empty carttainer">
-          {listShoppingCart.map((item) => (
-            <div key={item.id} className="card">
-              <div className="image">
-                <Image className="img" src={item.photo} alt={item.name} width={60} height={60}/>
-              </div>
+          <div className="container">
+            {listShoppingCart.map((item) => (
+              <div key={item.id} className="card">
+                <div className="image">
+                  <Image className="img" src={item.photo} alt={item.name} width={60} height={60}/>
+                </div>
 
-              <div className="description">
-                <h4>{item.name}</h4>
-                <h5>R$ {item.price}</h5>
-              </div>
+                <div className="description">
+                  <h4>{item.name}</h4>
+                  <h5>R$ {item.price}</h5>
+                </div>
 
-              <div className="btn">
-                <button onClick={() => handleDecreaseQuantity(item.id)}>-</button>
-                <p>{item.quantity}</p>
-                <button onClick={() => handleIncreaseQuantity(item.id)}>+</button>
-              </div>
+                <div className="btn">
+                  <button onClick={() => handleDecreaseQuantity(item.id)}>-</button>
+                  <p>{item.quantity}</p>
+                  <button onClick={() => handleIncreaseQuantity(item.id)}>+</button>
+                </div>
 
-              <div className="close">
-                <button onClick={() => handleRemoveProductShopping(item)}><FaTrash /></button>
+                <div className="close">
+                  <button onClick={() => handleRemoveProductShopping(item)}><FaTrash /></button>
+                </div>
               </div>
-            </div>
-          ))}
-            <div className="cash">
-              <Link href={"../cart"}>
-                <h2>Finalizar compra</h2>
-              </Link>
-            </div>
-        </div>
+            ))}
+              <div className="cash">
+                <Link href={"../cart"}>
+                  <h2>Finalizar compra</h2>
+                </Link>
+              </div>
+          </div>
         </>
       ) : (
         <div className="emptyCart">
