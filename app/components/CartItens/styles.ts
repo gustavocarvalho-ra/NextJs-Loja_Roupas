@@ -134,6 +134,10 @@ export const CartI = styled.div `
         border-radius: 8px;
         bottom: 0;
         position: sticky;
+
+        &:hover {
+          background: var(--back);
+        }
       }
     }
 
