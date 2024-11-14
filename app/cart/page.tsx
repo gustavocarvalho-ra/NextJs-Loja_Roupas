@@ -9,6 +9,7 @@ import Link from "next/link";
 import Image from "next/image"
 
 import { FaTrash } from "react-icons/fa";
+import { CartShop } from "./styles";
 
 export default function Cart () {
 
@@ -29,8 +30,8 @@ export default function Cart () {
   return (
     <>
       <Header />
-      <div>
-        <h1>Meu carrinho</h1>
+      <CartShop>
+        <h1 className="titleCart">Meu carrinho</h1>
         {listShoppingCart.length > 0 ? (
           <>
             <div className="totalCart">
@@ -76,7 +77,7 @@ export default function Cart () {
             </div>
           </div>
         )}
-      </div>
+      </CartShop>
     </>
   )
 }
