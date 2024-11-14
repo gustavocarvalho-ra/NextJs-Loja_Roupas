@@ -1,10 +1,13 @@
 "use client"
 
-import { useState } from "react";
 import Header from "../components/Header"
+
+import { useState, useEffect } from "react";
 import { useShoppingCart } from "../contexts/useShoppingCart";
+
 import Link from "next/link";
 import Image from "next/image"
+
 import { FaTrash } from "react-icons/fa";
 
 export default function Cart () {
@@ -17,6 +20,11 @@ export default function Cart () {
   } = useShoppingCart();
 
   const [total, setTotal] = useState<number>(0);
+
+  useEffect(() => {
+    const cartCash = listShoppingCart.reduce((acc, item):number => acc + item.price * item.quantity, 0);
+    setTotal(cartCash);
+  }, [listShoppingCart]);
 
   return (
     <>
