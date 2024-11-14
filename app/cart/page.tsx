@@ -22,9 +22,11 @@ export default function Cart () {
     <>
       <Header />
       <div>
+        <h1>Meu carrinho</h1>
         {listShoppingCart.length > 0 ? (
           <>
             <div className="totalCart">
+              <h1>Produto</h1>
               <h2>Total: </h2>
               <h2>R${total.toFixed(2)}</h2>
             </div>
