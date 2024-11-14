@@ -70,9 +70,9 @@ export default function CartItens({isOpen, onClose}: ModalProps) {
         </>
       ) : (
         <div className="emptyCart">
-          <h2>O carrinho está vazio</h2>
+          <h2>O carrinho está vazio.</h2>
           <div>
-            <Image src={"/empty-cart.png"} alt="Imagem do carrinho" width={100} height={100}/>
+            <Image src={"/empty-cart.png"} alt="Imagem do carrinho" width={130} height={130}/>
           </div>
         </div>
       )}
