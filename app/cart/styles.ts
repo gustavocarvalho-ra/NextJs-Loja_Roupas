@@ -23,10 +23,12 @@ export const CartShop = styled.div `
 
       .totalCart {
         display: flex;
-        gap: 31em;
+        /* gap: 31em; */
   
         h3 {
           font-weight: 400;
+          flex-basis: 33%;
+          flex-shrink: 0;
         }
       }
 
@@ -71,6 +73,7 @@ export const CartShop = styled.div `
             }
 
             button {
+              cursor: pointer;
               border: none;
               font-size: 1.2em;
             }
