@@ -39,7 +39,7 @@ export default function Cart () {
                 <div className="totalCart">
                   <h3>Produto</h3>
                   <h3>Quantidade </h3>
-                  <h3>Total: </h3>
+                  <h3>Total: R${total.toFixed(2)}</h3>
                   {/* <h2>R${total.toFixed(2)}</h2> */}
                 </div>
                 <div className="container">
@@ -65,11 +65,6 @@ export default function Cart () {
                       </div>
                     </div>
                   ))}
-                    <div className="cash">
-                      <Link href={"../cart"}>
-                        <h2>Finalizar compra</h2>
-                      </Link>
-                    </div>
                 </div>
               </>
             ) : (
