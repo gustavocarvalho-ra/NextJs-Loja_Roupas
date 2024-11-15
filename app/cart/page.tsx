@@ -9,7 +9,7 @@ import Link from "next/link";
 import Image from "next/image"
 
 import { FaTrash } from "react-icons/fa";
-import { CartShop } from "./styles";
+// import { CartShop } from "./styles";
 
 export default function Cart () {
 

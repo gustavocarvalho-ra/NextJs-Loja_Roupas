@@ -1,7 +1,7 @@
-import styled from "styled-components";
+// import styled from "styled-components";
 
-export const CartShop = styled.div `
-  width: 100vw;
+// export const CartShop = styled.div `
+//   width: 100vw;
 //   min-height: 83vh;
 //   display: flex;
 //   justify-content: center;
@@ -82,4 +82,4 @@ export const CartShop = styled.div `
 //       }
 //     }
 //   }
-`
+// `
