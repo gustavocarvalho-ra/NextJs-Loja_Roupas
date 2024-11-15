@@ -62,7 +62,7 @@ export default function CartItens({isOpen, onClose}: ModalProps) {
               </div>
             ))}
               <div className="cash">
-                <Link href={"../cart"}>
+                <Link href={"../../checkout/cart"}>
                   <h2>Finalizar compra</h2>
                 </Link>
               </div>
