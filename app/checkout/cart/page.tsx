@@ -1,15 +1,15 @@
 "use client"
 
-import Header from "../components/Header"
+import Header from "../../components/Header"
 
 import { useState, useEffect } from "react";
-import { useShoppingCart } from "../contexts/useShoppingCart";
+import { useShoppingCart } from "../../contexts/useShoppingCart";
 
 import Link from "next/link";
 import Image from "next/image"
 
 import { FaTrash } from "react-icons/fa";
-// import { CartShop } from "./styles";
+import { CartShop } from "./styles";
 
 export default function Cart () {
 
@@ -30,7 +30,7 @@ export default function Cart () {
   return (
     <>
       <Header />
-      <div>
+      <CartShop>
         <div className="main">
           <h1 className="titleCart">Meu carrinho</h1>
           <div className="cart">
@@ -77,7 +77,7 @@ export default function Cart () {
             )}
           </div>
         </div>
-      </div>
+      </CartShop>
     </>
   )
 }
