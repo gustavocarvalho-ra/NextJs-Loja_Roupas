@@ -46,7 +46,7 @@ export default function Cart () {
                   {listShoppingCart.map((item) => (
                     <div key={item.id} className="card">
                       <div className="image">
-                        <Image className="img" src={item.photo} alt={item.name} width={180} height={180}/>
+                        <Image className="img" src={item.photo} alt={item.name} width={120} height={120}/>
                       </div>
 
                       <div className="description">

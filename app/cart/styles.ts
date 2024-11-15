@@ -23,7 +23,7 @@ export const CartShop = styled.div `
 
       .totalCart {
         display: flex;
-        gap: 25em;
+        gap: 31em;
   
         h3 {
           font-weight: 400;
@@ -32,6 +32,50 @@ export const CartShop = styled.div `
 
       .container {
         margin-top: 1em;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+
+
+        .card {
+          width: 80%;
+          display: flex;
+          align-items: center;
+          gap: 1.5em;
+
+          .image {
+
+            .img {
+              border-radius: 8px;
+            }
+          }
+
+          .description {
+            width: 35%;
+          }
+
+          .btn {
+            width: 10%;
+            height: 30%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: var(--card);
+            border: 1px solid var(--purple);
+            border-radius: 8px;
+            padding: .2em;
+            gap: .5em;
+
+            p {
+              font-size: .8em;
+            }
+
+            button {
+              border: none;
+              font-size: 1.2em;
+            }
+          }
+        }
       }
     }
   }
