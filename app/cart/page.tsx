@@ -30,7 +30,7 @@ export default function Cart () {
   return (
     <>
       <Header />
-      <CartShop>
+      <div>
         <div className="main">
           <h1 className="titleCart">Meu carrinho</h1>
           <div className="cart">
@@ -77,7 +77,7 @@ export default function Cart () {
             )}
           </div>
         </div>
-      </CartShop>
+      </div>
     </>
   )
 }
