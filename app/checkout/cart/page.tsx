@@ -9,7 +9,7 @@ import Link from "next/link";
 import Image from "next/image"
 
 import { FaTrash } from "react-icons/fa";
-import { CartShop } from "@/app/produtos/styles";
+<link rel="stylesheet" href="./style.css"/>
 
 export default function Cart () {
 
@@ -30,7 +30,7 @@ export default function Cart () {
   return (
     <>
       <Header />
-      <CartShop>
+      <div className="body">
         <div className="main">
           <h1 className="titleCart">Meu carrinho</h1>
           <div className="cart">
@@ -77,7 +77,7 @@ export default function Cart () {
             )}
           </div>
         </div>
-      </CartShop>
+      </div>
     </>
   )
 }
