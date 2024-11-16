@@ -8,8 +8,8 @@ import { useShoppingCart } from "../../contexts/useShoppingCart";
 import Link from "next/link";
 import Image from "next/image"
 
+import "./style.css"
 import { FaTrash } from "react-icons/fa";
-<link rel="stylesheet" href="./style.css"/>
 
 export default function Cart () {
 
