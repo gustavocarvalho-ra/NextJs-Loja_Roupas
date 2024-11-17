@@ -24,6 +24,11 @@
       .totalCart {
         display: flex;
         /* gap: 31em; */
+
+        .st {
+          flex-basis: 41%;
+          flex-shrink: 0;
+        }
   
         h3 {
           font-weight: 400;

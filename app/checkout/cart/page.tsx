@@ -37,10 +37,9 @@ export default function Cart () {
             {listShoppingCart.length > 0 ? (
               <>
                 <div className="totalCart">
-                  <h3>Produto</h3>
+                  <h3 className="st">Produto</h3>
                   <h3>Quantidade </h3>
-                  <h3>Total: R${total.toFixed(2)}</h3>
-                  {/* <h2>R${total.toFixed(2)}</h2> */}
+                  <h3>Total: <span>R${total.toFixed(2)}</span></h3>
                 </div>
                 <div className="container">
                   {listShoppingCart.map((item) => (
