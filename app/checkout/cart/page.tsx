@@ -68,10 +68,10 @@ export default function Cart () {
               </>
             ) : (
               <div className="emptyCart">
-                <h2>O carrinho está vazio.</h2>
-                <div>
-                  <Image src={"/empty-cart.png"} alt="Imagem do carrinho" width={130} height={130}/>
-                </div>
+                <h1>O carrinho está vazio.</h1>
+                {/* <div> */}
+                  <Image src={"/empty-cart.png"} alt="Imagem do carrinho" width={250} height={250}/>
+                {/* </div> */}
               </div>
             )}
           </div>
