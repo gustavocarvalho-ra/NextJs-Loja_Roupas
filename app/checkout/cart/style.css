@@ -34,6 +34,10 @@
           font-weight: 400;
           flex-basis: 33%;
           flex-shrink: 0;
+          
+          span {
+            font-weight: 600;
+          }
         }
       }
   
