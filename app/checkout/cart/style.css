@@ -69,6 +69,11 @@
   
           .description {
             width: 54%;
+            height: 100%;
+            gap: .5em;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
 
             h4 {
               font-size: 1.2em;
