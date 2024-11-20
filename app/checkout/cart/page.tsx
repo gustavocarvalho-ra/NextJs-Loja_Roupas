@@ -5,7 +5,6 @@ import Header from "../../components/Header"
 import { useState, useEffect } from "react";
 import { useShoppingCart } from "../../contexts/useShoppingCart";
 
-import Link from "next/link";
 import Image from "next/image"
 
 import "./style.css"
@@ -51,6 +50,7 @@ export default function Cart () {
                       <div className="description">
                         <h4>{item.name}</h4>
                         <h5>R$ {item.price}</h5>
+                        <h3>R$ {Math.floor(item.price * item.des + item.price)},00 </h3>
                       </div>
 
                       <div className="btn">
