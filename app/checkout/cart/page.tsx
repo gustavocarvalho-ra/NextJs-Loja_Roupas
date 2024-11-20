@@ -51,7 +51,7 @@ export default function Cart () {
                         <h4>{item.name}</h4>
                         <div className="price">
                           <h5>R$ {item.price}</h5>
-                          <h3>R$ {Math.floor(item.price * item.des + item.price)},00 </h3>
+                          <span>R$ {Math.floor(item.price * item.des + item.price)},00 </span>
                         </div>
                       </div>
 

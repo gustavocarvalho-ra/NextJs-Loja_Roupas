@@ -79,8 +79,21 @@
               font-size: 1.2em;
             }
 
-            h5 {
-              font-size: 1.05em;
+            .price {
+              display: flex;
+
+              h5 {
+                font-size: 1.05em;
+                color: var(--green);
+              }
+              
+              span {
+                font-size: .9em;
+                text-decoration: line-through;
+                color: var(--grey);
+                font-weight: 600;
+                margin-left: 2em;
+              }
             }
           }
   
