@@ -170,6 +170,12 @@ export const Container = styled.div `
     gap: 2em;
   }
 
+  .title {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 1em;
+  }
+
   .card {
     width: 210px;
     height: 310px;
