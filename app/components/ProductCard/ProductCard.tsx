@@ -26,7 +26,7 @@ export default function ProductCard({
       <div className="ft">
         <Image
           src={photo}
-          alt={name}
+          alt={`Imagem do produto: ${name}`}
           sizes="100vh"
           width={180}
           height={210}
