@@ -38,4 +38,3 @@ export default function Test () {
     </>
   )
 }
-// {Math.multiply(item.des * .03 , item.price)}
