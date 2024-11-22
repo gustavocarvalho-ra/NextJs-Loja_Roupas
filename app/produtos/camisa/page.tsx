@@ -2,14 +2,11 @@
 
 import { Container } from "../styles";
 
-import pro from "../../data/pro.json"
 import Header from "@/app/components/Header"
 import Menu from "../../components/Menu";
-
-import Image from "next/image";
-import Link from 'next/link';
 import ProductCard from "@/app/components/ProductCard/ProductCard";
 
+import pro from "../../data/pro.json"
 
 export default function Test () {
   const produtos = pro.filter((item) => item.type === "camisa");

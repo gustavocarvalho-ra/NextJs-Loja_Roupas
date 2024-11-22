@@ -2,14 +2,11 @@
 
 import { Container } from "../styles";
 
-import Image from "next/image";
-import Link from "next/link";
-
 import Header from "@/app/components/Header"
 import Menu from "../../components/Menu";
-import pro from "../../data/pro.json"
 import ProductCard from "@/app/components/ProductCard/ProductCard";
 
+import pro from "../../data/pro.json"
 
 export default function Test () {
   const produtos = pro.filter((item) => item.type === "bag");

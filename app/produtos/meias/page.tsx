@@ -2,16 +2,14 @@
 
 import { Container } from "../styles";
 
-import pro from "../../data/pro.json"
 import Header from "@/app/components/Header"
 import Menu from "../../components/Menu";
+import ProductCard from "@/app/components/ProductCard/ProductCard";
 
-import Image from "next/image";
-import Link from 'next/link';
-
+import pro from "../../data/pro.json"
 
 export default function Test () {
-  let produtos = [...pro];
+  const produtos = pro.filter((item) => item.type === "meia");
 
   return (
     <>
@@ -25,24 +23,15 @@ export default function Test () {
             <h1 className="ti">Meias</h1>
           </div>
 
-          {produtos
-          .filter(item => item.type === "meia")
-          .map(item => (
-            <Link href={`/produtos/${item.id}`}>
-              <div className="card">
-                  <button className="btd">20% off</button>
-                <div className="ft">
-                  <Image src={item.photo}  alt="test" sizes="100vh" width={180} height={210} style={{borderRadius: "8px", marginTop: "4px"}}/>
-                </div>
-                <div className="info">
-                  <h1 key={item.name}>{item.name}</h1>
-                <div className="nis" style={{display: "flex", justifyContent: "space-between"}}>
-                    <p key={item.price}>R$ {item.price}</p>
-                    <span className="var" key={item.des}>R$ {Math.floor(item.price * item.des + item.price)}</span>
-                  </div>
-                </div>
-              </div>
-            </Link>
+          {produtos.map((item) => (
+            <ProductCard
+              key={item.id}
+              id={item.id}
+              name={item.name}
+              photo={item.photo}
+              price={item.price}
+              des={item.des}
+            />
           ))}
         </div>
       </Container>
