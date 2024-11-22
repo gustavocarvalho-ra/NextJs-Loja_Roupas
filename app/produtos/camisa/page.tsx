@@ -23,9 +23,9 @@ export default function Test () {
             <h1 className="ti">Camisas</h1>
           </div>
 
-          {produtos.map((item) => (
+          {produtos.map((item, index) => (
             <ProductCard
-              key={item.id}
+              key={`product-${item.id}-${index}`}
               id={item.id}
               name={item.name}
               photo={item.photo}
