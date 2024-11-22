@@ -31,6 +31,7 @@ export default function ProductCard({
           width={180}
           height={210}
           style={{ borderRadius: "8px", marginTop: "4px" }}
+          loading="lazy"
         />
       </div>
       <div className="info">
