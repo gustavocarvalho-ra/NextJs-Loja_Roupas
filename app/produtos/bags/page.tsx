@@ -19,7 +19,7 @@ export default function Test () {
         <Menu/>
         
         <div className="cards">
-          <div style={{width: "100%", height: "50px", marginBottom: "1em"}}>
+          <div className="title">
             <h1 className="ti">Bags</h1>
           </div>
 

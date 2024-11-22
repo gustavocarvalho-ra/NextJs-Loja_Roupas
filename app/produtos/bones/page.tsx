@@ -17,7 +17,7 @@ export default function Test() {
       <Container>
         <Menu />
         <div className="cards">
-          <div style={{ width: "100%", height: "50px", marginBottom: "1em" }}>
+          <div className="title">
             <h1 className="ti">Bonés e Buckets</h1>
           </div>
           {produtos.map((item) => (
