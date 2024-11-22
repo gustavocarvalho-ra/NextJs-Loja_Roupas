@@ -6,6 +6,21 @@ export const Mn = styled.div `
   margin: 5em 0 0 7em;
   margin-right: 5em;
 
+  ::-webkit-scrollbar {
+      width: .5em;
+      border-radius: 8px;
+      background: var(--purple);
+    }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: var(--grey);
+
+    &:hover {
+      background-color: #757575;
+    }
+  }
+
   .menu {
     margin-top: 1.5em;
     width: 100%;
@@ -16,6 +31,7 @@ export const Mn = styled.div `
     border-radius: 8px;
     display: flex;
     flex-direction: column;
+    overflow: auto;
 
     h1 {
       font-size: 22px;
