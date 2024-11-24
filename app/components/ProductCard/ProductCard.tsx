@@ -27,14 +27,14 @@ export default function ProductCard({
   return (
     <Link href={`/produtos/${id}`} className="card">
       <button className="btd">{discountLabel}</button>
-      <div className="ft">
+      <div className="ft" style={{ position: "relative", width: "180px", height: "210px" }}>
         {isLoading && (
           <div style={{
-            backgroundColor: "#e0e0e0",
+            backgroundColor: "var(--back)",
             borderRadius: "8px",
             width: "100%",
             height: "100%",
-            animation: "pulse 1.5s infinite",
+            animation: "pulse 1.5s infinite"
           }}
           ></div>
         )}
@@ -44,7 +44,12 @@ export default function ProductCard({
           sizes="100vh"
           width={180}
           height={210}
-          style={{ borderRadius: "8px", marginTop: "4px" }}
+          style={{ 
+            borderRadius: "8px",
+            marginTop: "4px",
+            opacity: isLoading ? 0 : 1,
+            transition: "opacity 0.3s ease-in-out"
+          }}
           loading="lazy"
           onLoadingComplete={() => setIsLoading(false)}
         />
