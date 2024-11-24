@@ -28,6 +28,16 @@ export default function ProductCard({
     <Link href={`/produtos/${id}`} className="card">
       <button className="btd">{discountLabel}</button>
       <div className="ft">
+        {isLoading && (
+          <div style={{
+            backgroundColor: "#e0e0e0",
+            borderRadius: "8px",
+            width: "100%",
+            height: "100%",
+            animation: "pulse 1.5s infinite",
+          }}
+          ></div>
+        )}
         <Image
           src={photo}
           alt={`Imagem do produto: ${name}`}
@@ -36,6 +46,7 @@ export default function ProductCard({
           height={210}
           style={{ borderRadius: "8px", marginTop: "4px" }}
           loading="lazy"
+          onLoadingComplete={() => setIsLoading(false)}
         />
       </div>
       <div className="info">
