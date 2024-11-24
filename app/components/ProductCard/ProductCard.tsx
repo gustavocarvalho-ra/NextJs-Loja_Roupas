@@ -1,9 +1,9 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
-
 import { useState } from "react";
+
+import { Card } from "./styles";
 
 interface ProductCardProps {
   id: number;
@@ -25,7 +25,7 @@ export default function ProductCard({
   const [ isLoading, setIsLoading ] = useState(true);
 
   return (
-    <Link href={`/produtos/${id}`} className="card">
+    <Card href={`/produtos/${id}`} className="card">
       <button className="btd">{discountLabel}</button>
       <div className="ft" style={{ position: "relative", width: "180px", height: "210px" }}>
         {isLoading && (
@@ -61,6 +61,6 @@ export default function ProductCard({
           <span className="var">R$ {Math.floor(price * des + price)}</span>
         </div>
       </div>
-    </Link>
+    </Card>
   );
 }
