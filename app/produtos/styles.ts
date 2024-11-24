@@ -193,6 +193,15 @@ export const Container = styled.div `
       box-shadow: 6px 8px 8px 0px #1a0f27;
     }
 
+    .btd {
+      font-size: 12px;
+      font-weight: 500;
+      border-width: 0;
+      background: gainsboro;
+      border-radius: 4px;
+      margin-left: 9em;
+    }
+
     @keyframes pulse {
       0% {
         opacity: 1;
@@ -211,9 +220,22 @@ export const Container = styled.div `
       display: flex;
       flex-direction: column;
 
+      h1{
+        font-size: 14px;
+        font-weight: 400;
+      } 
+
       .nis {
         margin-top: 8px;
         display: flex;
+        justify-content: space-between;
+
+        p {
+          margin-top: 5px;
+          font-size: 17px;
+          color: var(--green);
+          font-weight: 600;
+        }
 
         span {
           font-size: 13px;
@@ -223,27 +245,6 @@ export const Container = styled.div `
           margin-right: 3em;
         }
       }
-    }
-
-    .btd {
-      font-size: 12px;
-      font-weight: 500;
-      border-width: 0;
-      background: gainsboro;
-      border-radius: 4px;
-      margin-left: 9em;
-    }
-
-    h1{
-      font-size: 14px;
-      font-weight: 400;
-    } 
-    
-    p {
-      margin-top: 5px;
-      font-size: 17px;
-      color: var(--green);
-      font-weight: 600;
     }
   }
 `

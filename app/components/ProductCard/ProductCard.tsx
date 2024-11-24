@@ -56,7 +56,7 @@ export default function ProductCard({
       </div>
       <div className="info">
         <h1>{name}</h1>
-        <div className="nis" style={{ display: "flex", justifyContent: "space-between" }}>
+        <div className="nis">
           <p>R$ {price}</p>
           <span className="var">R$ {Math.floor(price * des + price)}</span>
         </div>
