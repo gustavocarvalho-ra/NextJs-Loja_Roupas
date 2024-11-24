@@ -193,6 +193,18 @@ export const Container = styled.div `
       box-shadow: 6px 8px 8px 0px #1a0f27;
     }
 
+    @keyframes pulse {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.5;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
     .info {
       margin: 10px;
       width: 90%;
