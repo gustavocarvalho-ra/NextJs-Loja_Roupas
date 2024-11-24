@@ -3,6 +3,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import { useState } from "react";
+
 interface ProductCardProps {
   id: number;
   name: string;
@@ -20,6 +22,8 @@ export default function ProductCard({
   des,
   discountLabel = "20% off",
 }: ProductCardProps) {
+  const [ isLoading, setIsLoading ] = useState(true);
+
   return (
     <Link href={`/produtos/${id}`} className="card">
       <button className="btd">{discountLabel}</button>
