@@ -51,7 +51,7 @@ export default function ProductCard({
             transition: "opacity 0.3s ease-in-out"
           }}
           loading="lazy"
-          onLoadingComplete={() => setIsLoading(false)}
+          onLoad={() => setIsLoading(false)}
         />
       </div>
       <div className="info">
