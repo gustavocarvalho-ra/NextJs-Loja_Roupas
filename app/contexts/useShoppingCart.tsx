@@ -59,7 +59,7 @@ export const UseShoppingCartProvider: React.FC<UseShoppingCartProps> = ({ childr
         { ...product, quantity: 1 }
       ];
       console.log("Produto adicionado ao carrinho.", product);
-      showNotification("Produto adicionado ao carrinho.")
+      showNotification(`Produto "${product.name}" adicionado ao carrinho.`)
     } else {
       updateListShoppingCart = listShoppingCart.map((item, index) =>
         index === existingProductIndex ? {...item, quantity: item.quantity + 1} : item);
