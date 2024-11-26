@@ -33,6 +33,14 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
       </div>
     )
 
+  const handleAdicionarProduto = (produto: products) => {
+    handleAddProductShopping(produto);
+    setShowAviso(true);
+    setTimeout(() => {
+      setShowAviso(false);
+    }, 3000);
+  };
+
   return (
     <>
       <Header />
