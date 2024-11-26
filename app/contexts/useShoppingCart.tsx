@@ -43,7 +43,7 @@ export const UseShoppingCartProvider: React.FC<UseShoppingCartProps> = ({ childr
 
   const showNotification = (message: string) => {
     setNotification(message);
-    setTimeout(() setNotification(null), 3000);
+    setTimeout(() => setNotification(null), 3000);
   }
 
   const handleAddProductShopping = (product: products) => {
@@ -59,10 +59,11 @@ export const UseShoppingCartProvider: React.FC<UseShoppingCartProps> = ({ childr
         { ...product, quantity: 1 }
       ];
       console.log("Produto adicionado ao carrinho.", product);
+      showNotification("Produto adicionado ao carrinho.")
     } else {
       updateListShoppingCart = listShoppingCart.map((item, index) =>
         index === existingProductIndex ? {...item, quantity: item.quantity + 1} : item);
-      console.log("Quantidade incrementada para o produto: ", product);
+      showNotification(`Quantidade do produto "${product.name}" aumentada.`);
     };
 
     setListShoppingCart(updateListShoppingCart);
@@ -76,7 +77,7 @@ export const UseShoppingCartProvider: React.FC<UseShoppingCartProps> = ({ childr
     const updateListShoppingCart = listShoppingCart.filter(
       (item) => item.id !== product.id
     );
-    console.log("Produto adicionado ao carrinho.", product);
+    showNotification(`Produto "${product.name}" removido do carrinho.`);
     
     setListShoppingCart(updateListShoppingCart);
     localStorage.setItem(
