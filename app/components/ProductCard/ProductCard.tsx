@@ -25,7 +25,7 @@ export default function ProductCard({
   const [ isLoading, setIsLoading ] = useState(true);
 
   return (
-    <Card href={`/produtos/${id}`} className="card">
+    <Card href={`/produtos/${id}`}>
       <button className="btd">{discountLabel}</button>
       <div className="ft" style={{ position: "relative", width: "180px", height: "210px" }}>
         {isLoading && (
