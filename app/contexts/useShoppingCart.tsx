@@ -95,7 +95,6 @@ export const UseShoppingCartProvider: React.FC<UseShoppingCartProps> = ({ childr
         return product;
       })
       .filter((product) => product.quantity > 0);
-    showNotification(`Quantidade do Produto "${product.name}" abaixada`);
 
     setListShoppingCart(updatedListShoppingCart);
     localStorage.setItem(
