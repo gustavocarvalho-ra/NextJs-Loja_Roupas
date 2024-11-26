@@ -74,6 +74,13 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
             </div>
             {/* <ImageZoom src={produto.photo} zoomImageSrc="/path/to/your/zoom-image.jpg" zoomFactor={2} width={500} height={500} /> */}
           </div>
+
+          {showAviso && (
+            <div className="aviso">
+              <p>Produto adicionado ao carrinho com sucesso!</p>
+            </div>
+          )}
+          
         <ItensCard />
         </Main>
       </Body>
