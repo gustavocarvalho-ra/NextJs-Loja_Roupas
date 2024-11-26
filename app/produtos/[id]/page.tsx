@@ -69,18 +69,18 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
                   <h2>R$ {produto.price}</h2>
                 </div>
                 <div className="add">
-                  <button onClick={() => handleAdicionarProduto(produto as products)}>Adicionar ao carrinho <FaCartArrowDown style={{fontSize: "1.3em"}}/></button>
+                  <button onClick={() => handleAddProductShopping(produto as products)}>Adicionar ao carrinho <FaCartArrowDown style={{fontSize: "1.3em"}}/></button>
                 </div>
               </div>
             </div>
             {/* <ImageZoom src={produto.photo} zoomImageSrc="/path/to/your/zoom-image.jpg" zoomFactor={2} width={500} height={500} /> */}
           </div>
 
-          {showAviso && (
+          {/* {showAviso && (
             <div className="aviso">
               <p>Produto adicionado ao carrinho com sucesso!</p>
             </div>
-          )}
+          )} */}
           
         <ItensCard />
         </Main>
