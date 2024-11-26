@@ -139,6 +139,18 @@ export const Main = styled.div `
       }
     }
   }
+  .aviso {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
 `
 
 export const Container = styled.div `

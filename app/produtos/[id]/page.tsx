@@ -39,6 +39,7 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
     setTimeout(() => {
       setShowAviso(false);
     }, 3000);
+    console.log("adicionado aviso");
   };
 
   return (
@@ -68,7 +69,7 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
                   <h2>R$ {produto.price}</h2>
                 </div>
                 <div className="add">
-                  <button onClick={() => handleAddProductShopping(produto as products)}>Adicionar ao carrinho <FaCartArrowDown style={{fontSize: "1.3em"}}/></button>
+                  <button onClick={() => handleAdicionarProduto(produto as products)}>Adicionar ao carrinho <FaCartArrowDown style={{fontSize: "1.3em"}}/></button>
                 </div>
               </div>
             </div>
