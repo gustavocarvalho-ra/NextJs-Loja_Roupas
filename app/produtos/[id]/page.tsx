@@ -8,6 +8,7 @@ import pro from "../../data/pro.json"
 import { Main, Body, Off } from "../styles";
 import { FaCartArrowDown } from "react-icons/fa";
 
+import { useState } from "react";
 import Link from "next/link"
 import Image from 'next/image';
 
@@ -21,8 +22,9 @@ interface Params {
 
 const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
   const { id } = params;
-
   const produto = pro?.find(item => item.id.toString() === id);
+  const { handleAddProductShopping } = useShoppingCart();
+  const [showAviso, setShowAviso] = useState(false);
 
   if (!produto) 
     return (
@@ -30,10 +32,6 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
         <h1>Produto não encontrado :/</h1>
       </div>
     )
-
-    const {
-      handleAddProductShopping
-    } = useShoppingCart();
 
   return (
     <>
