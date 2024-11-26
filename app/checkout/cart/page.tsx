@@ -17,6 +17,7 @@ export default function Cart () {
     handleRemoveProductShopping,
     handleDecreaseQuantity,
     handleIncreaseQuantity,
+    notification,
   } = useShoppingCart();
 
   const [total, setTotal] = useState<number>(0);
@@ -77,6 +78,13 @@ export default function Cart () {
               </div>
             )}
           </div>
+
+          {notification && (
+            <div className="aviso">
+              <p>{notification}</p>
+            </div>
+          )}
+          
         </div>
       </div>
     </>
