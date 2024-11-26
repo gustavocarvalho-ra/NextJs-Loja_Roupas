@@ -23,8 +23,8 @@ interface Params {
 const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
   const { id } = params;
   const produto = pro?.find(item => item.id.toString() === id);
-  const { handleAddProductShopping } = useShoppingCart();
-  const [showAviso, setShowAviso] = useState(false);
+  const { handleAddProductShopping, notification } = useShoppingCart();
+
 
   if (!produto) 
     return (
@@ -32,15 +32,6 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
         <h1>Produto não encontrado :/</h1>
       </div>
     )
-
-  const handleAdicionarProduto = (produto: products) => {
-    handleAddProductShopping(produto);
-    setShowAviso(true);
-    setTimeout(() => {
-      setShowAviso(false);
-    }, 3000);
-    console.log("adicionado aviso");
-  };
 
   return (
     <>
@@ -76,12 +67,12 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
             {/* <ImageZoom src={produto.photo} zoomImageSrc="/path/to/your/zoom-image.jpg" zoomFactor={2} width={500} height={500} /> */}
           </div>
 
-          {/* {showAviso && (
+          {notification && (
             <div className="aviso">
-              <p>Produto adicionado ao carrinho com sucesso!</p>
+              <p>{notification}</p>
             </div>
-          )} */}
-          
+          )}
+
         <ItensCard />
         </Main>
       </Body>
