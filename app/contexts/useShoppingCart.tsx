@@ -17,6 +17,8 @@ interface UseShoppingCartData {
   handleDecreaseQuantity: (productId: number) => void;
   handleIncreaseQuantity: (productId: number) => void;
   handleRemoveProductShopping: (product: products) => void;
+  notification: string | null;
+  clearNotification: () => void;
 }
 
 
@@ -28,6 +30,7 @@ interface UseShoppingCartProps {
 
 export const UseShoppingCartProvider: React.FC<UseShoppingCartProps> = ({ children }) => {
   const [listShoppingCart, setListShoppingCart] = useState<products[]> ([]);
+  const [notification, setNotification] = useState<string | null>(null);
 
   useEffect(() => {
     const listShoppingCartStorage = localStorage.getItem(
@@ -38,6 +41,10 @@ export const UseShoppingCartProvider: React.FC<UseShoppingCartProps> = ({ childr
     }
   }, []);
 
+  const showNotification = (message: string) => {
+    setNotification(message);
+    setTimeout(() setNotification(null), 3000);
+  }
 
   const handleAddProductShopping = (product: products) => {
     const existingProductIndex = listShoppingCart.findIndex(
@@ -109,13 +116,17 @@ export const UseShoppingCartProvider: React.FC<UseShoppingCartProps> = ({ childr
     );
   };
 
+  const clearNotification = () => setNotification(null);
+
 
   const cartContextValue: UseShoppingCartData = {
     listShoppingCart,
     handleAddProductShopping,
     handleRemoveProductShopping,
     handleDecreaseQuantity,
-    handleIncreaseQuantity
+    handleIncreaseQuantity,
+    notification,
+    clearNotification
   };
 
   return (
