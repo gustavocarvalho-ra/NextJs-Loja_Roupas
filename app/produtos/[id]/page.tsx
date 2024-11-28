@@ -24,7 +24,6 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
   const { id } = params;
   const produto = pro?.find(item => item.id.toString() === id);
   const { handleAddProductShopping, notification } = useShoppingCart();
-  const [ isLoading, setIsLoading ] = useState(true);
 
   if (!produto) 
     return (
