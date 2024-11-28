@@ -40,33 +40,9 @@ const ProdutoDetalhes: React.FC<{ params: Params}> = ({ params }) => {
 
         <Main>
           <div className="deta">
-            <div className="imag" style={{ position: "relative"}}>
-              {isLoading ? (
-                <div style={{
-                  backgroundColor: "var(--back)",
-                  borderRadius: "8px",
-                  width: "80px",
-                  height: "95px",
-                  animation: "pulse 1.5s infinite",
-                  }}
-                />
-              ) : (
-                <Image src={produto.photo} className="mini" alt="Imagem do produto minimizado" width={80} height={95}/>
-              )}
-              {isLoading ? (
-                <div
-                  style={{
-                    backgroundColor: "var(--back)",
-                    borderRadius: "8px",
-                    width: "550px",
-                    height: "580px",
-                    animation: "pulse 1.5s infinite",
-                    marginTop: "10px",
-                  }}
-                />
-              ) : (
-                <Image src={produto.photo} alt="Imagem do produto" width={550} height={580}/>
-              )}
+            <div className="imag">
+              <Image src={produto.photo} className="mini" alt="Imagem do produto minimizado" width={80} height={95}/>
+              <Image src={produto.photo} alt="Imagem do produto" width={550} height={580}/>
             </div>
             <div className="stat">
               <div className="lin">
