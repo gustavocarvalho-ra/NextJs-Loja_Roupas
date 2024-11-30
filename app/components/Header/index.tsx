@@ -15,9 +15,9 @@ export default function Header() {
   const router = useRouter();
 
   const handleSearch = async () => {
-    if (!searchQuery) return;
+    // if (!searchQuery) return;
     
-    router.push(`/api/search?q=${encodeURIComponent(searchQuery)}`);
+    router.push(`/search?q=${encodeURIComponent(searchQuery)}`);
   }
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
