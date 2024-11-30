@@ -3,8 +3,8 @@
 import { useSearchParams } from "next/navigation";
 import { products } from "../types/products";
 import Header from "../components/Header";
-// import { Container } from "../produtos/styles";
 import Menu from "../components/Menu";
+import { Suspense } from 'react'
 
 const SearchResults = async () => {
   const searchParams = useSearchParams();
@@ -16,24 +16,26 @@ const SearchResults = async () => {
   return (
     <>
       <Header/>
-      
-      <div>
-        <Menu/>
+        
+      <Suspense>
         <div>
-          <h1>Resultados da busca: {query}</h1>
-          {products.length > 0 ? (
-            <ul>
-              {products.map((product: products) => (
-                <li key={product.id}>
-                  {product.name} - R$ {product.price}
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <p>Nenhum produto encontrado.</p>
-          )}
+          <Menu/>
+          <div>
+            <h1>Resultados da busca: {query}</h1>
+            {products.length > 0 ? (
+              <ul>
+                {products.map((product: products) => (
+                  <li key={product.id}>
+                    {product.name} - R$ {product.price}
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p>Nenhum produto encontrado.</p>
+            )}
+          </div>
         </div>
-      </div>
+      </Suspense>
     </>
   );
 };
