@@ -14,9 +14,14 @@ export default function Header() {
   const [searchQuery, setSearchQuery] = useState('');
   const router = useRouter();
 
+  function normalizeString(str: string): string {
+    return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  }
+
   const handleSearch = async () => {
     if (!searchQuery.trim()) return;
-    router.push(`/search?q=${encodeURIComponent(searchQuery)}`);
+    const normalizedQuery = normalizeString(searchQuery);
+    router.push(`/search?q=${encodeURIComponent(normalizedQuery)}`);
   }
 
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
