@@ -1,8 +1,7 @@
 import { A } from "./styles"
 
 import Link from "next/link";
-import React, { useState } from "react";
-import { useRouter } from "next/navigation";
+import { useState } from "react";
 
 import { IoMdSearch } from "react-icons/io";
 import { BsCart3 } from "react-icons/bs";
@@ -12,12 +11,11 @@ import CartItens from "../CartItens";
 
 export default function Header() {
   const [searchQuery, setSearchQuery] = useState('');
-  const router = useRouter();
+  const [results, setResults] = useState([]);
 
-  const handleSearch = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    if (searchQuery.trim()) {
-      router.push(`/search?q=${searchQuery}`);
+  const handleSearch = async () => {
+    if (!searchQuery) {
+      setResults([]);
     }
   };
 
