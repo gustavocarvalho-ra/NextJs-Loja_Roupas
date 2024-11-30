@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import pro from "../data/pro.json"
+import pro from "../../data/pro.json"
 
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
