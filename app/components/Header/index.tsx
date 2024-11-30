@@ -16,7 +16,12 @@ export default function Header() {
   const handleSearch = async () => {
     if (!searchQuery) {
       setResults([]);
+      return;
     }
+
+    const response = await fetch(`/produtos?q=${encodeURIComponent(searchQuery)}`)
+    const data = await response.json();
+    setResults(data);
   };
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -33,7 +38,7 @@ export default function Header() {
           <Link href="../" style={{textDecoration: "none"}}><p className="Log">Street <span className="Los">Tech</span></p></Link>
           
           <div style={{display: 'flex', alignItems: 'center', flexDirection: 'row-reverse'}}>
-            <form className="sear" onSubmit={handleSearch}>
+            {/* <form className="sear" onSubmit={handleSearch}> */}
               <input
                 className="lup" 
                 type="text" 
@@ -41,10 +46,10 @@ export default function Header() {
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="O que está procurando?"
               />
-              <button className="btnLup" type="submit">
+              <button className="btnLup" onClick={handleSearch}>
                 <IoMdSearch style={{color: 'var(--tex)', fontSize: '25px'}} />
               </button>
-            </form>
+            {/* </form> */}
           </div>
 
           <div className="user">
@@ -83,6 +88,18 @@ export default function Header() {
         </div>
       </div>
       <hr className="hrB"/>
+
+      {/* {results.length > 0 && (
+        <div className="search-results">
+          <ul>
+            {results.map((product) => (
+              <li key={product.id}>
+                <strong>{product.name}</strong> - ${product.price}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )} */}
 
       {/* <div className="na">
         <h1>TODOS OS ITENS COM 20% DE DESCONTO!!!</h1>
