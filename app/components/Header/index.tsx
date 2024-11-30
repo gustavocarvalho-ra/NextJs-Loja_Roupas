@@ -15,13 +15,17 @@ export default function Header() {
   const router = useRouter();
 
   const handleSearch = async () => {
-    // if (!searchQuery) return;
-    
+    if (!searchQuery.trim()) return;
     router.push(`/search?q=${encodeURIComponent(searchQuery)}`);
   }
 
-  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const handleKeyDown = (e: React.keyboardEvent<HTMLInputElement>) => {
+    if(e.key=== 'Enter') {
+      handleSearch()
+    }
+  }
 
+  const [modalIsOpen, setModalIsOpen] = useState(false);
   function handleOpenModal() {
     setModalIsOpen(!modalIsOpen)
   };
@@ -34,18 +38,17 @@ export default function Header() {
           <Link href="../" style={{textDecoration: "none"}}><p className="Log">Street <span className="Los">Tech</span></p></Link>
           
           <div style={{display: 'flex', alignItems: 'center', flexDirection: 'row-reverse'}}>
-            <form className="sear" onSubmit={handleSearch}>
               <input
                 className="lup" 
                 type="text" 
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
+                onKeyDown={handleKeyDown}
                 placeholder="O que está procurando?"
               />
-              <button className="btnLup" onSubmit={handleSearch} onClick={handleSearch}>
+              <button className="btnLup" onClick={handleSearch}>
                 <IoMdSearch style={{color: 'var(--tex)', fontSize: '25px'}} />
               </button>
-            </form>
           </div>
 
           <div className="user">

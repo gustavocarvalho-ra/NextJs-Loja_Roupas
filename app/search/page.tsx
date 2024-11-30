@@ -7,7 +7,7 @@ const SearchResults = async () => {
   const searchParams = useSearchParams();
   const query = searchParams.get('q') || '';
 
-  const res = await fetch(`/api/search?q=${encodeURIComponent(query)}`)
+  const res = await fetch(`/api/products?q=${encodeURIComponent(query)}`)
   const products = await res.json();
 
   return (
