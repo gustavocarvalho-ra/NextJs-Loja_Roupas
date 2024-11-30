@@ -38,17 +38,17 @@ export default function Header() {
           <Link href="../" style={{textDecoration: "none"}}><p className="Log">Street <span className="Los">Tech</span></p></Link>
           
           <div style={{display: 'flex', alignItems: 'center', flexDirection: 'row-reverse'}}>
-              <input
-                className="lup" 
-                type="text" 
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                onKeyDown={handleKeyDown}
-                placeholder="O que está procurando?"
-              />
-              <button className="btnLup" onClick={handleSearch}>
-                <IoMdSearch style={{color: 'var(--tex)', fontSize: '25px'}} />
-              </button>
+            <input
+              className="lup" 
+              type="text" 
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              onKeyDown={handleKeyDown}
+              placeholder="O que está procurando?"
+            />
+            <button className="btnLup" onClick={handleSearch}>
+              <IoMdSearch style={{color: 'var(--tex)', fontSize: '25px'}} />
+            </button>
           </div>
 
           <div className="user">
