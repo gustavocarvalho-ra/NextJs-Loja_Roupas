@@ -13,11 +13,8 @@
     }
   }
 
-  .ti {
-    margin: 1em 0 0 4.5em;
-    font-size: 24px;
-    font-weight: 450;
-  }
+
+
   .cards {
     width: 70%;
     margin-right: 5em;
@@ -31,5 +28,11 @@
     width: 100%;
     height: 50px;
     margin-bottom: 1em;
+    
+    .ti {
+      margin: 1em 0 0 4.5em;
+      font-size: 24px;
+      font-weight: 450;
+    }
   }
 }

@@ -6,6 +6,7 @@ import Header from "../components/Header";
 import Menu from "../components/Menu";
 import { Suspense } from 'react'
 import ProductCard from "../components/ProductCard/ProductCard";
+import "./style.css"
 
 const SearchResults = async () => {
   const searchParams = useSearchParams();
@@ -19,13 +20,16 @@ const SearchResults = async () => {
       <Header/>
         
       <Suspense>
-        <div>
+
+        <div className="container">
           <Menu/>
-          <div>
-            <h1>Resultados da busca: {query}</h1>
+          <div className="cards">
+            <div className="title">
+              <h1 className="ti">Resultados da busca: {query}</h1>
+            </div>
 
             {products.length > 0 ? (
-              <div className="cards">
+              <div className="window">
                 {products.map((product: products) => (
                   <ProductCard
                     key={`product-${product.id}`}
