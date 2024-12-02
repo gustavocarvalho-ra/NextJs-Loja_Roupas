@@ -5,6 +5,7 @@ import { products } from "../types/products";
 import Header from "../components/Header";
 import Menu from "../components/Menu";
 import { Suspense } from 'react'
+import ProductCard from "../components/ProductCard/ProductCard";
 
 const SearchResults = async () => {
   const searchParams = useSearchParams();
@@ -22,14 +23,20 @@ const SearchResults = async () => {
           <Menu/>
           <div>
             <h1>Resultados da busca: {query}</h1>
+
             {products.length > 0 ? (
-              <ul>
+              <div className="">
                 {products.map((product: products) => (
-                  <li key={product.id}>
-                    {product.name} - R$ {product.price}
-                  </li>
+                  <ProductCard
+                    key={`product-${product.id}`}
+                    id={product.id}
+                    name={product.name}
+                    photo={product.photo}
+                    price={product.price}
+                    des={product.des}
+                  />
                 ))}
-              </ul>
+              </div>
             ) : (
               <p>Nenhum produto encontrado.</p>
             )}
