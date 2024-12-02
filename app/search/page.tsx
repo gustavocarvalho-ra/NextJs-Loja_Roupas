@@ -25,7 +25,7 @@ const SearchResults = async () => {
             <h1>Resultados da busca: {query}</h1>
 
             {products.length > 0 ? (
-              <div className="">
+              <div className="cards">
                 {products.map((product: products) => (
                   <ProductCard
                     key={`product-${product.id}`}
