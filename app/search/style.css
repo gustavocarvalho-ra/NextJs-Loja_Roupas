@@ -19,8 +19,8 @@
     width: 70%;
     margin-right: 5em;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 2em;
   }
 
@@ -34,5 +34,12 @@
       font-size: 24px;
       font-weight: 450;
     }
+  }
+
+  .window {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
   }
 }
