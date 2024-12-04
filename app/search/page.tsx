@@ -1,11 +1,14 @@
 "use client";
 
-import { useSearchParams } from "next/navigation";
-import { products } from "../types/products";
 import Header from "../components/Header";
 import Menu from "../components/Menu";
-import { Suspense } from 'react'
 import ProductCard from "../components/ProductCard/ProductCard";
+
+import { useSearchParams } from "next/navigation";
+import { Suspense } from 'react'
+
+import { products } from "../types/products";
+
 import "./style.css"
 
 const SearchResults = async () => {
