@@ -1,6 +1,7 @@
 .container {
   padding: 2em 0 2em 0;
   width: 100%;
+  min-height: 90vh;
   display: flex;
   background: var(--back);
 
@@ -12,8 +13,6 @@
       color: #0000EE;
     }
   }
-
-
 
   .cards {
     width: 70%;
