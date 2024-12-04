@@ -4,14 +4,10 @@
 
 v1 - ✔
 
-Next updates:
-
-v2 
-- Introduzir o carrinho de compra 🔄
-- Introduzir o botão de busca de produto 🔄
-
-v2 já intruduzidos 
- - Introduzir o link de detalhamento do produto ✔
+v2 - ✔
+- Introduzido o carrinho de compra ✔
+- Introduzido o botão de busca de produto ✔
+- Introduzido o link de detalhamento do produto ✔
 
 <hr/>
 
