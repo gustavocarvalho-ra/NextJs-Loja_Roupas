@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { UseShoppingCartProvider } from "./contexts/useShoppingCart";
 import { ReactNode } from "react";
+import { Suspense } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,9 +20,11 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className={inter.className}>
-        <UseShoppingCartProvider>
-          {children}
-        </UseShoppingCartProvider>
+        <Suspense>
+          <UseShoppingCartProvider>
+            {children}
+          </UseShoppingCartProvider>
+        </Suspense>
       </body>
     </html>
   );

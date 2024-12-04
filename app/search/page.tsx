@@ -22,8 +22,6 @@ const SearchResults = async () => {
     <>
       <Header/>
         
-      <Suspense>
-
         <div className="container">
           <Menu/>
           <div className="cards">
@@ -49,7 +47,6 @@ const SearchResults = async () => {
             )}
           </div>
         </div>
-      </Suspense>
     </>
   );
 };
