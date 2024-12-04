@@ -36,7 +36,6 @@ export const A = styled.div `
         align-items: center;
         flex-direction: row-reverse;
 
-
         .lup {
           display: flex;
           align-items: center;
@@ -62,19 +61,13 @@ export const A = styled.div `
           border: none;
           background: linear-gradient(29deg, rgba(142,0,167,1) 20%, rgba(0,206,235,1) 100%);
           text-align: center;
-          transition: 2s;
+          transition: .5s;
+          cursor: pointer;
 
           &:hover {
-            opacity: .7;
-            scale: 1.1;
+            opacity: .5;
           }
         }
-      }
-
-      .sear {
-        display: flex;
-        align-items: center;
-        flex-direction: row-reverse;
       }
     }
 
