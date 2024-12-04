@@ -42,7 +42,7 @@ export default function Header() {
         <div className="fis">
           <Link href="../" style={{textDecoration: "none"}}><p className="Log">Street <span className="Los">Tech</span></p></Link>
           
-          <div style={{display: 'flex', alignItems: 'center', flexDirection: 'row-reverse'}}>
+          <div className="search">
             <input
               className="lup" 
               type="text" 
