@@ -5,7 +5,7 @@ import Menu from "../components/Menu";
 import ProductCard from "../components/ProductCard/ProductCard";
 
 import { useSearchParams } from "next/navigation";
-import { Suspense } from 'react'
+import Image from "next/image";
 
 import { products } from "../types/products";
 
@@ -43,7 +43,10 @@ const SearchResults = async () => {
                 ))}
               </div>
             ) : (
-              <p>Nenhum produto encontrado.</p>
+              <div className="crashSearch">
+                <span>Nenhum produto encontrado.</span>
+                <Image src={"/empty-cart.png"} alt="Imagem do carrinho" width={250} height={250}/>
+              </div>
             )}
           </div>
         </div>
