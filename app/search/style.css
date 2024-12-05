@@ -21,24 +21,35 @@
     flex-direction: column;
     flex-wrap: wrap;
     gap: 2em;
-  }
-
-  .title {
-    width: 100%;
-    height: 50px;
-    margin-bottom: 1em;
-    
-    .ti {
-      margin: 1em 0 0 4.5em;
-      font-size: 24px;
-      font-weight: 450;
+  
+    .title {
+      width: 100%;
+      height: 50px;
+      margin-bottom: 1em;
+      
+      .ti {
+        margin: 1em 0 0 4.5em;
+        font-size: 24px;
+        font-weight: 450;
+      }
     }
-  }
+  
+    .window {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2em;
+    }
 
-  .window {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2em;
+    .crashSearch {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 2em;
+
+      span {
+        
+      }
+    }
   }
 }
