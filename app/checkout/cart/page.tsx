@@ -24,6 +24,14 @@ export default function Cart () {
   const [isLoading, setIsLoading] = useState<boolean>(true);
 
   useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  useEffect(() => {
     const cartCash = listShoppingCart.reduce((acc, item):number => acc + item.price * item.quantity, 0);
     setTotal(cartCash);
   }, [listShoppingCart]);
