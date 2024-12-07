@@ -18,6 +18,7 @@
       padding: 1em;
       border-radius: 8px;
       background: #e2e5f6;
+      margin-bottom: 1em;
   
       .totalCart {
         display: flex;
