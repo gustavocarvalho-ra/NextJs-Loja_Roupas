@@ -36,6 +36,22 @@ export default function Cart () {
     setTotal(cartCash);
   }, [listShoppingCart]);
 
+  const SkeletonLoader = () => (
+    <div className="skeleton">
+      <div className="skeleton-card">
+        <div className="skeleton-image"></div>
+        <div className="skeleton-description">
+          <div className="skeleton-line"></div>
+          <div className="skeleton-line short"></div>
+        </div>
+        <div className="skeleton-btns">
+          <div className="skeleton-circle"></div>
+          <div className="skeleton-circle"></div>
+        </div>
+      </div>
+    </div>
+  );
+
   return (
     <>
       <Header />
