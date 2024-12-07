@@ -21,6 +21,7 @@ export default function Cart () {
   } = useShoppingCart();
 
   const [total, setTotal] = useState<number>(0);
+  const [isLoading, setIsLoading] = useState<boolean>(true);
 
   useEffect(() => {
     const cartCash = listShoppingCart.reduce((acc, item):number => acc + item.price * item.quantity, 0);
