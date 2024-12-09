@@ -13,6 +13,11 @@ export const A = styled.div `
     flex-direction: column;
     background: #0e0e10;
 
+    @media (max-width: 420px) {
+
+    }
+
+
     .fis {
       width: 100%;
       display: flex;
