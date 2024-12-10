@@ -13,8 +13,9 @@ export const A = styled.div `
     flex-direction: column;
     background: #0e0e10;
 
-    @media (max-width: 420px) {
-
+    @media (max-width: 440px) {
+      align-items: flex-start;
+      padding-top: 6vh;
     }
 
 
@@ -24,10 +25,11 @@ export const A = styled.div `
       align-items: center;
       justify-content: center;
 
-      @media (max-width: 420px) {
+      @media (max-width: 440px) {
         width: 50%;
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
       }
 
       .Log {
@@ -37,7 +39,8 @@ export const A = styled.div `
         text-shadow: 30px;
         text-decoration: none;
 
-        @media (max-width: 420px) {
+        @media (max-width: 440px) {
+          margin-top: 2vh;
           font-size: 20px;
           width: 50%;
           display: flex;
