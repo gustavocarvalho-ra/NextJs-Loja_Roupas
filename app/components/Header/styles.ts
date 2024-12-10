@@ -4,6 +4,11 @@ export const A = styled.div `
   width: 100%;
   height: 17vh;
 
+  @media (max-width: 440px) {
+    align-items: flex-start;
+    height: 40vh;
+  }
+
   .section {
     width: 100%;
     height: 90%;
@@ -15,7 +20,7 @@ export const A = styled.div `
 
     @media (max-width: 440px) {
       align-items: flex-start;
-      padding-top: 6vh;
+      padding-top: 4vh;
     }
 
 
