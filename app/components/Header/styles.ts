@@ -24,11 +24,25 @@ export const A = styled.div `
       align-items: center;
       justify-content: center;
 
+      @media (max-width: 420px) {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+      }
+
       .Log {
         font-family: "Sedgwick Ave Display";
         color: #fff;
         font-size: 40px;
         text-shadow: 30px;
+        text-decoration: none;
+
+        @media (max-width: 420px) {
+          font-size: 20px;
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+        }
       }
 
       .Los {
