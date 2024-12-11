@@ -6,7 +6,7 @@ export const A = styled.div `
 
   @media (max-width: 440px) {
     align-items: flex-start;
-    height: 40vh;
+    height: 30vh;
   }
 
   .section {
@@ -20,7 +20,7 @@ export const A = styled.div `
 
     @media (max-width: 440px) {
       align-items: flex-start;
-      padding-top: 4vh;
+      padding: 1.5vh;
     }
 
 
@@ -29,9 +29,10 @@ export const A = styled.div `
       display: flex;
       align-items: center;
       justify-content: center;
+      text-decoration: none;
 
       @media (max-width: 440px) {
-        width: 50%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -62,6 +63,12 @@ export const A = styled.div `
         display: flex;
         align-items: center;
         flex-direction: row-reverse;
+        
+
+        @media (max-width: 440px) {
+          width: 50%;
+          font-size: clamp(.5rem, .2vw, 3rem);
+        }
 
         .lup {
           display: flex;
@@ -77,6 +84,8 @@ export const A = styled.div `
           font-size: 14px;
           padding-left: 12px;
           margin-left: 2em;
+
+
         }
 
         .btnLup {
