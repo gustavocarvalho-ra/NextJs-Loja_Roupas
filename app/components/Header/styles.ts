@@ -90,7 +90,7 @@ export const A = styled.div `
         .btnLup {
           position: absolute;
           width: clamp(.1rem, 6vw, 5rem);
-          height: 50%;
+          height: clamp(.1rem, 3%, 700px);
           margin-right: 6px;
           border-radius: 8px;
           border: none;
