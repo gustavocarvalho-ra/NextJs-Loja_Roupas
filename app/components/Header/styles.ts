@@ -66,8 +66,7 @@ export const A = styled.div `
         
 
         @media (max-width: 440px) {
-          width: 50%;
-          font-size: clamp(.5rem, .2vw, 3rem);
+          width: 60%;
         }
 
         .lup {
@@ -84,14 +83,14 @@ export const A = styled.div `
           font-size: 14px;
           padding-left: 12px;
           margin-left: 2em;
-
+          font-size: clamp(.1rem, 2.5vw, .9rem);
 
         }
 
         .btnLup {
           position: absolute;
-          width: 5em;
-          height: 2.3em;
+          width: clamp(.1rem, 6vw, 5rem);
+          height: 50%;
           margin-right: 6px;
           border-radius: 8px;
           border: none;
