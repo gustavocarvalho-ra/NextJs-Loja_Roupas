@@ -63,6 +63,7 @@ export const A = styled.div `
         display: flex;
         align-items: center;
         flex-direction: row-reverse;
+        width: 35%;
         
 
         @media (max-width: 440px) {
