@@ -30,6 +30,7 @@ export const A = styled.div `
       align-items: center;
       justify-content: center;
       text-decoration: none;
+      gap: 1em;
 
       @media (max-width: 440px) {
         width: 100%;
