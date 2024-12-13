@@ -33,7 +33,7 @@ export const A = styled.div `
       gap: 1em;
 
       @media (max-width: 440px) {
-        width: 100%;
+        width: 95%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -109,13 +109,18 @@ export const A = styled.div `
     }
 
     .user {
-      /* background: red; */
       width: 32%;
       height: 4em;
       display: flex;
       align-items: center;
       justify-content: space-evenly;
       gap: 3em;
+
+      @media (max-width: 440px) {
+          font-size: 6px;
+          width: 100%;
+          justify-content: space-around;
+        }
       
       button {
         cursor: pointer;
