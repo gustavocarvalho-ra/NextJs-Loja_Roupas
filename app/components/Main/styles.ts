@@ -8,6 +8,10 @@ export const AllOff = styled.h2 `
   justify-content: center;
   color: #7910e8;
   z-index: 100;
+
+  @media (max-width: 440px) {
+    display: none;
+  }
 `
 
 export const Man = styled.div `
@@ -19,6 +23,11 @@ export const Man = styled.div `
     align-items: center;
     gap: 20px;
     background: var(--back);
+
+    @media (max-width: 440px) {
+      padding: 1em 0 1em 0;
+      height: 280vh;
+    }
 
     h1 {
       /* margin-top: 45px; */
