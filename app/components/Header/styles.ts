@@ -6,7 +6,7 @@ export const A = styled.div `
 
   @media (max-width: 440px) {
     align-items: flex-start;
-    height: 30vh;
+    height: 25vh;
   }
 
   .section {
@@ -130,7 +130,6 @@ export const A = styled.div `
         }
       }
 
-
       button {
         cursor: pointer;
       }
@@ -198,12 +197,11 @@ export const A = styled.div `
 
   .nav {
     width: 100%;
-    /* height: 15%; */
     font-family: "Rubik";
     display: flex;
     justify-content: center;
     gap: 3em;
-    margin-top: 10px;
+    margin-top: 1em;
 
     a {
       font-size: 12px;
