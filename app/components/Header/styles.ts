@@ -22,6 +22,7 @@ export const A = styled.div `
       align-items: flex-start;
       padding: .2em;
       display: flex;
+      align-items: center;
       justify-content: flex-start;
     }
 
@@ -67,7 +68,6 @@ export const A = styled.div `
         align-items: center;
         flex-direction: row-reverse;
         width: 35%;
-        
 
         @media (max-width: 440px) {
           width: 70%;
@@ -123,7 +123,14 @@ export const A = styled.div `
           width: 100%;
           justify-content: space-around;
         }
-      
+        
+      .svg {
+        @media (max-width: 440px) {
+          display: none;
+        }
+      }
+
+
       button {
         cursor: pointer;
       }

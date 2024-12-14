@@ -62,7 +62,7 @@ export default function Header() {
               <button className="Us">Minha conta</button>
             </div>
             <div className="Uss">
-              <SlLocationPin style={{marginRight: '8px', marginTop: '5px', color: '#fff', fontSize: '1.5em'}}/>
+              <SlLocationPin className="svg" style={{marginRight: '8px', marginTop: '5px', color: '#fff', fontSize: '1.5em'}}/>
               <div>
                 <p>Onde está meu pedido?</p>
                 <button className="Ras">
@@ -72,7 +72,7 @@ export default function Header() {
             </div>
             <div>
               <button onClick={handleOpenModal} className="Car">
-                <BsCart3 style={{marginRight: '8px', marginTop: '5px', color: '#fff', fontSize: '1.5em'}}/>
+                <BsCart3 className="svg" style={{marginRight: '8px', marginTop: '5px', color: '#fff', fontSize: '1.5em'}}/>
                 <div>
                   <p>Abrir</p>
                   Carrinho
