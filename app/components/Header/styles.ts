@@ -20,7 +20,9 @@ export const A = styled.div `
 
     @media (max-width: 440px) {
       align-items: flex-start;
-      padding: 1.5vh;
+      padding: .2em;
+      display: flex;
+      justify-content: flex-start;
     }
 
 
@@ -35,8 +37,8 @@ export const A = styled.div `
       @media (max-width: 440px) {
         width: 95%;
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        flex-wrap: wrap;
+        align-items: center;
       }
 
       .Log {
@@ -68,7 +70,7 @@ export const A = styled.div `
         
 
         @media (max-width: 440px) {
-          width: 60%;
+          width: 70%;
         }
 
         .lup {
