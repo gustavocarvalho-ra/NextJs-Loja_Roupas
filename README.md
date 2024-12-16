@@ -9,6 +9,9 @@ v2 - ✔
 - Introduzido o botão de busca de produto ✔
 - Introduzido o link de detalhamento do produto ✔
 
+v3 - 🔄
+- Adicionar responsividade 🔄
+
 <hr/>
 
 ## Stack utilizada 
