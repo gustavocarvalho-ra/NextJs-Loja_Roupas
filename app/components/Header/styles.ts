@@ -204,7 +204,7 @@ export const A = styled.div `
     margin-top: 1em;
 
     @media (max-width: 440px) {
-      margin-top: .6em;
+      margin-top: 1.5em;
     }
 
     a {
@@ -219,7 +219,10 @@ export const A = styled.div `
       }
 
       @media (max-width: 440px) {
-        margin-top: 1em;
+        border: solid 1px var(--purple);
+        border-radius: 8px;
+        background: #27272a;
+        padding: 4px;
       }
     }
 
