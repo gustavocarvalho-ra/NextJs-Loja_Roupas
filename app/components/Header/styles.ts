@@ -40,6 +40,7 @@ export const A = styled.div `
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        margin-top: 2vh;
       }
 
       .Log {
@@ -50,7 +51,6 @@ export const A = styled.div `
         text-decoration: none;
 
         @media (max-width: 440px) {
-          margin-top: 2vh;
           font-size: 20px;
           width: 50%;
           display: flex;
