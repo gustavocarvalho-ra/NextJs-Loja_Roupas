@@ -228,6 +228,10 @@ export const A = styled.div `
       &:hover {
         color: red;
       }
+
+      @media (max-width: 440px) {
+        display: none;
+      }
     }
   }
 `
