@@ -203,6 +203,10 @@ export const A = styled.div `
     gap: 3em;
     margin-top: 1em;
 
+    @media (max-width: 440px) {
+      margin-top: .6em;
+    }
+
     a {
       font-size: 12px;
       color: var(--tex);
@@ -212,6 +216,10 @@ export const A = styled.div `
 
       &:hover {
         color: #BA55D3;
+      }
+
+      @media (max-width: 440px) {
+        margin-top: 1em;
       }
     }
 
