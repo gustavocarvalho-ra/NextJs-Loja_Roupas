@@ -221,7 +221,7 @@ export const A = styled.div `
       @media (max-width: 440px) {
         border: solid 1px var(--purple);
         border-radius: 8px;
-        background: #27272a;
+        background: var(--grey-sec);
         padding: 4px;
       }
     }
