@@ -26,7 +26,7 @@ export const Man = styled.div `
 
     @media (max-width: 440px) {
       padding: 1em 0 1em 0;
-      height: 280vh;
+      height: 215vh;
     }
 
     h1 {
