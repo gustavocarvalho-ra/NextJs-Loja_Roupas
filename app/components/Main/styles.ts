@@ -44,6 +44,10 @@ export const Man = styled.div `
       justify-content: center;
       gap: 2em;
 
+      @media (max-width: 440px) {
+        gap: 1em;
+      }
+
       a {
         width: 21em;
         height: 10em;
@@ -57,15 +61,18 @@ export const Man = styled.div `
         text-transform: uppercase;
         border: 1.5px solid #9370DB;
         transition: 1s;
-        /* background-image: url("./assets/calcaCargoSimples.jpeg"); */
         background-position: center;
         background-size: cover;
         border-radius: 4px;
 
-
         &:hover {
           scale: 1.02;
           box-shadow: 5px 6px 7px 1px rgba(0, 0, 0, 0.4);
+        }
+
+        @media (max-width: 440px) {
+          width: 19em;
+          height: 8em;
         }
       }
     }
