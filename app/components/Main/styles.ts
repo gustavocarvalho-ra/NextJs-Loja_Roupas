@@ -38,7 +38,7 @@ export const Man = styled.div `
 
     .cards {
       width: 75%;
-      height: 100vh;
+      height: 100%;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -46,6 +46,7 @@ export const Man = styled.div `
 
       @media (max-width: 440px) {
         gap: 1em;
+        height: 100%;
       }
 
       a {
@@ -71,8 +72,8 @@ export const Man = styled.div `
         }
 
         @media (max-width: 440px) {
-          width: 19em;
-          height: 8em;
+          width: 100%;
+          height: 9%;
         }
       }
     }
