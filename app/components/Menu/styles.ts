@@ -7,7 +7,9 @@ export const Mn = styled.div `
   margin-right: 5em;
 
   @media (max-width: 440px) {
-    position: absolute;
+    margin: 0;
+    width: 90%;
+    height: 20%;
   }
 
   ::-webkit-scrollbar {
@@ -36,6 +38,10 @@ export const Mn = styled.div `
     display: flex;
     flex-direction: column;
     overflow: auto;
+
+    /* @media (max-width: 440px) {
+      flex-direction: 
+    } */
 
     h1 {
       font-size: 22px;
