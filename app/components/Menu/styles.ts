@@ -8,7 +8,7 @@ export const Mn = styled.div `
 
   @media (max-width: 440px) {
     margin: 0;
-    width: 80%;
+    width: 70%;
     height: 20%;
   }
 
@@ -39,9 +39,10 @@ export const Mn = styled.div `
     flex-direction: column;
     overflow: auto;
 
-    /* @media (max-width: 440px) {
-      flex-direction: 
-    } */
+    @media (max-width: 440px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
 
     h1 {
       font-size: 22px;
