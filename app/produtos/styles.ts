@@ -172,6 +172,10 @@ export const Container = styled.div `
   display: flex;
   background: var(--back);
 
+  @media (max-width: 440px) {
+    flex-direction: column;
+  }
+
   a {
     text-decoration: none;
 
