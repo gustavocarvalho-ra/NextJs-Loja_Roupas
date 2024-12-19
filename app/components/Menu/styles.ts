@@ -6,11 +6,15 @@ export const Mn = styled.div `
   margin: 5em 0 0 7em;
   margin-right: 5em;
 
+  @media (max-width: 440px) {
+    position: absolute;
+  }
+
   ::-webkit-scrollbar {
-      width: .5em;
-      border-radius: 8px;
-      background: var(--purple);
-    }
+    width: .5em;
+    border-radius: 8px;
+    background: var(--purple);
+  }
 
   ::-webkit-scrollbar-thumb {
     border-radius: 8px;
