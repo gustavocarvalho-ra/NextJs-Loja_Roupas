@@ -8,7 +8,7 @@ export const Mn = styled.div `
 
   @media (max-width: 440px) {
     margin: 0;
-    width: 90%;
+    width: 80%;
     height: 20%;
   }
 
