@@ -40,6 +40,7 @@ export const Mn = styled.div `
     overflow: auto;
 
     @media (max-width: 440px) {
+      padding: .4em;
       flex-direction: row;
       flex-wrap: wrap;
       height: 310px;
