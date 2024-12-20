@@ -198,6 +198,10 @@ export const Container = styled.div `
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2em;
+
+    @media (max-width: 440px) {
+      margin: 0;
+    }
   }
 
   .title {
