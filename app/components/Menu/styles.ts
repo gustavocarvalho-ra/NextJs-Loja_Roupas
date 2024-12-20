@@ -55,6 +55,7 @@ export const Mn = styled.div `
       margin: .5em 0 1em 0;
 
       @media (max-width: 440px) {
+        width: 100%;
         margin: 0;
         padding: 0;
       }
@@ -67,6 +68,10 @@ export const Mn = styled.div `
 
       &:hover {
         color: blue;
+      }
+
+      @media (max-width: 440px) {
+        width: 40%;
       }
     }
   }
