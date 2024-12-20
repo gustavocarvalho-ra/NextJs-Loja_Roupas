@@ -53,6 +53,11 @@ export const Mn = styled.div `
       color: black;
       padding-top: .5em;
       margin: .5em 0 1em 0;
+
+      @media (max-width: 440px) {
+        margin: 0;
+        padding: 0;
+      }
     }
 
     a {
