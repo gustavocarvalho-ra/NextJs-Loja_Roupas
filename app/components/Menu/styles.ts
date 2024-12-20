@@ -44,6 +44,7 @@ export const Mn = styled.div `
       flex-wrap: wrap;
       height: 330px;
       align-items: center;
+      gap: .5em;
     }
 
     h1 {
