@@ -42,7 +42,7 @@ export const Mn = styled.div `
     @media (max-width: 440px) {
       flex-direction: row;
       flex-wrap: wrap;
-      height: 330px;
+      height: 310px;
       align-items: center;
       gap: .5em;
     }
