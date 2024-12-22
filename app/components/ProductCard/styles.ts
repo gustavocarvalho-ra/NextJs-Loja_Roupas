@@ -58,6 +58,10 @@ export const Card = styled.a `
       display: flex;
       justify-content: space-between;
 
+      @media (max-width: 440px) {
+        justify-content: space-around;
+      }
+
       p {
         margin-top: 5px;
         font-size: 17px;
