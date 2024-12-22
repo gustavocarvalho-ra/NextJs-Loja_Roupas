@@ -209,7 +209,10 @@ export const Container = styled.div `
     margin-bottom: 1em;
 
     @media (max-width: 440px) {
-      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 1em 0 0 0;
     }
 
     .ti {
