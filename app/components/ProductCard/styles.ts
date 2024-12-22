@@ -18,7 +18,7 @@ export const Card = styled.a `
   }
 
   @media (max-width: 440px) {
-    width: 100%;
+    width: 90%;
   }
 
   .btd {
