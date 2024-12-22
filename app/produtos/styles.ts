@@ -201,6 +201,7 @@ export const Container = styled.div `
 
     @media (max-width: 440px) {
       margin: 0;
+      justify-content: center;
     }
 
     
