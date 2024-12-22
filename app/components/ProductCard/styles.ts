@@ -64,6 +64,10 @@ export const Card = styled.a `
     display: flex;
     flex-direction: column;
 
+    @media (max-width: 440px) {
+      padding-top: 10px;
+    }
+
     h1{
       font-size: 14px;
       font-weight: 400;
