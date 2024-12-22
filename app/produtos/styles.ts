@@ -186,11 +186,9 @@ export const Container = styled.div `
     }
   }
 
-  .ti {
-    margin: 1em 0 0 4.5em;
-    font-size: 24px;
-    font-weight: 450;
-  }
+
+
+
   .cards {
     width: 70%;
     margin-right: 5em;
@@ -209,5 +207,19 @@ export const Container = styled.div `
     width: 100%;
     height: 50px;
     margin-bottom: 1em;
+
+    @media (max-width: 440px) {
+      margin: 0;
+    }
+
+    .ti {
+      margin: 1em 0 0 4.5em;
+      font-size: 24px;
+      font-weight: 450;
+
+      @media (max-width: 440px) {
+        margin: 0;
+      }
+    }
   }
 `
