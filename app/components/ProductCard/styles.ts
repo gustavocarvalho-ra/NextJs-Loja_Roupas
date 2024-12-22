@@ -17,6 +17,10 @@ export const Card = styled.a `
     box-shadow: 6px 8px 8px 0px #1a0f27;
   }
 
+  @media (max-width: 440px) {
+    width: 100%;
+  }
+
   .btd {
     font-size: 12px;
     font-weight: 500;
