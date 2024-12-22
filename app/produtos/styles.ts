@@ -203,8 +203,6 @@ export const Container = styled.div `
       margin: 0;
       justify-content: center;
     }
-
-    
   }
 
   .title {

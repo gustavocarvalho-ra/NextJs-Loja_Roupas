@@ -30,6 +30,22 @@ export const Card = styled.a `
     margin-left: 9em;
   }
 
+  .ft {
+
+    @media (max-width: 440px) {
+      width: 190px;
+      height: 220px;
+    }
+
+    img {
+
+      @media (max-width: 440px) {
+        width: 190px;
+        height: 220px;
+      }
+    }
+  }
+
   @keyframes pulse {
     0% {
       opacity: 1;
