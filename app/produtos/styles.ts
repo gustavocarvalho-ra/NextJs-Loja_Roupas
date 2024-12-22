@@ -198,6 +198,7 @@ export const Container = styled.div `
     gap: 2em;
 
     @media (max-width: 440px) {
+      gap: 1.5em;
       margin: 0;
       justify-content: center;
     }
