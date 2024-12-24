@@ -25,9 +25,7 @@ export const Main = styled.div `
   flex-direction: column;
   justify-content: center;
 
-  @media (max-width: 440px) {
-    flex-direction: column;
-  }
+
 
   .deta {
     padding: 2em;
@@ -36,6 +34,10 @@ export const Main = styled.div `
     display: flex;
     gap: 2em;
     border-radius: 8px 8px 0 0;
+
+    @media (max-width: 440px) {
+      flex-direction: column;
+    }
 
     .imag {
       padding: 2em;
