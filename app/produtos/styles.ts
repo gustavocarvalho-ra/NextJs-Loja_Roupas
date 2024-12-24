@@ -64,6 +64,10 @@ export const Main = styled.div `
           cursor: pointer;
           border: 1px solid var(--purple);
         }
+
+        @media (max-width: 440px) {
+          display: none;
+        }
       }
     }
 
