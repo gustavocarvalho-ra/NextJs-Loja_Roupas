@@ -46,6 +46,7 @@ export const Main = styled.div `
     .imag {
       padding: 2em;
       width: 50%;
+      height: 100%;
       display: flex;
       gap: 1.5em;
       background: var(--back);
@@ -53,12 +54,18 @@ export const Main = styled.div `
 
       @media (max-width: 440px) {
         width: 80%;
+        height: 100%;
       }
 
       img {
         border-radius: 8px;
         border: 1px solid transparent;
         transition: all .5s;
+
+        @media (max-width: 440px) {
+          width: 100%;
+          height: 100%;
+        }
       }
 
       .mini {
