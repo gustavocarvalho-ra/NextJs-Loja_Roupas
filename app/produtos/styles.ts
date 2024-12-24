@@ -24,6 +24,10 @@ export const Main = styled.div `
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  
+  @media (max-width: 440px) {
+    height: 200vh;
+  }
 
 
 
