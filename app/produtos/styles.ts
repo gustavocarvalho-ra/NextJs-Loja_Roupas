@@ -51,6 +51,10 @@ export const Main = styled.div `
       background: var(--back);
       border-radius: 8px;
 
+      @media (max-width: 440px) {
+        width: 80%;
+      }
+
       img {
         border-radius: 8px;
         border: 1px solid transparent;
