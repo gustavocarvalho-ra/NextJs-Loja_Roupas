@@ -25,6 +25,10 @@ export const Main = styled.div `
   flex-direction: column;
   justify-content: center;
 
+  @media (max-width: 440px) {
+    flex-direction: column;
+  }
+
   .deta {
     padding: 2em;
     background: var(--card);
@@ -185,9 +189,6 @@ export const Container = styled.div `
       color: #0000EE;
     }
   }
-
-
-
 
   .cards {
     width: 70%;
