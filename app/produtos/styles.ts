@@ -55,6 +55,7 @@ export const Main = styled.div `
       @media (max-width: 440px) {
         width: 80%;
         height: 100%;
+        justify-content: center;
       }
 
       img {
