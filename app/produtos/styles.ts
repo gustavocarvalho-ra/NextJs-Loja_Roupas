@@ -27,9 +27,9 @@ export const Main = styled.div `
   
   @media (max-width: 440px) {
     height: 200vh;
+    padding: 1.5em 0;
+    justify-content: flex-start;
   }
-
-
 
   .deta {
     padding: 2em;
