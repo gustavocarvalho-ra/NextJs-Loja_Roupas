@@ -35,6 +35,7 @@ export const Card = styled.a `
     height: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 4px;
 
     @media (max-width: 440px) {
       width: 100%;
@@ -42,6 +43,7 @@ export const Card = styled.a `
     }
 
     img {
+      border-radius: 8px;
 
       @media (max-width: 440px) {
         width: 75%;

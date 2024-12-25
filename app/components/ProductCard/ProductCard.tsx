@@ -45,8 +45,6 @@ export default function ProductCard({
           width={180}
           height={210}
           style={{ 
-            borderRadius: "8px",
-            marginTop: "4px",
             opacity: isLoading ? 0 : 1,
             transition: "opacity 0.3s ease-in-out"
           }}
