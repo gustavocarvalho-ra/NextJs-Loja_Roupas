@@ -224,6 +224,7 @@ export const Container = styled.div `
       gap: 1.5em;
       margin: 0;
       justify-content: center;
+      width: 80%;
     }
   }
 

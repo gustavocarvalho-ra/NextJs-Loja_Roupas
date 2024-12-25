@@ -31,17 +31,21 @@ export const Card = styled.a `
   }
 
   .ft {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
 
     @media (max-width: 440px) {
-      width: 190px;
-      height: 220px;
+      width: 100%;
+      height: 100%;
     }
 
     img {
 
       @media (max-width: 440px) {
-        width: 190px;
-        height: 220px;
+        width: 75%;
+        height: 80%;
       }
     }
   }
