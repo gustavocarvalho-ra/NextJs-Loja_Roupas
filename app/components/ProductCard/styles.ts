@@ -31,23 +31,24 @@ export const Card = styled.a `
   }
 
   .ft {
-    width: 100%;
-    height: 100%;
+    width: 180px;
+    height: 210px;
+    position: relative;
     display: flex;
     justify-content: center;
     margin-top: 4px;
 
     @media (max-width: 440px) {
-      width: 100%;
-      height: 100%;
+      width: 67%;
+      height: 70%;
     }
 
     img {
       border-radius: 8px;
 
       @media (max-width: 440px) {
-        width: 75%;
-        height: 80%;
+        width: 100%;
+        height: 100%;
       }
     }
   }

@@ -27,7 +27,7 @@ export default function ProductCard({
   return (
     <Card href={`/produtos/${id}`}>
       <button className="btd">{discountLabel}</button>
-      <div className="ft" style={{ position: "relative", width: "180px", height: "210px" }}>
+      <div className="ft" style={{ position: "relative",}}>
         {isLoading && (
           <div style={{
             backgroundColor: "var(--back)",
