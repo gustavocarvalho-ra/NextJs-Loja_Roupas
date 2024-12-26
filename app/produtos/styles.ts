@@ -92,6 +92,10 @@ export const Main = styled.div `
       background: var(--back);
       border-radius: 8px;
 
+      @media (max-width: 440px) {
+        
+      }
+
       .lin {
         width: 100%;
         display: flex;
