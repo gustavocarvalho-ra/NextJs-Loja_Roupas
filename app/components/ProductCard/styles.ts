@@ -41,15 +41,13 @@ export const Card = styled.a `
 
     @media (max-width: 440px) {
       width: 67%;
-      height: 70%;
     }
 
     img {
       border-radius: 8px;
 
       @media (max-width: 440px) {
-        width: 100%;
-        height: 100%;
+        width: 95%;
       }
     }
   }
