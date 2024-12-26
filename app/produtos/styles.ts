@@ -93,7 +93,7 @@ export const Main = styled.div `
       border-radius: 8px;
 
       @media (max-width: 440px) {
-        
+        width: 80%;
       }
 
       .lin {
