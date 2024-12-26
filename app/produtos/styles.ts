@@ -144,6 +144,12 @@ export const Main = styled.div `
           width: 50%;
           height: 3em;
 
+          @media (max-width: 440px) {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+          }
+
           button {
             width: 100%;
             height: 100%;
@@ -163,6 +169,10 @@ export const Main = styled.div `
               border: 1px solid var(--purple);
               cursor: pointer;
               background: var(--prim);
+            }
+
+            @media (max-width: 440px) {
+              width: 90%;
             }
           }
         }
