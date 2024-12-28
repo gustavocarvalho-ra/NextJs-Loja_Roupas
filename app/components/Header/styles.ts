@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const A = styled.div `
   width: 100%;
   height: 17vh;
+  background: var(--back);
 
   @media (max-width: 440px) {
     height: 25vh;
