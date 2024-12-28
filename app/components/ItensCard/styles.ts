@@ -66,6 +66,11 @@ export const Conte = styled.div `
         gap: 1.5em;
         margin-bottom: 1em;
 
+        @media (max-width: 440px) {
+          flex-direction: column;
+        }
+      }
+
         .card {
           width: 210px;
           height: 310px;
