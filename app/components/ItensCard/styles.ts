@@ -54,6 +54,11 @@ export const Conte = styled.div `
       padding-top: 1em;
       overflow-y: hidden;
       overflow-x: auto;
+      
+      @media (max-width: 440px) {
+        overflow-y: auto;
+        overflow-x: hidden;
+      }
 
       .containerCard{
         width: 96%;
