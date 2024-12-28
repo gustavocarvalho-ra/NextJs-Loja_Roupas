@@ -33,6 +33,10 @@ export const Conte = styled.div `
     flex-direction: column;
     border-radius: 0 0 8px 8px;
 
+    @media (max-width: 440px) {
+      height: 200%;
+    }
+
     a {
       text-decoration: none;
 
