@@ -16,10 +16,10 @@ export const CartI = styled.div `
   position: fixed;
 
   ::-webkit-scrollbar {
-      width: .5em;
-      border-radius: 8px;
-      background: var(--purple);
-    }
+    width: .5em;
+    border-radius: 8px;
+    background: var(--purple);
+  }
 
   ::-webkit-scrollbar-thumb {
     border-radius: 8px;
