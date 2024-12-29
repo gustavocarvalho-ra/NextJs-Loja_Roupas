@@ -15,6 +15,10 @@ export const CartI = styled.div `
   box-shadow: -2px 1px 5px var(--purple);
   position: fixed;
 
+  @media (max-width: 440px) {
+    width: 50vw;
+  }
+
   ::-webkit-scrollbar {
     width: .5em;
     border-radius: 8px;
