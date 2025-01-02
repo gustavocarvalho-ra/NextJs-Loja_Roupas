@@ -38,6 +38,10 @@ export const CartI = styled.div `
     display: flex;
     justify-content: space-evenly;
     margin-top: 1em;
+
+    @media (max-width: 440px) {
+      font-size: 200%;
+    }
   }
 
   .container {
