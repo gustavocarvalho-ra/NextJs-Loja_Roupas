@@ -17,6 +17,7 @@ export const CartI = styled.div `
 
   @media (max-width: 440px) {
     width: 60vw;
+    align-items: center;
   }
 
   ::-webkit-scrollbar {
@@ -69,6 +70,10 @@ export const CartI = styled.div `
 
       .image {
         width: 20%;
+
+        @media (max-width: 440px) {
+          width: 30%;
+        }
 
         .img {
           border-radius: 8px;
