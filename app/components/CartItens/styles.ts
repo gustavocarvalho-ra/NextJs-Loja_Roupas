@@ -16,7 +16,7 @@ export const CartI = styled.div `
   position: fixed;
 
   @media (max-width: 440px) {
-    width: 50vw;
+    width: 60vw;
   }
 
   ::-webkit-scrollbar {
@@ -48,8 +48,6 @@ export const CartI = styled.div `
     gap: .8em;
     flex-direction: column;
     overflow-y: auto;
-
-    
 
     .card {
       width: 95%;
@@ -84,6 +82,10 @@ export const CartI = styled.div `
 
         h4 {
           font-weight: 500;
+        }
+
+        @media (max-width: 440px) {
+          font-size: 200%;
         }
       }
 
