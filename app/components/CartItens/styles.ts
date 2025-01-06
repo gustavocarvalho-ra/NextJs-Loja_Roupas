@@ -35,6 +35,10 @@ export const CartI = styled.div `
     }
   }
 
+  .closeCart {
+    
+  }
+
   .totalCart {
     display: flex;
     justify-content: space-evenly;

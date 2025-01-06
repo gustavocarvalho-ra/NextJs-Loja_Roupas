@@ -33,9 +33,12 @@ export default function CartItens({isOpen, onClose}: ModalProps) {
   return (
 
     <CartI>
-      <button className="closeCart" onClick={onClose}>
-        <IoCloseOutline />
-      </button>
+      <div className="closeCart">
+        <button onClick={onClose}>
+          <IoCloseOutline />
+        </button>
+      </div>
+      
       {listShoppingCart.length > 0 ? (
         <>
           <div className="totalCart">
