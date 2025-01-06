@@ -40,6 +40,13 @@ export const CartI = styled.div `
     display: flex;
     flex-direction: row-reverse;
     background: none;
+
+    button {
+      font-size: 5em;
+      background: none;
+      color: #fff;
+      border: none;
+    }
   }
 
   .totalCart {

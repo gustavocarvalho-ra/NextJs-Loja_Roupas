@@ -5,7 +5,6 @@ import { useShoppingCart } from "@/app/contexts/useShoppingCart";
 import Image from "next/image";
 import Link from "next/link";
 
-import { IoCloseOutline } from "react-icons/io5";
 import { FaTrash } from "react-icons/fa";
 
 interface ModalProps {
@@ -35,7 +34,7 @@ export default function CartItens({isOpen, onClose}: ModalProps) {
     <CartI>
       <div className="closeCart">
         <button onClick={onClose}>
-          <IoCloseOutline style={{fontSize: "2em"}} />
+          x
         </button>
       </div>
 
