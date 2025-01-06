@@ -163,12 +163,17 @@ export const Main = styled.div `
             align-items: center;
             justify-content: center;
             gap: .7em;
+            padding: 0 8px 0 8px;
 
             &:hover {
               font-size: 1.1em;
               border: 1px solid var(--purple);
               cursor: pointer;
               background: var(--prim);
+
+              @media (max-width: 440px) {
+                font-size: 1.02em;
+              }
             }
 
             @media (max-width: 440px) {
