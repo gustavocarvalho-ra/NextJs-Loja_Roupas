@@ -26,7 +26,7 @@ const SearchResults = async () => {
           <Menu/>
           <div className="cards">
             <div className="title">
-              <h1 className="ti">Resultados da busca: {query}</h1>
+              <h1 className="ti">Resultados da busca: <span>{query}</span></h1>
             </div>
 
             {products.length > 0 ? (
