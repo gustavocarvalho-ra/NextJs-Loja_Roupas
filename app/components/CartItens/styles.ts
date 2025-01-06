@@ -38,14 +38,19 @@ export const CartI = styled.div `
   .closeCart {
     width: 100%;
     display: flex;
-    flex-direction: row-reverse;
+    align-items: center;
     background: none;
+    padding: 0 0 0 85%;
 
     button {
-      font-size: 5em;
+      font-size: 3em;
       background: none;
       color: #fff;
       border: none;
+
+      @media (max-width: 440px) {
+        font-size: 5em;
+      }
     }
   }
 
