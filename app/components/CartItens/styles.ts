@@ -36,7 +36,10 @@ export const CartI = styled.div `
   }
 
   .closeCart {
-    
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    background: none;
   }
 
   .totalCart {

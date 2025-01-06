@@ -35,10 +35,10 @@ export default function CartItens({isOpen, onClose}: ModalProps) {
     <CartI>
       <div className="closeCart">
         <button onClick={onClose}>
-          <IoCloseOutline />
+          <IoCloseOutline style={{fontSize: "2em"}} />
         </button>
       </div>
-      
+
       {listShoppingCart.length > 0 ? (
         <>
           <div className="totalCart">
