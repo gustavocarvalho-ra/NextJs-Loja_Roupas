@@ -11,6 +11,10 @@ export const Conte = styled.div `
     height: .8em;
     border-radius: 0 0 8px 8px;
     background: var(--purple);
+
+    @media (max-width: 440px) {
+      width: .5em;
+    }
   }
 
   ::-webkit-scrollbar-thumb {
