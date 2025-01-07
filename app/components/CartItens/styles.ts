@@ -17,6 +17,7 @@ export const CartI = styled.div `
 
   @media (max-width: 440px) {
     width: 80vw;
+    top: 16vh;
     align-items: center;
   }
 
@@ -167,7 +168,7 @@ export const CartI = styled.div `
     .cash {
       a {
         width: 100%;
-        height: 100%;
+        height: 140%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -177,6 +178,7 @@ export const CartI = styled.div `
         border-radius: 8px;
         bottom: 0;
         position: sticky;
+        font-size: 1.5em;
 
         &:hover {
           background: var(--back);
