@@ -84,7 +84,7 @@ export const CartI = styled.div `
       transition: all .4s ;
 
       @media (max-width: 440px) {
-        padding: 1.4em;
+        padding: 1.1em;
       }
 
       &:hover {
