@@ -40,7 +40,7 @@ export const CartI = styled.div `
     display: flex;
     align-items: center;
     background: none;
-    padding: 0 0 0 85%;
+    padding: 0 0 0 180%;
 
     button {
       font-size: 3em;
@@ -83,6 +83,10 @@ export const CartI = styled.div `
       border: 1px solid transparent;
       transition: all .4s ;
 
+      @media (max-width: 440px) {
+        padding: 1.4em;
+      }
+
       &:hover {
         border: 1px solid var(--purple);
       }
@@ -113,7 +117,7 @@ export const CartI = styled.div `
         }
 
         @media (max-width: 440px) {
-          font-size: 200%;
+          font-size: 240%;
         }
       }
 
@@ -128,6 +132,11 @@ export const CartI = styled.div `
         border-radius: 8px;
         padding: .2em;
         gap: .5em;
+
+        @media (max-width: 440px) {
+          width: 20%;
+          font-size: 2.1em;
+        }
 
         p {
           font-size: .8em;
