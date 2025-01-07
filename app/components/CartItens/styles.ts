@@ -41,7 +41,11 @@ export const CartI = styled.div `
     display: flex;
     align-items: center;
     background: none;
-    padding: 0 0 0 180%;
+    padding: 0 0 0 85%;
+
+    @media (max-width: 440px) {
+      padding: 0 0 0 180%;
+    }
 
     button {
       font-size: 3em;
@@ -168,7 +172,7 @@ export const CartI = styled.div `
     .cash {
       a {
         width: 100%;
-        height: 140%;
+        height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -178,10 +182,14 @@ export const CartI = styled.div `
         border-radius: 8px;
         bottom: 0;
         position: sticky;
-        font-size: 1.5em;
 
         &:hover {
           background: var(--back);
+        }
+
+        @media (max-width: 440px) {
+          height: 140%;
+          font-size: 1.5em;
         }
       }
     }
