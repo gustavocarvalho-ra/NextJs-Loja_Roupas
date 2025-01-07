@@ -16,7 +16,7 @@ export const CartI = styled.div `
   position: fixed;
 
   @media (max-width: 440px) {
-    width: 60vw;
+    width: 80vw;
     align-items: center;
   }
 
