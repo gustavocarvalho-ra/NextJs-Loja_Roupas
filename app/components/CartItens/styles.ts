@@ -65,7 +65,8 @@ export const CartI = styled.div `
     margin-top: 1em;
 
     @media (max-width: 440px) {
-      font-size: 200%;
+      font-size: 220%;
+      margin: 0 0 1em 0;
     }
   }
 
