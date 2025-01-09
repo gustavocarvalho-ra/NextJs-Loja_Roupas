@@ -69,6 +69,11 @@
 
             .img {
               border-radius: 8px;
+
+              @media (max-width: 440px) {
+                width: 90px;
+                height: 90px;
+              }
             }
           }
   
