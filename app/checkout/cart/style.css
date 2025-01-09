@@ -8,6 +8,10 @@
   .main {
     width: 74%;
     min-height: 100%;
+
+    @media (max-width: 440px) {
+      width: 90vw;
+    }
   
     .titleCart {
       margin: 1.2em 0 1.2em 0;
