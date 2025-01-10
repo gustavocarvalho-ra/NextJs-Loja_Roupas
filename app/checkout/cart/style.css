@@ -89,6 +89,10 @@
               font-size: 1.2em;
             }
 
+            @media (max-width: 440px) {
+              font-size: 73%;
+            }
+
             .price {
               display: flex;
 
