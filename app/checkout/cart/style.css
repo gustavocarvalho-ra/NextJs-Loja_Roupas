@@ -27,9 +27,9 @@
       .totalCart {
         display: flex;
         
-        
         @media (max-width: 440px) {
           font-size: 90%;
+          flex-wrap: wrap;
         }
 
         .st {
