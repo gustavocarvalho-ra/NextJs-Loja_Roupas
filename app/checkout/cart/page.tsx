@@ -70,7 +70,7 @@ export default function Cart () {
                   <div className="totalCart">
                     <h3 className="st">Produto</h3>
                     <h3>Quantidade </h3>
-                    <h3>Total: <span>R${total.toFixed(2)}</span></h3>
+                    <h3 className="priceTt">Total: <span>R${total.toFixed(2)}</span></h3>
                   </div>
                   <div className="container">
                     {listShoppingCart.map((item) => (
