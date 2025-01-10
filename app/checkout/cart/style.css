@@ -45,7 +45,17 @@
           @media (max-width: 440px) {
             flex-basis: 42%;
           }
+        }
+        
+        .priceTt {
+          font-weight: 400;
+          flex-basis: 33%;
+          flex-shrink: 0;
           
+          @media (max-width: 440px) {
+            flex-basis: 28%;
+          }
+
           span {
             font-weight: 600;
           }
