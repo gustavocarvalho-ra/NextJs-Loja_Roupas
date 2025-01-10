@@ -26,7 +26,11 @@
   
       .totalCart {
         display: flex;
-        /* gap: 31em; */
+        
+        
+        @media (max-width: 440px) {
+          font-size: 90%;
+        }
 
         .st {
           flex-basis: 41%;
