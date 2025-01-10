@@ -31,12 +31,20 @@
         .st {
           flex-basis: 41%;
           flex-shrink: 0;
+
+          @media (max-width: 440px) {
+            flex-basis: 30%;
+          }
         }
   
         h3 {
           font-weight: 400;
           flex-basis: 33%;
           flex-shrink: 0;
+
+          @media (max-width: 440px) {
+            flex-basis: 42%;
+          }
           
           span {
             font-weight: 600;
