@@ -127,6 +127,11 @@
             border-radius: 8px;
             padding: .2em;
             gap: .5em;
+
+            @media (max-width: 440px) {
+              width: 20%;
+              font-size: 90%;
+            }
   
             p {
               font-size: .8em;
