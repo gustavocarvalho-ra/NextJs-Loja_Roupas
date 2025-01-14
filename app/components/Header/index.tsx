@@ -52,7 +52,7 @@ export default function Header() {
               placeholder="O que está procurando?"
             />
             <button className="btnLup" onClick={handleSearch}>
-              <IoMdSearch style={{color: 'var(--tex)', fontSize: '25px'}} />
+              <IoMdSearch className="svgLup" style={{color: 'var(--tex)', fontSize: '25px'}} />
             </button>
           </div>
 

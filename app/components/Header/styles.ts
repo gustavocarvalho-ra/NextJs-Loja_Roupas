@@ -105,12 +105,17 @@ export const A = styled.div `
           border-radius: 8px;
           border: none;
           background: linear-gradient(29deg, rgba(142,0,167,1) 20%, rgba(0,206,235,1) 100%);
-          text-align: center;
           transition: .5s;
           cursor: pointer;
 
           &:hover {
             opacity: .7;
+          }
+
+          .svgLup {
+            @media (max-width: 440px) {
+            font-size: 20px;
+          }
           }
         }
       }
