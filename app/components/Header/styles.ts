@@ -95,6 +95,9 @@ export const A = styled.div `
         }
 
         .btnLup {
+          display: flex;
+          align-items: center;
+          justify-content: center;
           position: absolute;
           width: clamp(.1rem, 6vw, 5rem);
           height: clamp(.1rem, 3%, 700px);
@@ -107,7 +110,7 @@ export const A = styled.div `
           cursor: pointer;
 
           &:hover {
-            opacity: .5;
+            opacity: .7;
           }
         }
       }
