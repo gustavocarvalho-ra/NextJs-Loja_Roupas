@@ -84,6 +84,7 @@
           border: 1px solid transparent;
           border-radius: 8px;
           transition: all .4s;
+          padding: .3em;
 
           @media (max-width: 440px) {
             width: 100%;
