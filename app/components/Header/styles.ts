@@ -113,7 +113,7 @@ export const A = styled.div `
           }
 
           .svgLup {
-            color: var(--text);
+            color: var(--tex);
             font-size: 25px;
 
             @media (max-width: 440px) {
