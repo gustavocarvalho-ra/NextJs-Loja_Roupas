@@ -108,6 +108,11 @@ export const A = styled.div `
           transition: .5s;
           cursor: pointer;
 
+          @media (max-width: 440px) {
+            width: 6%;
+            height: 2.4%;
+          }
+
           &:hover {
             opacity: .7;
           }
