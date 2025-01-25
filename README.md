@@ -32,6 +32,13 @@ v3 - 🔄
 ### page 2
 ![2](https://github.com/gustavocarvalho-ra/NextJs-Loja_Roupas/assets/137126878/7f14decd-b7bb-47b8-8d92-c1d086aad67f)
 
+### carrinho de compra
+![Carrinho](https://github.com/user-attachments/assets/1b59f817-8573-471c-9098-8d5eb67ff473)
+
+![carr](https://github.com/user-attachments/assets/342bbdeb-3be7-4db5-94e8-003a12741c27)
+
+
+
 
 ## 🔧 Instalação
 Execute os seguintes comandos no terminal da sua IDE:
