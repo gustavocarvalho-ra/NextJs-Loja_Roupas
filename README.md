@@ -9,8 +9,8 @@ v2 - ✔
 - Introduzido o botão de busca de produto ✔
 - Introduzido o link de detalhamento do produto ✔
 
-v3 - 🔄
-- Adicionar responsividade 🔄
+v3 - ✔
+- Adicionar responsividade ✔
 
 <hr/>
 
@@ -25,17 +25,21 @@ v3 - 🔄
 
 ## Screenshots 📸
 
-### page 1
+### Menu inicial
 ![1](https://github.com/gustavocarvalho-ra/NextJs-Loja_Roupas/assets/137126878/bbda8f97-d3a9-4c2b-8b38-8a1ed6349670)
 
 
-### page 2
+### Produtos
 ![2](https://github.com/gustavocarvalho-ra/NextJs-Loja_Roupas/assets/137126878/7f14decd-b7bb-47b8-8d92-c1d086aad67f)
 
-### carrinho de compra
+### Carrinho de compra
 ![Carrinho](https://github.com/user-attachments/assets/1b59f817-8573-471c-9098-8d5eb67ff473)
 
 ![carr](https://github.com/user-attachments/assets/342bbdeb-3be7-4db5-94e8-003a12741c27)
+
+
+### Fechamento de pedido
+![fechamento](https://github.com/user-attachments/assets/9f705053-403e-4baa-9b38-a831e53d76fd)
 
 
 
