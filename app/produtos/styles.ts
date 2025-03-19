@@ -46,7 +46,7 @@ export const Main = styled.div `
     .imag {
       padding: 2em;
       width: 50%;
-      height: 100%;
+      height: 90%;
       display: flex;
       gap: 1.5em;
       background: var(--back);
